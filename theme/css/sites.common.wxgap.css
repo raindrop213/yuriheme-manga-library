@@ -1,0 +1,284 @@
+@charset "utf-8";
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#commonheader div,
+#commonheader ul,
+#commonheader li,
+#commonheader p,
+#commonheader h1,
+#commonheader h2,
+#commonheader h3,
+#commonheader h4,
+#commonheader h5,
+#commonheader hr,
+#commonheader form,
+#commonheader input,
+#commonheader img,
+#commonheader a,
+#commonheader span,
+#commonheader section,
+
+#commonfooter div,
+#commonfooter ul,
+#commonfooter li,
+#commonfooter p,
+#commonfooter h1,
+#commonfooter h2,
+#commonfooter h3,
+#commonfooter h4,
+#commonfooter h5,
+#commonfooter hr,
+#commonfooter form,
+#commonfooter input,
+#commonfooter img,
+#commonfooter a,
+#commonfooter span,
+#commonfooter section
+{
+margin:0px;
+padding:0px;
+line-height:1.3em;
+}
+#commonheader,
+#commonheader_inner {
+display:block;
+margin:0px;
+padding:0px;
+background-color:#FFFFFF;
+line-height:1.3em;
+}
+#commonheader{
+border-bottom:solid 1px #ECECEC;
+min-height: 35px;
+overflow: hidden;
+}
+
+#commonheader:after,
+#commonheader_inner:after{
+content: " ";
+display:block;
+clear: both;
+height: 1px;
+}
+#commonheader_inner h1{
+float:left;
+}
+#commonheader_inner h1 a{
+text-indent:-9999px;
+background-image:url(//www.ichijinsha.co.jp/img/common/header/logo.gif);
+background-repeat:no-repeat;
+width:147px;
+height:31px;
+display:block;
+}
+#commonheader_inner ul{
+display:block;
+float:right;
+padding-right: 1.5em;
+}
+#commonheader_inner li{
+color:#8D8D8D;
+display:inline-block;
+line-height: 32px;
+margin-left: 0.8em;
+}
+#commonheader_inner a{
+color:#8D8D8D;
+text-decoration:none;
+}
+#commonheader_inner a:hover{
+text-decoration:underline;
+}
+#commonheader_inner li img{
+margin-bottom:-0.3em;
+margin-left:0.2em;
+}
+#commonheader_inner li input.text{
+margin-left:0.5em;
+}
+#commonheader_inner li input.image{
+margin:0px 0.4em -0.4em 0.2em;
+}
+#commonheader_inner li.head{
+background:none;
+}
+#commonheader_inner li.head{
+margin-right:0px;
+}
+#commonheadertail{
+clear:both;
+}
+#commonfooter,
+#commonfooter_inner{
+margin:0px;
+padding:0px;
+display:block;
+color:#9EA4AE;
+}
+#commonfooter{
+clear:both;
+background-image:url(//www.ichijinsha.co.jp/img/common/footer/bg.gif);
+margin-top: auto;
+overflow: hidden;
+}
+#commonfooter #main_bottom{
+border:none;
+display:block;
+height:5px;
+background-image:url(//www.ichijinsha.co.jp/img/common/footer/border_footer.gif);
+background-repeat:repeat-x;
+font-size:0px;
+line-height:0px;
+}
+#commonfooter #commonfooter_inner a{
+color:#9EA4AE;
+}
+#commonfooter #commonfooter_inner li{
+list-style:none;
+padding-left:0.1em;
+line-height: 1.8em;
+}
+#commonfooter #commonfooter_inner li a{
+text-decoration:none;
+}
+#commonfooter #commonfooter_inner li a:hover{
+text-decoration:underline;
+}
+#commonfooter #commonfooter_inner li.head{
+margin-bottom:0.5em;
+padding-left:0px;
+}
+#commonfooter #commonfooter_inner li.head h3{
+font-weight: bold;
+color: #FFF;
+}
+#commoncopyright{
+clear:both;
+color:#7E889F;
+padding-top:2em;
+padding-bottom:0.5em;
+}
+#commonheader #commonheader_inner{
+	margin: 0px auto;
+	width:auto;
+	height: 31px;
+	padding:2px 0px;
+}
+#commonfooter #commonfooter_inner{
+	margin:0px auto;
+	width:auto;
+	padding:1.5em 0.5em 1em 1.5em;
+	font-size:11px;
+	line-height:1.5em;
+}
+
+
+@media (min-width:1440px) {
+	#commonheader_inner a{
+	font-size: 12px;
+	}
+	#commonheader #commonheader_inner{
+		margin: 0px auto;
+		width:1440px;
+	}
+	#commonfooter #commonfooter_inner{
+		width:1440px;
+		margin: 0px auto;
+	}
+	#commonfooter #commonfooter_inner ul{
+	float:left;
+	width:200px;
+	padding-bottom: 2em;
+	}
+	#commonfooter #commonfooter_inner li.head h3{
+	padding: 0px;
+	font-size:12px;
+	}
+	#commonfooter #commonfooter_inner li a{
+	margin-left: 0px;
+	font-size:12px;
+	}
+}
+
+@media (min-width:1024px) and (max-width:1439px){
+	#commonheader_inner a{
+	font-size: 12px;
+	}
+	#commonheader #commonheader_inner{
+		margin: 0px auto;
+		width:auto;
+	}
+	#commonfooter #commonfooter_inner{
+		width:auto;
+	}
+	#commonfooter #commonfooter_inner ul{
+	float:left;
+	width:200px;
+	padding-bottom: 2em;
+	}
+	#commonfooter #commonfooter_inner li.head h3{
+	padding: 0px;
+	font-size:12px;
+	}
+	#commonfooter #commonfooter_inner li a{
+	margin-left: 0px;
+	font-size:12px;
+	}
+}
+@media (min-width:768px) and (max-width:1023px){
+	#commonheader_inner a{
+	font-size: 12px;
+	}
+	#commonheader #commonheader_inner{
+		margin: 0px auto;
+		width:auto;
+	}
+	#commonfooter #commonfooter_inner{
+		width:auto;
+	}
+	#commonfooter #commonfooter_inner ul{
+	float:left;
+	width:200px;
+	padding-bottom: 2em;
+	}
+	#commonfooter #commonfooter_inner li.head h3{
+	padding: 0px;
+	font-size:12px;
+	}
+	#commonfooter #commonfooter_inner li a{
+	margin-left: 0px;
+	font-size:12px;
+	}
+}
+@media (max-width:767px){
+	#commonheader {
+		min-height: unset;
+		height: auto;
+	}
+	#commonheader_inner a{
+	font-size: 14px;
+	}
+	#commonheader #commonheader_inner{
+		margin: 0px auto;
+		width:auto;
+	}
+	#commonfooter #commonfooter_inner{
+		width:auto;
+	}
+	#commonfooter #commonfooter_inner ul{
+	float:left;
+	width:100%;
+	margin-bottom: 2em;
+	}
+	#commonfooter #commonfooter_inner li.head h3{
+	padding-bottom: 0.2em;
+	font-size:14px;
+	}
+	#commonfooter #commonfooter_inner li a{
+	margin-left: 2em;
+	font-size:14px;
+	}
+}
