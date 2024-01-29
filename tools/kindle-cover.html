@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Downloader</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script>
+        function downloadImages(size) {
+            let input = document.getElementById('input').value;
+            let codes = input.split('\n');
+
+            let validIndex = 1; // 用于计算有效的序号
+            codes.forEach((code) => {
+                code = code.trim(); // 去除两端的空格
+                if (code === '') return; // 忽略空行
+
+                let imageUrl;
+                if (size === 'large') {
+                    imageUrl = `https://m.media-amazon.com/images/P/${code}.01.MAIN._SCRM_.jpg`;
+                } else {
+                    imageUrl = `https://m.media-amazon.com/images/P/${code}.jpg`;
+                }
+
+                fetchImageAndDownload(imageUrl, code, size, validIndex++);
+            });
+        }
+
+        function fetchImageAndDownload(url, code, size, index) {
+            fetch(url)
+                .then(response => response.blob())
+                .then(blob => {
+                    let blobUrl = window.URL.createObjectURL(blob);
+                    let a = document.createElement('a');
+                    a.href = blobUrl;
+                    a.download = `${index}_${size}_${code}.jpg`;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    window.URL.revokeObjectURL(blobUrl);
+                })
+                .catch(e => console.error(e));
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="text-center mb-4">Kindle Cover Downloader</h1>
+                <div class="form-group">
+                    <label for="input">Enter ASIN of kindle, one per line:</label>
+                    <textarea class="form-control" id="input" rows="10" placeholder="B0BS8SWG39
+B0BVQ8FYJP
+B08L5X11RX"></textarea>
+                </div>
+                <button class="btn btn-primary btn-block" onclick="downloadImages('large')">Download Large
+                    Images</button>
+                <button class="btn btn-secondary btn-block" onclick="downloadImages('small')">Download Small
+                    Images</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
