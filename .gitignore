@@ -1,3 +1,7 @@
 reader
 .other
 uploads
+
+title/*
+!title/index.html
+node_modules
