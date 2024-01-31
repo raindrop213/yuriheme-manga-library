@@ -69,14 +69,6 @@ async function fetchBestMatch(keyword) {
     }
 }
 
-// 读取已存在的 JSON 数据
-function readExistingData(jsonPath) {
-    if (fs.existsSync(jsonPath)) {
-        const data = fs.readFileSync(jsonPath, 'utf8');
-        return JSON.parse(data);
-    }
-    return {};
-}
 
 // 生成结构
 async function generateStructure(dir) {

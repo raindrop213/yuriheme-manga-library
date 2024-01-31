@@ -137,23 +137,23 @@
 
 
         <li class="home-news__item">
-          <a href="https://www.raindrop213.info/" class="home-news__link" target="_blank">
-            <span class="home-news__date">RAINDROP213</span>
-            <span class="home-news__title">個人ブログへようこそです</span>
+          <a href="./news/#7914" class="home-news__link">
+            <span class="home-news__date">2024.01.16</span>
+            <span class="home-news__title">百合姫コミックス1月刊のお知らせ</span>
           </a>
         </li>
 
         <li class="home-news__item">
-          <a href="https://ebook.raindrop213.info/" class="home-news__link" target="_blank">
-            <span class="home-news__date">Calibre-Web</span>
-            <span class="home-news__title">私の電子書籍サイトです。本を添付したい方はご連絡ください。</span>
+          <a href="./news/#7897" class="home-news__link">
+            <span class="home-news__date">2023.12.18</span>
+            <span class="home-news__title">『コミック百合姫2月号』お詫びと訂正</span>
           </a>
         </li>
 
         <li class="home-news__item">
-          <a href="https://abook.raindrop213.info/library/e524f0ee-faab-46d2-80db-d06fd7f3e962" class="home-news__link" target="_blank">
-            <span class="home-news__date">Audiobookshelf</span>
-            <span class="home-news__title">オーディオブックのサイトです、まだ多くはアップロードされていません</span>
+          <a href="./news/#7858" class="home-news__link">
+            <span class="home-news__date">2023.12.14</span>
+            <span class="home-news__title">百合姫コミックス12月刊のお知らせ</span>
           </a>
         </li>
 
@@ -235,10 +235,11 @@
           data.forEach((item) => {
             const path = encodeURIComponent(item.folderName);
             const imagePath = item.volumes[0].coverImagePath;
+            console.log(imagePath)
             const htmlContent = `
                   <div class="home-titles__item">
                     <a href="./title/${path}/" class="c-cardbox p-link_fade">
-                      <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n"
+                      <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover"
                         style="background-image:url('./title/${imagePath}')"></span>
                       <span class="c-cardbox__text">
                         <span class="c-cardbox__title">${item.title}</span>
@@ -299,7 +300,45 @@
   </svg>
 
 
-  <script src="https://storage.googleapis.com/static.ichijinsha.co.jp/www/common/js/footer.wxga.js"></script>
+  <div id="commonfooter">
+    <div id="main_bottom"></div>
+    <div id="commonfooter_inner">
+      <ul>
+        <li class="head">
+          <h3>一迅社について</h3>
+        </li>
+        <li><a href="https://www.ichijinsha.co.jp/company/">会社概要</a></li>
+        <li><a href="https://www.ichijinsha.co.jp/company/terms/">ご利用案内</a></li>
+      </ul>
+      <ul>
+        <li class="head">
+          <h3>ノベル・書籍</h3>
+        </li>
+        <li><a href="https://www.ichijinsha.co.jp/iris/">一迅社文庫アイリス</a></li>
+        <li><a href="https://www.ichijinsha.co.jp/babydollcomics/">ベビードールCOMICS</a></li>
+      </ul>
+      <ul>
+        <li class="head">
+          <h3>ニュース・インフォメーション</h3>
+        </li>
+        <li><a href="https://data.ichijinsha.co.jp/calendar">発売カレンダー</a></li>
+      </ul>
+      <br clear="both">
+
+      <div style="margin: 0 auto; width:50vw; max-width: 594px; padding:0px;">
+        <img src="https://static.ichijinsha.co.jp/common/abj/1110_1000_b.png" style="display:block;margin: 0 auto;">
+        <div>
+          ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標（登録番号
+          第6091713号）です。ABJマークの詳細、ABJマークを掲示しているサービスの一覧はこちら。<a href="https://aebs.or.jp/">https://aebs.or.jp/</a>
+        </div>
+      </div>
+
+      <div id="commoncopyright">
+        ©ICHIJINSHA All Rights Reserved.
+      </div>
+
+    </div>
+  </div>
 
 </body>
 

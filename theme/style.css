@@ -6016,6 +6016,66 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   line-height: 1.445;
   color: #000;
 }
+
+.centered {
+  width: 300px; /* 图片的固定宽度 */
+  height: 200px; /* 图片的固定高度 */
+  overflow: hidden; /* 防止图片溢出 */
+  position: fixed; /* 固定定位 */
+  top: 50%; /* 顶部距离为窗口高度的50% */
+  left: 50%; /* 左侧距离为窗口宽度的50% */
+  transform: translate(-50%, -50%); /* 偏移以确保居中 */
+  z-index: 3000;
+}
+
+.centered img {
+  width: 100%; /* 图片宽度为容器宽度 */
+  height: 100%; /* 图片高度为容器高度 */
+  object-fit: cover; /* 保持图片比例 */
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* 半透明白色背景 */
+  backdrop-filter: blur(10px); /* 毛玻璃效果 */
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* 鼠标悬停时图片放大效果 */
+.c-cardbox__thumb {
+  transition: transform 0.3s ease; /* 添加这行代码 */
+}
+
+.c-cardbox__thumb:hover {
+  transform: scale(1.05); /* 轻微放大 */
+}
+
 .c-cardbox .c-cardbox__thumb {
     display: block;
 }
@@ -6362,7 +6422,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 .home-news .home-news__date {
     flex: none;
-    width: 6em;
+    width: 8em;
     color: #da56c3;
     font-size: 1.1em;
     font-family: "Rajdhani", sans-serif;
