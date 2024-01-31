@@ -4,4 +4,10 @@ uploads
 
 title/*
 !title/index.html
+!title/panzoom.min.js
+!title/script.js
+!title/styles.css
+!title/title-list.js
+!title/volume-list.js
+
 node_modules

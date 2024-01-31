@@ -1,0 +1,147 @@
+@charset "utf-8";
+html,body,div,ul,li,p,h1,h2,h3,h4,h5,hr,form,input,img,a {
+margin:0px;
+padding:0px;
+font-size:10px;
+line-height:1.3em;
+}
+div,img,a{
+border:0px;
+}
+h1,h2,h3,h4,h5{
+font-weight:normal;
+}
+body{
+font-size:11px;
+line-heght:1.4em;
+font-family:sans-serif;
+color:#4D4D4D;
+}
+a{
+color:#4D4D4D;
+}
+#header{
+width:100%;
+background-color:#FFFFFF;
+border-bottom:solid 1px #ECECEC;
+}
+#header #header_inner{
+background-color:#FFFFFF;
+width:950px;
+margin:0px auto;
+padding:4px 0px;
+font-size:11px;
+}
+#header_inner h1{
+float:left;
+}
+
+#header_inner h1 a{
+text-indent:-9999px;
+background-image:url(../img/common/header/logo.gif);
+background-repeat:no-repeat;
+width:147px;
+height:31px;
+display:block;
+}
+#header_inner ul{
+display:block;
+padding:0.7em 0px;
+float:right;
+}
+#header_inner li{
+padding-left:6px;
+background-image:url(../img/common/header/border_header_dot.gif);
+background-repeat:repeat-y;
+margin-right:6px;
+color:#8D8D8D;
+display:inline;
+}
+#header_inner a{
+color:#8D8D8D;
+text-decoration:none;
+}
+#header_inner a:hover{
+text-decoration:underline;
+}
+#header_inner li img{
+margin-bottom:-0.3em;
+margin-left:0.2em;
+}
+#header_inner li input.text{
+margin-left:0.5em;
+}
+#header_inner li input.image{
+margin:0px 0.4em -0.4em 0.2em;
+}
+#header_inner li.head{
+background:none;
+}
+#header_inner li.head{
+margin-right:0px;
+}
+#headertail{
+clear:both;
+}
+#main{
+clear:both;
+width:950px;
+margin:0px auto;
+padding:8px 0px;
+}
+
+#contents{
+
+}
+
+#footer{
+
+clear:both;
+background-image:url(../img/common/footer/bg.gif);
+color:#9EA4AE;
+width:100%;
+}
+#footer #main_bottom{
+border:none;
+display:block;
+height:5px;
+background-image:url(../img/common/footer/border_footer.gif);
+background-repeat:repeat-x;
+font-size:0px;
+line-height:0px;
+}
+#footer_inner{
+margin:0px auto;
+width:950px;
+padding-top:1.5em;
+font-size:10px;
+line-height:1.5em;
+
+}
+#footer #footer_inner a{
+color:#9EA4AE;
+}
+#footer #footer_inner ul{
+float:left;
+width:190px;
+}
+#footer #footer_inner li{
+list-style:none;
+padding-left:0.1em;
+}
+#footer #footer_inner li a{
+text-decoration:none;
+}
+#footer #footer_inner li a:hover{
+text-decoration:underline;
+}
+#footer #footer_inner li.head{
+margin-bottom:0.5em;
+padding-left:0px;
+}
+#copyright{
+clear:both;
+color:#7E889F;
+padding-top:2em;
+padding-bottom:0.5em;
+}
