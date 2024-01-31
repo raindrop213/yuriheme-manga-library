@@ -1149,6 +1149,7 @@ label {
 }
 .p-link_fade:hover {
     opacity: 0.6;
+    transition: opacity 0.3s ease;
 }
 
 .p-link_scale-11 {
@@ -2002,7 +2003,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 .p-return-up:after {
     font-family: arrows;
     color: #fff;
-    content: "î¤ƒ";
+    content: "\e903";
 }
   @media screen and (min-width: 897px) {
   .p-return-up:after {
@@ -6045,8 +6046,15 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4); /* 半透明白色背景 */
-  backdrop-filter: blur(10px); /* 毛玻璃效果 */
+  background-color: rgba(0, 0, 0, 0); /* 初始时背景透明 */
+  backdrop-filter: blur(0px); /* 初始时没有毛玻璃效果 */
+  transition: background-color 0.2s ease, backdrop-filter 0.2s ease; /* 添加渐变效果 */
+}
+
+/* 当模态框显示时，改变背景颜色和模糊效果 */
+.modal.show {
+  background-color: rgba(255, 255, 255, 0.486); /* 半透明黑色背景 */
+  backdrop-filter: blur(15px); /* 毛玻璃效果 */
 }
 
 .modal-content {
@@ -6054,6 +6062,12 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   display: block;
   width: 80%;
   max-width: 700px;
+  opacity: 0; /* 初始状态为完全透明 */
+  transition: opacity 0.5s ease; /* 渐变效果 */
+}
+
+.modal.show .modal-content {
+  opacity: 1; /* 当模态框显示时，图片完全不透明 */
 }
 
 .close {
@@ -6073,8 +6087,32 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 
 .c-cardbox__thumb:hover {
-  transform: scale(1.05); /* 轻微放大 */
+  transform: scale(1.03); /* 轻微放大 */
 }
+
+.image-hover-text {
+  position: relative;
+  display: inline-block;
+}
+
+.image-hover-text::before {
+  content: 'Link To\A Bangumi\ASubject';
+  white-space: pre;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #da56c3; /* 文本颜色 */
+  font-size: 15px; /* 文本大小 */
+  font-family: 'MyYuGothicM';
+  font-weight: bold;
+  padding: 10px;
+  display: none; /* 默认不显示 */
+}
+
+.image-hover-text:hover::before {
+  display: block; /* 鼠标悬停时显示 */
+}
+
 
 .c-cardbox .c-cardbox__thumb {
     display: block;

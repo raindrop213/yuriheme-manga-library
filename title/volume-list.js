@@ -2,14 +2,17 @@
 function showModal(elem) {
   var modal = document.getElementById("imageModal");
   var modalImg = document.getElementById("img01");
-  var captionText = document.getElementById("caption");
   modal.style.display = "block";
-  modalImg.src = elem.style.backgroundImage.slice(5, -2); // 提取背景图片 URL
-  // captionText.innerHTML = elem.nextElementSibling.textContent; // 如果需要显示标题或其他信息
+  modalImg.src = elem.style.backgroundImage.slice(5, -2);
+  setTimeout(function() { 
+    modal.classList.add("show");
+  }, 10); // 这将同时触发背景和图片的渐变效果
 }
 
 // 初始化模态框和关闭按钮
 document.addEventListener("DOMContentLoaded", function() {
+  var modal = document.getElementById("imageModal");
+  var closeModal = document.getElementById("closeModal");
   // 创建模态框的 HTML 结构
   var modalHTML = `
     <div id="imageModal" class="modal">
@@ -26,15 +29,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // 点击关闭按钮隐藏模态框
   closeModal.onclick = function() {
+    modal.classList.remove("show"); // 移除 show 类来启动渐变效果
+    modal.addEventListener('transitionend', function handler() {
       modal.style.display = "none";
-  }
+      modal.removeEventListener('transitionend', handler); // 移除监听器，避免重复触发
+    });
+  };
 
-  // 点击遮罩层隐藏模态框
-  modal.onclick = function(event) {
-      if (event.target == modal) {
+  // 点击关闭按钮或遮罩层隐藏模态框
+  closeModal.onclick = modal.onclick = function(event) {
+    if (event.target === modal || event.target === closeModal) {
+      modal.classList.remove("show"); // 触发渐变效果
+      modal.addEventListener('transitionend', function handler(e) {
+        if (e.propertyName === 'opacity') { // 确保是透明度变化完成后再执行
           modal.style.display = "none";
-      }
-  }
+          modal.removeEventListener('transitionend', handler);
+        }
+      });
+    }
+  };
 });
 
 
@@ -57,9 +70,10 @@ fetch("../title_structure.json")
       let htmlContent = `
           <div class="l-content_n l-content_n-sp">
             <article class="title-intro">
-              <div class="title-intro__layout_image">
+              <div class="title-intro__layout_image image-hover-text">
                 <div class="title-intro__jk">
-                  <img src="./${coverImagePath}" alt="" class="u-sz_w_100">
+                  <a href="${titleData.bgmUrl}" target="_blank">
+                    <img src="./${coverImagePath}" alt="" class="c-cardbox__thumb c-cardbox__thumb--shadow p-link_fade u-sz_w_100"></a>
                 </div>
               </div>
               <div class="title-intro__layout_text">
@@ -84,7 +98,7 @@ fetch("../title_structure.json")
         htmlContent += `
             <div class="title-comics__item">
               <section class="c-cardbox">
-                <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n"
+                <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover p-link_fade u-mg_b_n"
                   style="background-image:url('./${imagePath}')" onclick="showModal(this)"></span>
                 <span class="c-cardbox__text">
                 <span class="c-cardbox__title">${titleData.title} (${volume.volumeNumber})</span>
