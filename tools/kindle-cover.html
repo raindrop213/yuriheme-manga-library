@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +8,81 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            addInputField(); // 初始时添加五个文本框
+            addInputField();
+            addInputField();
+            addInputField();
+            addInputField();
+        });
+
+        function addInputField() {
+            let container = document.getElementById('inputContainer');
+            let index = container.children.length + 1;
+
+            let inputDiv = document.createElement('div');
+            inputDiv.classList.add('form-group', 'd-flex', 'align-items-center');
+            inputDiv.innerHTML = `
+                <label class="mr-2">${index}.</label>
+                <input type="text" class="form-control mr-2" placeholder="Enter URL here" oninput="extractASIN(this)">
+                <input type="text" class="form-control mr-2" placeholder="ASIN" readonly>
+                <button class="btn btn-outline-danger" onclick="removeInputField(this)">-</button>
+            `;
+
+            container.appendChild(inputDiv);
+            updateLabels();
+        }
+
+        function removeInputField(button) {
+            let container = document.getElementById('inputContainer');
+            container.removeChild(button.parentElement);
+            updateLabels();
+        }
+
+        function updateLabels() {
+            let container = document.getElementById('inputContainer');
+            let children = container.children;
+            for (let i = 0; i < children.length; i++) {
+                children[i].getElementsByTagName('label')[0].innerText = (i + 1) + '.';
+            }
+        }
+
+        function extractASIN(inputElement) {
+            let url = inputElement.value;
+            let asinInput = inputElement.nextElementSibling;
+
+            // 正则表达式用于从Amazon URL中提取ASIN
+            let asinMatch = /.+[dp|product]\/(\w+)[\/\?].*/.exec(url);
+            if (asinMatch && asinMatch.length > 1) {
+                asinInput.value = asinMatch[1];
+            } else {
+                asinInput.value = ''; // 如果找不到ASIN，清空ASIN文本框
+            }
+        }
+
+        // 清空所有文本框内容
+        function clearAllInputFields() {
+            let container = document.getElementById('inputContainer');
+            let inputDivs = container.getElementsByClassName('form-group');
+            
+            for (let div of inputDivs) {
+                let textInputs = div.getElementsByTagName('input');
+                for (let input of textInputs) {
+                    input.value = ''; // 清空文本框的值
+                }
+            }
+}
+
+        // 下载
         function downloadImages(size) {
-            let input = document.getElementById('input').value;
-            let codes = input.split('\n');
+            let container = document.getElementById('inputContainer');
+            let inputDivs = container.getElementsByClassName('form-group');
 
             let validIndex = 1; // 用于计算有效的序号
-            codes.forEach((code) => {
-                code = code.trim(); // 去除两端的空格
-                if (code === '') return; // 忽略空行
+            for (let div of inputDivs) {
+                let asinInput = div.getElementsByTagName('input')[1]; // 第二个input元素是ASIN
+                let code = asinInput.value.trim();
+                if (code === '') continue; // 忽略空ASIN
 
                 let imageUrl;
                 if (size === 'large') {
@@ -26,8 +92,9 @@
                 }
 
                 fetchImageAndDownload(imageUrl, code, size, validIndex++);
-            });
+            }
         }
+
 
         function fetchImageAndDownload(url, code, size, index) {
             fetch(url)
@@ -46,27 +113,23 @@
         }
     </script>
 </head>
-
 <body>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <h1 class="text-center mb-4">Kindle Cover Downloader</h1>
-                <div class="form-group">
-                    <label for="input">Enter ASIN of kindle, one per line:</label>
-                    <textarea class="form-control" id="input" rows="10" placeholder="B0BS8SWG39
-B0BVQ8FYJP
-B08L5X11RX"></textarea>
+                <div class="form-group d-flex align-items-center">
+                    <label class="mr-2">#.</label>
+                    <button class="btn btn-outline-success btn-block" onclick="addInputField()">+</button>
                 </div>
-                <button class="btn btn-primary btn-block" onclick="downloadImages('large')">Download Large
-                    Images</button>
-                <button class="btn btn-secondary btn-block" onclick="downloadImages('small')">Download Small
-                    Images</button>
+                <div id="inputContainer">
+                    <!-- 动态添加的文本框将会放在这里 -->
+                </div>
+                <button class="btn btn-primary btn-block" onclick="downloadImages('large')">Download Large Cover</button>
+                <button class="btn btn-secondary btn-block" onclick="downloadImages('small')">Download Small Cover</button>
+                <button class="btn btn-warning btn-block" onclick="clearAllInputFields()">Clear All URL</button>
             </div>
         </div>
     </div>
-
-
 </body>
-
 </html>
