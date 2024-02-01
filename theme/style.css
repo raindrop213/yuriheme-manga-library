@@ -5465,7 +5465,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
   @media screen and (max-width: 420px) {
   .p-btn--minw_200 {
-        min-width: 100%;
+        min-width: 10%;
 }
 }
 .p-btn--minw_300 {
@@ -6354,9 +6354,8 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
   @media screen and (max-width: 896px) {
   .home-magazine .home-magazine__inner {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        max-width: 400px;
+        /* grid-template-columns: 1fr 1fr; */
+        max-width: 440px;
         margin-left: auto;
         margin-right: auto;
 }
@@ -6383,6 +6382,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 .home-magazine .home-magazine__link {
     display: block;
+    margin-bottom: 10px;
 }
   @media screen and (min-width: 897px) {
   .home-magazine .home-magazine__link {
@@ -6394,8 +6394,19 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
     font-weight: 700;
     font-size: 14px;
 }
+  @media screen and (max-width: 896px) {
+  .home-magazine .home-magazine__title {
+      font-size: 20px;
+}
+}
+
 .home-magazine .home-magazine__date {
     font-size: 12px;
+}
+  @media screen and (max-width: 896px) {
+  .home-magazine .home-magazine__date {
+      font-size: 16px;
+}
 }
 
 .home-news {
@@ -6465,6 +6476,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
     font-size: 1.1em;
     font-family: "Rajdhani", sans-serif;
     font-weight: 400;
+    /* margin-right: 20; */
 }
 .home-news .home-news__more {
     position: absolute;
@@ -6478,18 +6490,48 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 }
 
+
+/* 标题字设置 */
 .home-heading {
   position: relative;
   margin-bottom: 30px;
+  text-align: left; /* 确保标题整体左对齐 */
 }
-.home-heading .home-heading__image {
-    height: 30px;
+
+.heading-text {
+  display: inline-block; /* 使span表现为行内块，以便排列和对齐 */
+  position: relative; /* 添加相对定位，以便可以使用bottom属性进行调整 */
+  vertical-align: bottom; /* 确保两个span下对齐 */
 }
-  @media screen and (max-width: 420px) {
+
+.heading-text--english {
+  font-family: "Rajdhani", sans-serif; /* 示例英文字体 */
+  font-size: 2.7em; /* 根据需要调整字体大小 */
+
+  background-image: linear-gradient(#8d56da, #ee59d5);
+  -webkit-background-clip: text;
+  color: transparent; /* 使文字颜色透明，以显示背景的渐变色 */
+  background-clip: text; /* 确保背景仅在文字区域内显示 */
+
+  margin-right: 20px; /* 根据需要调整两个span之间的距离 */
+  bottom: 0px; /* 根据实际需要调整，使得基线对齐 */
+}
+
+.heading-text--japanese {
+  font-family: "Noto Sans JP"; /* 示例日文字体 */
+  font-size: 1.1em; /* 根据需要调整字体大小 */
+  
+  bottom: 13px; /* 根据实际需要调整，使得基线对齐 */
+}
+
+@media screen and (max-width: 420px) {
   .home-heading .home-heading__image {
-        height: 25px;
+      height: 25px; /* 保留对移动端的响应式设计 */
+  }
+  /* 可以在这里添加更多针对移动端的样式调整 */
 }
-}
+
+
 .home-heading--center {
     text-align: center;
 }
