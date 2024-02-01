@@ -1,6 +1,5 @@
 reader
 .other
-uploads
 
 title/*
 !title/index.html

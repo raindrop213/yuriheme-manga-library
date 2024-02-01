@@ -5961,6 +5961,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
     padding-top: 100px;
 }
 .c-mainmenu .c-mainmenu__item {
+      background-color: #85858538;
       width: 100%;
 }
 .c-mainmenu .c-mainmenu__link {
@@ -5968,6 +5969,13 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
       text-align: center;
       padding-top: 0.8em;
       padding-bottom: 0.8em;
+      transition: background-color 0.3s, padding-top 0.3s, padding-bottom 0.3s; /* 更新以包含 padding 的过渡效果 */
+      box-sizing: border-box; /* 确保 padding 和 border 包含在宽度内 */
+}
+.c-mainmenu .c-mainmenu__link:hover {
+      background-color: #682cbdbb; /* 鼠标悬停时的背景颜色 */
+      padding-top: 1em; /* 增加 padding 使背景框向内缩小 */
+      padding-bottom: 1em; /* 增加 padding 使背景框向内缩小 */
 }
   .c-mainmenu .c-mainmenu__link[data-is-active="true"]::after {
         opacity: 1;
@@ -6170,8 +6178,8 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 @media screen and (max-width: 896px) {
 .c-content-title {
-      padding-top: 6vw;
-      padding-bottom: 6vw;
+      padding-top: 2vw;
+      padding-bottom: 7vw;
 }
 }
 .c-content-title .c-content-title__image {
@@ -6471,13 +6479,17 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 .home-news .home-news__date {
     flex: none;
-    width: 8em;
+    width: 7em;
     color: #da56c3;
     font-size: 1.1em;
     font-family: "Rajdhani", sans-serif;
     font-weight: 400;
     /* margin-right: 20; */
 }
+.home-news .home-news__title {
+    color: #414141;
+}
+
 .home-news .home-news__more {
     position: absolute;
     right: 1rem;
@@ -6513,15 +6525,15 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   color: transparent; /* 使文字颜色透明，以显示背景的渐变色 */
   background-clip: text; /* 确保背景仅在文字区域内显示 */
 
-  margin-right: 20px; /* 根据需要调整两个span之间的距离 */
+  margin-right: 15px; /* 根据需要调整两个span之间的距离 */
   bottom: 0px; /* 根据实际需要调整，使得基线对齐 */
 }
 
 .heading-text--japanese {
   font-family: "Noto Sans JP"; /* 示例日文字体 */
-  font-size: 1.1em; /* 根据需要调整字体大小 */
-  
-  bottom: 13px; /* 根据实际需要调整，使得基线对齐 */
+  font-size: 0.9em; /* 根据需要调整字体大小 */
+  color: #4e4e4e;
+  bottom: 14px; /* 根据实际需要调整，使得基线对齐 */
 }
 
 @media screen and (max-width: 420px) {
@@ -6531,6 +6543,13 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   /* 可以在这里添加更多针对移动端的样式调整 */
 }
 
+/* 反馈那里的一小段矩形 */
+.horizontal-rectangle {
+  height: 3px; /* 矩形的高度 */
+  width: 70px; /* 矩形的宽度 */
+  background-color: #8d56da; /* 矩形的颜色 */
+  margin: 4px auto; /* 上下边距和自动水平居中 */
+}
 
 .home-heading--center {
     text-align: center;
@@ -6851,3 +6870,15 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   }
 }
 
+
+.circle-avatar {
+  width: 70px;  /* 设定头像的宽度 */
+  height: 70px; /* 设定头像的高度 */
+  border-radius: 30%; /* 使头像完全圆形，应等于宽高的一半 */
+  overflow: hidden; /* 超出部分隐藏，保证图片呈现为圆形 */
+  background-image: url('./img/home/rd213.png');
+  background-size: cover; /* 背景图片覆盖整个区域，可能会被裁切 */
+  background-position: center; /* 背景图片居中显示 */
+  display: block; /* 使div居中，如果需要的话 */
+  margin: 0 auto; /* 使div居中，如果需要的话 */
+}
