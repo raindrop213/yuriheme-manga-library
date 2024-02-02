@@ -45,20 +45,18 @@
         <li class="head">
           <h3>リポジトリ</h3>
         </li>
-        <li><a href="https://github.com/raindrop213/yuriheme-manga-library">Yuri·Hime·Lib</a></li>
+        <li><a href="https://github.com/raindrop213/yuriheme-manga-library target="_blank">Yuri·Hime·Lib</a></li>
       </ul>
       <br clear="both">
 
 
 
-      <div style="margin: 0 auto; width:50vw; max-width: 594px; padding:0px;">
+      <div style="margin: 10px auto; width:95vw; max-width: 594px; padding:0px;">
       <div class="circle-avatar" alt="头像" style="display:block;margin: 0 auto;"></div>
         <br>
-        このプロジェクトは、百合姫公式ホームページ <a href="https://www.ichijinsha.co.jp/yurihime/" target="_blank"> ichijinsha/yurihime </a>
-        を再現しました。このホームページが非常に美しいと感じたので、練習として取り組んでみました。
-        このプロジェクトは<a href="https://github.com/kha-white/mokuro/" target="_blank"> kha-white/mokuro
-        </a>と組み合わされており、漫画はOCR処理が施されており、テキストはすべて選択可能です。美しい本棚の漫画ライブラリーを作り上げました！
-        <br>最後に、このプロジェクトは個人的な学習プロジェクトであり、学習と交流のためにのみ使用されています。商業目的ではなく、すべてのコンテンツの著作権は元の著者と元のウェブサイトに帰属します。
+        <p style="margin-bottom: 5px">このプロジェクトは、百合姫公式ホームページ <a href="https://www.ichijinsha.co.jp/yurihime/" target="_blank"> ichijinsha/yurihime </a>を再現しました。このホームページが非常に美しいと感じたので、練習として取り組んでみました。
+        このプロジェクトは<a href="https://github.com/kha-white/mokuro/" target="_blank"> kha-white/mokuro </a>と組み合わされており、漫画はOCR処理が施されており、テキストはすべて選択可能です。美しい本棚の漫画ライブラリーを作り上げました！</p>
+        <p>最後に、このプロジェクトは個人的な学習プロジェクトであり、学習と交流のためにのみ使用されています。商業目的ではなく、すべてのコンテンツの著作権は元の著者と元のウェブサイトに帰属します。</p>
       </div>
 
 
