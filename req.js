@@ -11,7 +11,7 @@ function windowsSort(a, b) {
 
 // 检查文件是否是图片
 function isImage(file) {
-    const imageExtensions = ['.jpg', '.jpeg', '.png', 'webp', '.gif', '.bmp'];
+    const imageExtensions = ['.jpg', '.jpeg', '.png', 'webp', '.gif', '.bmp', '.avif'];
     return imageExtensions.some(ext => file.toLowerCase().endsWith(ext));
 }
 

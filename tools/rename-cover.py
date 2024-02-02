@@ -5,7 +5,7 @@ import shutil
 import os
 
 
-extAll = ('.png', '.jpg', '.jpeg', 'webp','.gif', '.bmp', '.json')
+extAll = ('.png', '.jpg', '.jpeg', 'webp','.gif', '.bmp','.avif', '.json')
 
 def drop_inside_listbox(event):
     file_list = event.widget.tk.splitlist(event.data)
@@ -63,7 +63,8 @@ def show_rename_preview(folder_path):
 
     for i, filename in enumerate(files):
         ext = os.path.splitext(filename)[1]
-        new_filename = f"{i:04d}{ext}"
+        # i = i+1
+        new_filename = f"{i:05d}{ext}"
         text_area.insert(tk.END, f"{filename} -> {new_filename}\n")
 
     confirm_button = tk.Button(preview_window, text="确认重命名", command=lambda: rename_images(folder_path, preview_window))
@@ -76,7 +77,8 @@ def rename_images(folder_path, preview_window):
 
     for i, filename in enumerate(files):
         ext = os.path.splitext(filename)[1]
-        new_filename = f"{i:04d}{ext}"
+        # i = i+1
+        new_filename = f"{i:05d}{ext}"
         os.rename(os.path.join(folder_path, filename), os.path.join(folder_path, new_filename))
 
     preview_window.destroy()
