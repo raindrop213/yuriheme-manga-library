@@ -8,6 +8,7 @@ title/*
 !title/styles.css
 !title/title-list.js
 !title/volume-list.js
+!title/index-infoExample.html
 
 node_modules
 venv
