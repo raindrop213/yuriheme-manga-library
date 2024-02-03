@@ -3,6 +3,7 @@ const path = require('path');
 
 const titleDir = './title'; // 替换为实际的 'title' 文件夹路径
 const outputJson = path.join(titleDir, 'title_structure.json');
+const indexExamplePath = path.join(titleDir, 'index-infoExample.html');
 
 // 用于排序的函数，模仿Windows的文件排序
 function windowsSort(a, b) {
@@ -79,6 +80,10 @@ async function generateStructure(dir) {
         if (entry.isDirectory() && isValidFolderName(entry.name)) {
             const fullPath = path.join(dir, entry.name);
             const volumeEntries = fs.readdirSync(fullPath, { withFileTypes: true });
+
+            // 在这里复制和重命名 index-infoExample.html 为 index.html
+            const indexDestPath = path.join(fullPath, 'index.html'); // 目标路径
+            fs.copyFileSync(indexExamplePath, indexDestPath); // 复制并重命名文件
 
             const volumes = volumeEntries.filter(dirent => dirent.isDirectory() && dirent.name !== '_ocr')
                                         .map(dirent => dirent.name)

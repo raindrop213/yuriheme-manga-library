@@ -6174,7 +6174,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 .c-content-title {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 26px;
 }
 @media screen and (max-width: 896px) {
 .c-content-title {
