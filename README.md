@@ -40,9 +40,9 @@ title
 
     index.html
     index-infoExample.html  # 是下一层文件中index.html 模板
-	title_structure.json  # 运行req.js能读取并储存所有漫画的信息
-	title-list.js
-	volume-list.js
+    title_structure.json  # 运行req.js能读取并储存所有漫画的信息
+    title-list.js
+    volume-list.js
 
     panzoom.min.js  # mokuro的css和js可以共用
     script.js
