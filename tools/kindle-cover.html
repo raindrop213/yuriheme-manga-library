@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,46 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            addInputField(); // 初始时添加五个文本框
-            addInputField();
-            addInputField();
-            addInputField();
-            addInputField();
+        function saveInputFields() {
+            let container = document.getElementById('inputContainer');
+            let inputs = container.getElementsByTagName('input');
+            let data = [];
+
+            for (let i = 0; i < inputs.length; i += 2) { // 因为每个输入框组有两个输入框
+                // 保存URL和ASIN，包括空值
+                data.push({ url: inputs[i].value, asin: inputs[i + 1].value });
+            }
+
+            localStorage.setItem('inputFields', JSON.stringify(data));
+        }
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            let savedInputs = JSON.parse(localStorage.getItem('inputFields'));
+            if (savedInputs && savedInputs.length > 0) {
+                savedInputs.forEach(item => {
+                    addInputField(item.url, item.asin); // 修改addInputField以接收URL和ASIN
+                });
+            } else {
+                // 如果没有保存的数据，添加五个空的输入框
+                for (let i = 0; i < 5; i++) {
+                    addInputField();
+                }
+            }
         });
 
-        function addInputField() {
+        function addInputField(url = "", asin = "") { // 接收两个默认为空的参数
             let container = document.getElementById('inputContainer');
             let index = container.children.length + 1;
 
             let inputDiv = document.createElement('div');
             inputDiv.classList.add('form-group', 'd-flex', 'align-items-center');
             inputDiv.innerHTML = `
-                <label class="mr-2">${index}.</label>
-                <input type="text" class="form-control mr-2" placeholder="Enter URL here" oninput="extractASIN(this)">
-                <input type="text" class="form-control mr-2" placeholder="ASIN" readonly>
-                <button class="btn btn-outline-danger" onclick="removeInputField(this)">-</button>
-            `;
+        <label class="mr-2">${index}.</label>
+        <input type="text" class="form-control mr-2" placeholder="Enter URL here" value="${url}" oninput="extractASIN(this); saveInputFields();">
+        <input type="text" class="form-control mr-2" placeholder="ASIN" value="${asin}" readonly>
+        <button class="btn btn-outline-danger" onclick="removeInputField(this); saveInputFields();">-</button>
+    `;
 
             container.appendChild(inputDiv);
             updateLabels();
@@ -37,6 +58,7 @@
             let container = document.getElementById('inputContainer');
             container.removeChild(button.parentElement);
             updateLabels();
+            saveInputFields()
         }
 
         function updateLabels() {
@@ -58,20 +80,21 @@
             } else {
                 asinInput.value = ''; // 如果找不到ASIN，清空ASIN文本框
             }
+            saveInputFields()
         }
 
         // 清空所有文本框内容
         function clearAllInputFields() {
             let container = document.getElementById('inputContainer');
             let inputDivs = container.getElementsByClassName('form-group');
-            
+
             for (let div of inputDivs) {
                 let textInputs = div.getElementsByTagName('input');
                 for (let input of textInputs) {
                     input.value = ''; // 清空文本框的值
                 }
             }
-}
+        }
 
         // 下载
         function downloadImages(size) {
@@ -100,19 +123,22 @@
             fetch(url)
                 .then(response => response.blob())
                 .then(blob => {
-                    let blobUrl = window.URL.createObjectURL(blob);
-                    let a = document.createElement('a');
-                    a.href = blobUrl;
-                    a.download = `${index}_${size}_${code}.jpg`;
-                    document.body.appendChild(a);
-                    a.click();
-                    document.body.removeChild(a);
-                    window.URL.revokeObjectURL(blobUrl);
+                    setTimeout(() => { // 在这里添加等待逻辑
+                        let blobUrl = window.URL.createObjectURL(blob);
+                        let a = document.createElement('a');
+                        a.href = blobUrl;
+                        a.download = `${index}_${size}_${code}.jpg`;
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        window.URL.revokeObjectURL(blobUrl);
+                    }, 500); // 等待0.5秒
                 })
                 .catch(e => console.error(e));
         }
     </script>
 </head>
+
 <body>
     <div class="container mt-5">
         <div class="row">
@@ -125,11 +151,14 @@
                 <div id="inputContainer">
                     <!-- 动态添加的文本框将会放在这里 -->
                 </div>
-                <button class="btn btn-primary btn-block" onclick="downloadImages('large')">Download Large Cover</button>
-                <button class="btn btn-secondary btn-block" onclick="downloadImages('small')">Download Small Cover</button>
+                <button class="btn btn-primary btn-block" onclick="downloadImages('large')">Download Large
+                    Cover</button>
+                <button class="btn btn-secondary btn-block" onclick="downloadImages('small')">Download Small
+                    Cover</button>
                 <button class="btn btn-warning btn-block" onclick="clearAllInputFields()">Clear All URL</button>
             </div>
         </div>
     </div>
 </body>
+
 </html>

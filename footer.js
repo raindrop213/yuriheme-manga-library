@@ -45,7 +45,8 @@
         <li class="head">
           <h3>リポジトリ</h3>
         </li>
-        <li><a href="https://github.com/raindrop213/yuriheme-manga-library target="_blank">Yuri·Hime·Lib</a></li>
+        <li><a href="https://github.com/raindrop213/yuriheme-manga-library/" target="_blank">Yuri·Hime·Lib</a></li>
+        <li><a href="https://github.com/raindrop213/mokuro_r/tree/yrhm/" target="_blank">mokuro-yrhm</a></li>
       </ul>
       <br clear="both">
 

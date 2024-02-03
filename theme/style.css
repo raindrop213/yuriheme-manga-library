@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic, æ¸¸ã‚´ã‚·ãƒƒã‚¯ Medium, Yu Gothic Medium, sans-serif;
+  font-family: 游ゴシック体, YuGothic, 游ゴシック Medium, Yu Gothic Medium, sans-serif;
   font-size: 1rem;
   letter-spacing: 0.05em;
   line-height: 1.7;
@@ -1945,7 +1945,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
     top: 37px;
     width: 100%;
     text-align: center;
-    font-family: æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic, æ¸¸ã‚´ã‚·ãƒƒã‚¯ Medium, Yu Gothic Medium, sans-serif;
+    font-family: 游ゴシック体, YuGothic, 游ゴシック Medium, Yu Gothic Medium, sans-serif;
     font-size: 9px;
     color: #555;
     letter-spacing: 0;
@@ -2506,7 +2506,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 
 .u-ft-fml_gothic {
-  font-family: æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic, æ¸¸ã‚´ã‚·ãƒƒã‚¯ Medium, Yu Gothic Medium, sans-serif !important;
+  font-family: 游ゴシック体, YuGothic, 游ゴシック Medium, Yu Gothic Medium, sans-serif;
 }
 
 .u-ft-fml_mincho {
@@ -5866,10 +5866,10 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
       fill: #8d56da;
 }
 .c-header[data-sp-menu="open"] .c-header__logo-image {
-      fill: #fff;
+      fill: #8d56da28;
 }
 .c-header__menu {
-    background-image: url("./img/common/bg_menu.jpg");
+    /* background-image: url("./img/common/bg_menu.jpg"); */
     background-size: cover;
 }
 }

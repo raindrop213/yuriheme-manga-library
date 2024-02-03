@@ -79,7 +79,10 @@ def rename_images(folder_path, preview_window):
         ext = os.path.splitext(filename)[1]
         # i = i+1
         new_filename = f"{i:05d}{ext}"
-        os.rename(os.path.join(folder_path, filename), os.path.join(folder_path, new_filename))
+        try:
+            os.rename(os.path.join(folder_path, filename), os.path.join(folder_path, new_filename))
+        except Exception as e:
+            print(e)
 
     preview_window.destroy()
 
