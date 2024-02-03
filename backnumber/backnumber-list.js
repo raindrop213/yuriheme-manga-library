@@ -12,7 +12,7 @@ fetch("../title/title_structure.json")
           const imagePath = volume.coverImagePath; // 使用卷的封面图片路径
           // 将每个项作为字符串添加到数组中
           items.push(`<div class="home-comics__item">
-              <a href="../title/${path}/" class="c-cardbox p-link_fade">
+              <a href="../title/${path}/${volume.volumeName}.html" target="_blank" class="c-cardbox p-link_fade">
                 <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n" style="background-image:url('../title/${imagePath}')"></span>
                 <span class="c-cardbox__text">
                   <span class="c-cardbox__title">${volume.volumeName}</span> <!-- 使用卷名(volumeName) -->

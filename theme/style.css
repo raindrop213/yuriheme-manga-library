@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: SimSun;
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
   font-size: 1rem;
   letter-spacing: 0.05em;
   line-height: 1.7;
@@ -1945,7 +1945,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
     top: 37px;
     width: 100%;
     text-align: center;
-    font-family: SimSun, serif;
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック Medium", "Yu Gothic Medium", sans-serif, serif;
     font-size: 9px;
     color: #555;
     letter-spacing: 0;
@@ -2506,11 +2506,11 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 
 .u-ft-fml_gothic {
-  font-family: SimSun, serif;
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック Medium", "Yu Gothic Medium", sans-serif, serif;
 }
 
 .u-ft-fml_mincho {
-  font-family: "æ¸¸æ˜Žæœ","YuMincho","ãƒ’ãƒ©ã‚®ãƒŽæ˜Žæœ Pro W3","Hiragino Mincho Pro","ï¼­ï¼³ ï¼°æ˜Žæœ","MS PMincho",serif !important;
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "MS PMincho", serif !important;
 }
 
 .u-ft-fml_noto-sans-thin {
@@ -6881,4 +6881,5 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   background-position: center; /* 背景图片居中显示 */
   display: block; /* 使div居中，如果需要的话 */
   margin: 0 auto; /* 使div居中，如果需要的话 */
+  opacity: 0.4;
 }

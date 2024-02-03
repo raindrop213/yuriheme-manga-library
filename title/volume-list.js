@@ -104,7 +104,7 @@ fetch("../title_structure.json")
                 <span class="c-cardbox__title">${titleData.title} (${volume.volumeNumber})</span>
                 <span class="c-cardbox__date">Page: ${volume.pageCount}</span>
                 <span class="c-cardbox__btn-wrap">
-                  <a href="./${volume.volumeName}.html?page=1" target="_blank" class="p-btn p-btn--primary u-sz_w_100">Read</a>
+                  <a href="./${volume.volumeName}.html" target="_blank" class="p-btn p-btn--primary u-sz_w_100">Read</a>
                   </span>
                 </span>
               </section>
