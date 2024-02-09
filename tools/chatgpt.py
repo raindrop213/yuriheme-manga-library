@@ -5,12 +5,12 @@ import json
 url = "https://api.ohmygpt.com/v1/chat/completions"
 headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer sk-DiBsvLFp4ab213F19fb0T3BlBkFJC8a76669b7694D50b5CD",  # 请替换 $OPENAI_API_KEY 为你的 API 密钥
+    "Authorization": "Bearer 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",  # 请替换 $OPENAI_API_KEY 为你的 API 密钥
 }
 
 # 设置请求的数据
 data = {
-    "model": "gpt-3.5-turbo-16k",
+    "model": "gpt-3.5-turbo-0613",
     "messages": [{"role": "user", "content": "跳多高才能跳过广告"}],
     "temperature": 0.7
 }

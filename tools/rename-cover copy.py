@@ -116,7 +116,6 @@ def create_drag_drop_listbox(root, title, include_reset_button=True):
 
     return listbox
 
-# 只保存封面
 def save_images_to_folder():
     # 让用户选择保存图片的目标文件夹
     target_folder = filedialog.askdirectory(title="选择保存图片的文件夹")
@@ -136,29 +135,6 @@ def save_images_to_folder():
             shutil.copy2(image_path, new_filepath)
             print(f"图片已保存: {new_filepath}")
 
-# 保存封面加上一级的文件夹
-def save_images_with_folder_structure():
-    # 让用户选择保存图片的目标文件夹
-    target_folder = filedialog.askdirectory(title="选择保存图片的文件夹")
-    if not target_folder:
-        return
-
-    for idx in range(listbox2.size()):
-        source_directory = listbox2.get(idx)
-        image_file = get_first_image(source_directory)
-        if image_file:
-            folder_name = os.path.basename(source_directory)
-            target_subfolder = os.path.join(target_folder, folder_name)
-            os.makedirs(target_subfolder, exist_ok=True)  # 创建目标子文件夹
-
-            # 构建目标文件路径
-            target_file_path = os.path.join(target_subfolder, os.path.basename(image_file))
-            
-            # 复制图片到目标子文件夹
-            shutil.copy2(image_file, target_file_path)
-            print(f"图片已保存到: {target_file_path}")
-
-
 def main():
     root = TkinterDnD.Tk()
     root.title("文件拖拽应用")
@@ -174,11 +150,9 @@ def main():
     replace_button = tk.Button(root, text="覆盖", command=replace_images)
     replace_button.pack(side="left", padx=5, pady=5)
 
-    # 添加保存封面的按钮
-    save_cover_button = tk.Button(root, text="保存封面", command=save_images_to_folder)
-    save_cover_button.pack(side="left", padx=5, pady=5)
-    save_cover_structure_button = tk.Button(root, text="保存封面和文件夹结构", command=save_images_with_folder_structure)
-    save_cover_structure_button.pack(side="left", padx=5, pady=5)
+    # 添加保存图片的按钮
+    save_images_button = tk.Button(root, text="保存图片", command=save_images_to_folder)
+    save_images_button.pack(side="left", padx=5, pady=5)
 
     root.mainloop()
 

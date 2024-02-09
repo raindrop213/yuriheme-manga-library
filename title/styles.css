@@ -123,8 +123,8 @@ body {
 #leftAScreen, #rightAScreen {
     display: inline-block;
     position: fixed;
-    top: 10vh;
-    width: 5vw;
+    top: 6vh;
+    width: 7vw;
     height: 90vh;
 }
 
@@ -158,7 +158,7 @@ body {
     box-shadow: 0px 0px 8px 0px var(--color3a);
     transition: all 0.5s ease-out, max-width 0s ease-in;
     visibility: visible;
-    opacity: 1;
+    opacity: 0.9;
     max-width: 100vw;
     white-space: nowrap;
 }
@@ -178,8 +178,8 @@ body {
 }
 
 #topMenu input {
-    height: 1.4em;
-    margin: 0 6px;
+    height: 1.1em;
+    margin: 0 3px;
 }
 
 #pageIdxDisplay {
@@ -298,4 +298,225 @@ input::-webkit-inner-spin-button {
 
 input[type=number] {
     -moz-appearance: textfield;
+}
+
+
+
+.textBox {
+    display: initial;
+    position: absolute;
+    padding: 0;
+    line-height: 1.1em;
+    font-size: 16pt;
+    white-space: nowrap;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.textBox:hover {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0);
+    z-index: 999 !important;
+}
+
+.textBox p {
+    display: none;
+    white-space: nowrap;
+    letter-spacing: 0.1em;
+    line-height: 1.1em;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.textBox:hover p {
+    display: table;
+}
+
+#sentence {
+    line-height: 2.3; /* 这会将行距设置为字体大小的1.5倍 */
+}
+
+.mecabSpan {
+    padding: 10px 2px 2px 2px;
+    margin: 0px 1px;
+    font-size: 1em;
+    opacity: 0.6;
+}
+
+.mecabSpan:hover {
+    opacity: 1;
+}
+
+.active-span {
+    opacity: 1; /* 设置透明度为1 */
+    border: 1px solid black; /* 添加黑色边缘线 */
+}
+
+
+.名詞, .指示詞 {
+    background-color: rgba(87, 87, 214, 0.39);
+}
+
+
+.動詞 {
+    background: rgba(0, 128, 0, 0.425);
+}
+
+.形容詞 {
+    background: rgba(124, 16, 16, 0.445);
+}
+
+.副詞 {
+    background: rgba(255, 255, 0, 0.438);
+}
+
+.助詞 {
+    background: rgba(255, 166, 0, 0.459);
+}
+
+.助動詞 {
+    background: rgba(255, 192, 203, 0.527);
+}
+
+.副詞 {
+    background: rgba(128, 0, 128, 0.466);
+}
+
+.代名詞 {
+    background: rgba(34, 178, 171, 0.473);
+}
+
+.接頭辞, .接尾辞, .接続詞, .形状詞, .感動詞,  .指示詞, .連体詞, .判定詞, .補助記号, .空白 {
+    background: rgba(128, 128, 128, 0.473);
+}
+
+
+#translator {
+    line-height: 20px; /* 这会将行距设置为20像素 */
+}
+
+.translation {
+    margin: 10px 0px;
+}
+
+.translation-google {
+    color:rgb(57, 41, 163);
+}
+.translation-chatgpt {
+    color: darkgreen;
+}
+
+.dictionary-content {
+    position: relative; /* 确保伪元素相对于此定位 */
+    display: none; /* 默认隐藏所有词典结果 */
+    border: 1px solid #000;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#moji-container:before, #youdao-container:before, #weblio-container:before {
+    content: attr(data-title); /* 使用属性值作为内容 */
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 5px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 0.8em;
+    border-bottom-left-radius: 4px;
+}
+
+#moji-container {
+    --dictionary-name: "Moji";
+}
+
+#youdao-container {
+    --dictionary-name: "Youdao";
+}
+
+#weblio-container {
+    --dictionary-name: "Weblio";
+}
+
+#moji-container:before { content: "Moji"; }
+#youdao-container:before { content: "Youdao"; }
+#weblio-container:before { content: "Weblio"; }
+
+
+
+.active-tab {
+    background-color: #f0f0f0; /* 激活标签的背景色 */
+}
+
+.active-content {
+    display: block; /* 显示激活的词典结果 */
+}
+
+
+#topBar {
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
+    color: white;
+    cursor: move;
+    padding: 8px;
+    height: 30px;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+}
+
+#closeBtn {
+    float: right;
+    cursor: pointer;
+}
+
+
+#analysisModal {
+    display: none;
+    position: fixed; /* 在mokuro里面一定不能是 relative */
+    top: 100px;
+    left: 200px;
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #000;
+    padding: 7px 7px 9px 7px;
+    z-index: 5000;
+    box-shadow: 0px 0px 20px rgba(124, 124, 124, 0.541);  /* 水平偏移 垂直偏移 模糊半径 扩展半径 颜色 */
+}
+
+#textBox {
+    padding: 1px;
+    max-height: 100%; /* 或设置为具体的高度值，确保内容超出时可滚动 */
+    overflow: auto; /* 允许内容超出时显示滚动条 */
+}
+
+
+#resizeHandle {
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    cursor: nwse-resize;
+    z-index: 5001; /* 确保它在其他元素之上 */
+}
+.frame-resizer-svg {
+    bottom: 0;
+    right: 0;
+}
+
+#scrollToTopButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 25px;
+    height: 40px;
+    background-color: transparent;
+    margin-right: 25px;
+    padding: 0;
+    cursor: pointer;
+    z-index: 5001;
+}
+.frame-top-svg {
+    bottom: 0;
+    right: 0;
 }
