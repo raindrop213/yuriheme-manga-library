@@ -79,7 +79,7 @@ fetch("../title_structure.json")
               <div class="title-intro__layout_text">
                 <header class="title-intro__header">
                   <h1 class="title-intro__title">${titleData.name}</h1>
-                  <span class="title-intro__creator">${titleData.author}</span>
+                  <span class="title-intro__creator">${titleData.author.join('×')}</span>
                 </header>
                 <div class="title-intro__note">${titleData.summary}</div>
               </div>

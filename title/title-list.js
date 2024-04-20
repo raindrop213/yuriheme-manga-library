@@ -14,7 +14,7 @@ fetch("title_structure.json")
                 style="background-image:url('../${path}.jpg')"></span>
               <span class="c-cardbox__text">
                 <span class="c-cardbox__title">${item.name}</span>
-                <span class="c-cardbox__meta">${item.author}</span>
+                <span class="c-cardbox__meta">${item.author.join('×')}</span>
               </span>
             </a>
           `;
