@@ -525,20 +525,25 @@ function zoomDefault() {
 function updatePage(new_page_idx) {
     new_page_idx = Math.min(Math.max(new_page_idx, 0), num_pages - 1);
 
+    // 隐藏当前页
     getPage(state.page_idx).style.display = "none";
-
     if (state.page2_idx >= 0) {
         getPage(state.page2_idx).style.display = "none";
     }
 
+    // 更新state.page_idx
     if (isPageFirstOfPair(new_page_idx)) {
         state.page_idx = new_page_idx;
     } else {
         state.page_idx = new_page_idx - 1;
     }
 
+    // 显示新的页面
     getPage(state.page_idx).style.display = "inline-block";
     getPage(state.page_idx).style.order = 2;
+
+    // 预加载后续4页
+    preloadNextPages(state.page_idx, 4);
 
     if (!state.singlePageView && state.page_idx < num_pages - 1 && !isPageFirstOfPair(state.page_idx + 1)) {
         state.page2_idx = state.page_idx + 1;
@@ -563,6 +568,18 @@ function updatePage(new_page_idx) {
     zoomDefault();
     if (state.eInkMode) {
         eInkRefresh();
+    }
+}
+
+// 图片预加载
+function preloadNextPages(currentPageIndex, numPages) {
+    for (let i = currentPageIndex + 1; i <= currentPageIndex + numPages && i < num_pages; i++) {
+        let pageContainer = getPage(i).querySelector('.pageContainer');
+        if (pageContainer) {
+            let bgImageUrl = pageContainer.style.backgroundImage.slice(5, -2); // 提取背景图像URL
+            let img = new Image(); // 创建一个新的Image对象
+            img.src = bgImageUrl; // 设置Image对象的源地址为背景图像地址
+        }
     }
 }
 

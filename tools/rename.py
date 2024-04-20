@@ -45,7 +45,7 @@ def rename_images(folder_path):
     print("重命名完成。")
 
 # 使用示例
-rename_images(r'H:\website\yuri-hime\title\[新井隆広] Les Miserables\[新井隆広] Les Miserables 第08巻')
+rename_images(r'H:\website\yuri-hime\title\[一迅社] コミック百合姫 2024年\[一迅社] コミック百合姫 2024年06月号')
 
 
 # rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第01巻')

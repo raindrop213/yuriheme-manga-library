@@ -7,7 +7,7 @@ import os
 def create_gui():
     root = TkinterDnD.Tk()
     root.title("重命名工具")
-    root.geometry("700x400")  # 设置窗口大小
+    root.geometry("700x500")  # 设置窗口大小
 
     # 输入框和标签的设置
     prefix_frame = tk.Frame(root)
