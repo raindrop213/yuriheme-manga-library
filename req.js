@@ -25,51 +25,33 @@ function isValidFolderName(folderName) {
 // bangumi api
 async function fetchBestMatch(keyword) {
     try {
-        const response = await fetch('https://api.bgm.tv/v0/search/subjects?limit=20', {
-            method: 'POST', 
+        // 将关键词编码以适应URL格式
+        const encodedKeyword = encodeURIComponent(keyword);
+        const url = `https://api.bgm.tv/search/subject/${encodedKeyword}?type=1&responseGroup=medium&max_results=20`;
+
+        const response = await fetch(url, {
+            method: 'GET', 
             headers: {
                 'User-Agent': 'raindrop213/my-private-blog',
-                'Accept': 'application/json', 
-                'Content-Type': 'application/json' 
-            },
-            body: JSON.stringify({
-                keyword: keyword,
-                sort: "rank",
-                filter: {
-                    "type": [1],
-                }
-            })
+                'Accept': 'application/json'
+            }
         });
         const data = await response.json();
 
-        let bestMatch = null;
-        let maxTagCount = 0;
-
-        for (const item of data.data) {
-            if (item.name === keyword || item.name_cn === keyword) {
-                bestMatch = item;
-                break;
-            }
-
-            const tagCount = item.tags.reduce((acc, tag) => acc + tag.count, 0);
-            if (tagCount > maxTagCount) {
-                maxTagCount = tagCount;
-                bestMatch = item;
-            }
-        }
-
-        if (bestMatch) {
-            bestMatch.bgmUrl = `https://bgm.tv/subject/${bestMatch.id}`;
-            return bestMatch;
+        // 检查是否有结果
+        if (data.list && data.list.length > 0) {
+            const firstItem = data.list[0];
+            // 打印搜索的名字，以及第一条记录的日文名和中文名
+            console.log(`Search: ${keyword} 【${firstItem.name} / ${firstItem.name_cn}】`);
         } else {
-            return null;
+            console.log('No results found for the given keyword.');
         }
     } catch (error) {
         console.error('Error:', error);
-        return null;
     }
 }
-
+    
+    
 
 // 生成结构
 async function generateStructure(dir) {

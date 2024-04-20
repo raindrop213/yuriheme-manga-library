@@ -4,7 +4,7 @@ import msvcrt  # 仅适用于 Windows
 
 def rename_images(folder_path):
     # 支持的图片格式
-    extensions = ('.png', '.jpg', '.jpeg', '.webp')
+    extensions = ('.png', '.jpg', '.jpeg', '.webp', 'json')
 
     # 获取文件夹中所有支持格式的图片文件
     files = [f for f in os.listdir(folder_path) if f.endswith(extensions)]
@@ -45,5 +45,21 @@ def rename_images(folder_path):
     print("重命名完成。")
 
 # 使用示例
-folder_path = r'F:\qBit\comic\[いけだたかし] ささめきこと\[いけだたかし] ささめきこと 第09巻'
-rename_images(folder_path)
+rename_images(r'H:\website\yuri-hime\title\[新井隆広] Les Miserables\[新井隆広] Les Miserables 第08巻')
+
+
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第01巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第02巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第03巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第04巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第05巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第06巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第07巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第08巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第09巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第10巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第11巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第12巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第13巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第14巻')
+# rename_images(r'H:\qBit\115\【マンガ】\[岡田和人] ぱンすと。\[岡田和人] ぱンすと。 第15巻')

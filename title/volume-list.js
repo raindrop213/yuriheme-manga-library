@@ -1,9 +1,9 @@
 // 显示模态框的函数
-function showModal(elem) {
+function showModal(imagePath) {
   var modal = document.getElementById("imageModal");
   var modalImg = document.getElementById("img01");
   modal.style.display = "block";
-  modalImg.src = elem.style.backgroundImage.slice(5, -2);
+  modalImg.src = imagePath; // 使用传入的 imagePath 而不是从元素中提取
   setTimeout(function() { 
     modal.classList.add("show");
   }, 10); // 这将同时触发背景和图片的渐变效果
@@ -65,20 +65,20 @@ fetch("../title_structure.json")
       const mainContent = document.getElementById("main-content");
       const coverImagePathParts =
         titleData.volumes[0].coverImagePath.split("/");
-      const coverImagePath = coverImagePathParts.slice(1).join("/"); // 使用第一卷的封面图片
+      const coverImagePath = coverImagePathParts.slice(2).join("/"); // 使用第一卷的封面图片
 
       let htmlContent = `
           <div class="l-content_n l-content_n-sp">
             <article class="title-intro">
               <div class="title-intro__layout_image image-hover-text">
                 <div class="title-intro__jk">
-                  <a href="${titleData.bgmUrl}" target="_blank">
+                  <a href="${titleData.url}" target="_blank">
                     <img src="./${coverImagePath}" alt="" class="c-cardbox__thumb c-cardbox__thumb--shadow p-link_fade u-sz_w_100"></a>
                 </div>
               </div>
               <div class="title-intro__layout_text">
                 <header class="title-intro__header">
-                  <h1 class="title-intro__title">${titleData.title}</h1>
+                  <h1 class="title-intro__title">${titleData.name}</h1>
                   <span class="title-intro__creator">${titleData.author}</span>
                 </header>
                 <div class="title-intro__note">${titleData.summary}</div>
@@ -93,18 +93,20 @@ fetch("../title_structure.json")
       // 生成漫画卷列表部分
       titleData.volumes.forEach((volume) => {
         const imagePathParts = volume.coverImagePath.split("/");
-        const imagePath = imagePathParts.slice(1).join("/");
-
+        const imagePath = imagePathParts.slice(2).join("/");
+        const volumeName = imagePathParts[2]; // 提取卷名
+        const thumbnailPath = imagePath.split('/').slice(0, -1).join('/') + '.jpg'; // 生成缩略图路径
+      
         htmlContent += `
             <div class="title-comics__item">
               <section class="c-cardbox">
                 <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover p-link_fade u-mg_b_n"
-                  style="background-image:url('./${imagePath}')" onclick="showModal(this)"></span>
+                  style="background-image:url('./${thumbnailPath}')" onclick="showModal('./${imagePath}')"></span>
                 <span class="c-cardbox__text">
-                <span class="c-cardbox__title">${titleData.title} (${volume.volumeNumber})</span>
+                <span class="c-cardbox__title">${titleData.name} [${volume.volumeNumber}]</span>
                 <span class="c-cardbox__date">Page: ${volume.pageCount}</span>
                 <span class="c-cardbox__btn-wrap">
-                  <a href="./${volume.volumeName}.html" target="_blank" class="p-btn p-btn--primary u-sz_w_100">Read</a>
+                  <a href="./${volumeName}.html" target="_blank" class="p-btn p-btn--primary u-sz_w_100">Read</a>
                   </span>
                 </span>
               </section>
