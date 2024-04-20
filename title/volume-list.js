@@ -103,7 +103,7 @@ fetch("../title_structure.json")
                 <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover p-link_fade u-mg_b_n"
                   style="background-image:url('./${thumbnailPath}')" onclick="showModal('./${imagePath}')"></span>
                 <span class="c-cardbox__text">
-                <span class="c-cardbox__title">${titleData.name} [${volume.volumeNumber}]</span>
+                <span class="c-cardbox__title">${volume.volumeName} [${volume.volumeNumber}]</span>
                 <span class="c-cardbox__date">Page: ${volume.pageCount}</span>
                 <span class="c-cardbox__btn-wrap">
                   <a href="./${volumeName}.html" target="_blank" class="p-btn p-btn--primary u-sz_w_100">Read</a>

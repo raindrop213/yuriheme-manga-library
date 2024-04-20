@@ -97,15 +97,13 @@ for folder in os.listdir(base_dir):
 
     # 从文件中提取信息
     name = re.sub(r'\[.*?\]', '', folder).strip()
+    print(name)
     authors = folder.split('[')[1].split(']')[0].split('×') if '[' in folder and ']' in folder else []
     metadata['folderName'] = folder
-    metadata['name'] = metadata.get('name', name)
-    metadata['author'] = metadata.get('author', authors)
+    metadata['name'] = name
+    metadata['author'] = authors
     process_volumes(folder_path, metadata)
 
     with open(json_file_path, 'w', encoding='utf-8') as f:
         json.dump(metadata, f, ensure_ascii=False, indent=4)
-    all_metadata.append(metadata)
 
-with open(os.path.join(base_dir, 'title_structure2.json'), 'w', encoding='utf-8') as f:
-    json.dump(all_metadata, f, ensure_ascii=False, indent=4)

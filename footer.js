@@ -7,12 +7,11 @@
           <h3>プログラム</h3>
         </li>
         <li><a href="https://github.com/HIllya51/LunaTranslator/" target="_blank">LunaTranslator</a></li>
-        <li><a href="https://github.com/raindrop213/AnonTranslator/" target="_blank">AnonTranslator</a></li>
         <li><a href="https://github.com/Artrajz/vits-simple-api" target="_blank">vits-simple-api</a></li>
-        <li><a href="https://foosoft.net/projects/yomichan/" target="_blank">Yomichan</a></li>
-        <li><a href="https://apps.ankiweb.net/" target="_blank">Anki</a></li>
         <li><a href="https://github.com/kha-white/mokuro/" target="_blank">mokuro</a></li>
         <li><a href="https://github.com/kha-white/manga-ocr/" target="_blank">manga-ocr</a></li>
+        <li><a href="https://github.com/themoeway/yomitan/" target="_blank">yomitan</a></li>
+        <li><a href="https://apps.ankiweb.net/" target="_blank">Anki</a></li>
       </ul>
       <ul>
       <li class="head">
@@ -46,7 +45,9 @@
           <h3>リポジトリ</h3>
         </li>
         <li><a href="https://github.com/raindrop213/yuriheme-manga-library/" target="_blank">Yuri·Hime·Lib</a></li>
+        <li><a href="https://github.com/raindrop213/anki-scene-memory/" target="_blank">anki-scene-memory</a></li>
         <li><a href="https://github.com/raindrop213/mokuro_r/tree/yrhm/" target="_blank">mokuro-yrhm</a></li>
+        <li><a href="https://github.com/raindrop213/AnonTranslator/" target="_blank">AnonTranslator</a></li>
       </ul>
       <br clear="both">
 
