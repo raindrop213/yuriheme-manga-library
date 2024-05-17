@@ -6,12 +6,12 @@ fetch("title_structure.json")
       '<section class="title-list-list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_l u-mg_b_3l">';
 
     data.forEach((item) => {
-      const imagePath = item.volumes[0].coverImagePath;
-      const path = imagePath.split('/').slice(0, -1).join('/');
+      const path = item.folderName;
       htmlContent += `
-            <a href="../${path}.html" class="c-cardbox p-link_fade">
+            <a href="../title/${path}/index.html" class="c-cardbox p-link_fade">
               <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n"
-                style="background-image:url('../${path}.jpg')"></span>
+                style="background-image:url('../title/${path}/cover.jpg')">
+              </span>
               <span class="c-cardbox__text">
                 <span class="c-cardbox__title">${item.name}</span>
                 <span class="c-cardbox__meta">${item.author.join('×')}</span>

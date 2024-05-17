@@ -103,7 +103,7 @@
 
       <div class="home-magazine__inner">
 
-        <a href="./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年6月号.html" class="home-magazine__link p-link_fade"
+        <a href="./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年06月号.html" class="home-magazine__link p-link_fade"
           target="_blank" rel="noopener noreferrer">
           <img src="./uploads/cover.jpg" alt="" class="u-sz_w_100">
         </a>
@@ -119,7 +119,7 @@
           <p class="home-magazine__date">2024年04月18日(木)発売</p>
 
 
-          <a href="./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年6月号.html"
+          <a href="./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年06月号.html"
             class="p-btn p-btn--primary p-btn--minw_200 u-sz_w_100-sp" target="_blank"
             rel="noopener noreferrer">Continue</a>
         </div>
@@ -278,13 +278,11 @@
           // 动态添加新的 HTML 内容
           data.forEach((item) => {
             const path = encodeURIComponent(item.folderName);
-            const imagePath = item.volumes[0].coverImagePath;
-            const thumbnailPath = imagePath.split('/').slice(0, -1).join('/') + '.jpg'; // 生成缩略图路径
             const htmlContent = `
                   <div class="home-titles__item">
                     <a href="./title/${path}/" class="c-cardbox p-link_fade">
                       <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n"
-                        style="background-image:url('${thumbnailPath}')"></span>
+                        style="background-image:url('./title/${path}/cover.jpg')"></span>
                       <span class="c-cardbox__text">
                         <span class="c-cardbox__title">${item.name}</span>
                         <span class="c-cardbox__meta">${item.author.join('×')}</span>

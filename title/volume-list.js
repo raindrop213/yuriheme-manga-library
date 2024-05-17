@@ -63,9 +63,7 @@ fetch("../title_structure.json")
 
     if (titleData) {
       const mainContent = document.getElementById("main-content");
-      const coverImagePathParts =
-        titleData.volumes[0].coverImagePath.split("/");
-      const coverImagePath = coverImagePathParts.slice(2).join("/"); // 使用第一卷的封面图片
+      const coverPath = './cover.jpg';
 
       let htmlContent = `
           <div class="l-content_n l-content_n-sp">
@@ -73,7 +71,7 @@ fetch("../title_structure.json")
               <div class="title-intro__layout_image image-hover-text">
                 <div class="title-intro__jk">
                   <a href="${titleData.url}" target="_blank">
-                    <img src="./${coverImagePath}" alt="" class="c-cardbox__thumb c-cardbox__thumb--shadow p-link_fade u-sz_w_100"></a>
+                    <img src="${coverPath}" alt="" class="c-cardbox__thumb c-cardbox__thumb--shadow p-link_fade u-sz_w_100"></a>
                 </div>
               </div>
               <div class="title-intro__layout_text">

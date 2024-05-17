@@ -9,9 +9,11 @@ base_dir = "title/"
 all_metadata = []
 
 
-def create_thumbnail(source_path, target_path, width=220):
-    if os.path.exists(target_path):
+def create_thumbnail(source_path, target_path, width=220, overwrite=False):
+    # 检查文件是否存在并根据 overwrite 参数决定是否跳过
+    if os.path.exists(target_path) and not overwrite:
         return
+
     with Image.open(source_path) as img:
         if source_path.endswith('.avif'):
             img = img.convert('RGB')
@@ -24,6 +26,7 @@ def create_thumbnail(source_path, target_path, width=220):
         img.save(target_path, format='JPEG', quality=90)
         if source_path.endswith('.avif'):
             os.remove(temp_path)
+        print(f"Thumbnail created at {target_path}")
 
 def fetch_and_update_metadata(metadata, subject_id):
     # 检查是否已存在非空的 date、summary 和 tags 字段
@@ -46,8 +49,9 @@ def fetch_and_update_metadata(metadata, subject_id):
     else:
         print(f"Failed to fetch data for subject ID {subject_id}")
 
-def process_volumes(folder_path, metadata):
+def process_volumes(folder_path, metadata, overwrite=False):
     volumes = []
+    first_volume_found = False  # 用于标识是否找到第一卷
     for subfolder in os.listdir(folder_path):
         if subfolder == "_ocr":
             continue
@@ -58,6 +62,12 @@ def process_volumes(folder_path, metadata):
             if cover_image_path:
                 thumbnail_path = cover_image_path.rsplit('/', 1)[0] + '.jpg'
                 create_thumbnail(cover_image_path, thumbnail_path)
+
+                if not first_volume_found:  # 检查是否为第一卷
+                    cover_path = os.path.join(folder_path, 'cover.jpg')
+                    create_thumbnail(cover_image_path, cover_path, width=340, overwrite=overwrite)
+                    first_volume_found = True  # 标记第一卷已处理
+
             volumes.append(volume_details | {
                 "coverImagePath": cover_image_path,
                 "pageCount": page_count
@@ -97,12 +107,11 @@ for folder in os.listdir(base_dir):
 
     # 从文件中提取信息
     name = re.sub(r'\[.*?\]', '', folder).strip()
-    print(name)
     authors = folder.split('[')[1].split(']')[0].split('×') if '[' in folder and ']' in folder else []
     metadata['folderName'] = folder
     metadata['name'] = name
     metadata['author'] = authors
-    process_volumes(folder_path, metadata)
+    process_volumes(folder_path, metadata, overwrite=False)
 
     with open(json_file_path, 'w', encoding='utf-8') as f:
         json.dump(metadata, f, ensure_ascii=False, indent=4)
