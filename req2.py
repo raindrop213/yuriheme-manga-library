@@ -10,6 +10,7 @@ def main(base_dir, output_file_name):
         "date",
         "summary",
         "tags",
+        "type",
         "volumes"
     ]
 

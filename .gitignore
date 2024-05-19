@@ -9,6 +9,7 @@ title/*
 !title/title-list.js
 !title/volume-list.js
 !title/index-infoExample.html
+!title/metadata.json
 
 node_modules
 venv
