@@ -71,7 +71,7 @@ float:left;
 text-indent:-9999px;
 background-image:url(../img/home/rd213s.png);
 background-repeat:no-repeat;
-width:147px;
+width:31px;
 height:31px;
 display:block;
 }
@@ -89,6 +89,7 @@ margin-left: 0.8em;
 #commonheader_inner a{
 color:#8D8D8D;
 text-decoration:none;
+margin-left: 1em;
 }
 #commonheader_inner a:hover{
 text-decoration:underline;

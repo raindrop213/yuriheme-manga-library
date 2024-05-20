@@ -6830,6 +6830,9 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 }
 
+#logs-content {
+  font-family:sans-serif;
+}
 .pickup-list {
   display: grid;
   justify-content: space-between;

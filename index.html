@@ -87,49 +87,17 @@
 
 
   <main class="l-body-fit__body l-wrapper">
-    <section class="home-visual l-content_full l-content_full-sp">
 
+    <section class="home-visual l-content_full l-content_full-sp">
       <div class="home-visual__inner">
         <img src="./uploads/header.jpg" alt="" class="home-visual__image">
-
         <img src="./theme/img/home/catch.png" alt="" class="home-visual__catch">
       </div>
-
     </section>
-
 
     <section class="home-magazine">
-
-      <div class="home-magazine__inner">
-
-        <a href="./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年06月号.html" class="home-magazine__link p-link_fade"
-          target="_blank" rel="noopener noreferrer">
-          <img src="./uploads/cover.jpg" alt="" class="u-sz_w_100">
-        </a>
-
-        <div class="home-magazine__text">
-          <!-- <svg viewBox="0 0 160 50" class="home-magazine__logo">
-            <use x="0" y="0" xlink:href="#logo"></use>
-          </svg> -->
-
-          <h2 class="home-magazine__title">
-            <strong>コミック百合姫2024年6月号</strong>
-          </h2>
-          <p class="home-magazine__date">2024年04月18日(木)発売</p>
-
-
-          <a href="./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年06月号.html"
-            class="p-btn p-btn--primary p-btn--minw_200 u-sz_w_100-sp" target="_blank"
-            rel="noopener noreferrer">Continue</a>
-        </div>
-
-
-      </div>
-
-
+      <div class="home-magazine__inner" id="monthly-magazine"></div>
     </section>
-
-
 
 
     <section class="home-news l-content_n l-content_n-sp">
@@ -142,7 +110,6 @@
 
 
       <ul class="home-news__list">
-
 
         <li class="home-news__item">
           <a href="https://www.raindrop213.info/" class="home-news__link" target="_blank">
@@ -169,13 +136,9 @@
       </ul>
 
 
-      <a href="./news/" class="p-nav-btn p-nav-btn--next home-news__more" title="MORE"></a>
+      <a href="./backnumber/" class="p-nav-btn p-nav-btn--next home-news__more" title="MORE"></a>
 
     </section>
-
-
-
-
 
 
     <section class="home-comics l-content_l l-content_n-sp">
@@ -248,7 +211,35 @@
               otherContainer.innerHTML += htmlContent;
             }
           });
+
+          // 最新刊更新
+          const monthlyContainer = document.getElementById("monthly-magazine");
+          const date = "2024年05月17日(金)発売"
+          const monthlyPath = "./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年07月号";
+          const monthlyhName = monthlyPath.split("/").pop();
+
+          const monthlyContent = `
+            <a href="${monthlyPath}.html"
+              class="home-magazine__link p-link_fade" target="_blank" rel="noopener noreferrer">
+              <img src="${monthlyPath}.jpg" alt="" class="u-sz_w_100">
+            </a>
+
+            <div class="home-magazine__text">
+              <h2 class="home-magazine__title">
+                <strong>${monthlyhName}</strong>
+              </h2>
+              <p class="home-magazine__date">${date}</p>
+
+              <a href="${monthlyPath}.html"
+                class="p-btn p-btn--primary p-btn--minw_200 u-sz_w_100-sp" target="_blank"
+                rel="noopener noreferrer">Continue</a>
+            </div>`;
+          
+          // 根据类型分配到对应的容器
+          monthlyContainer.innerHTML += monthlyContent;
         });
+
+
     </script>
 
     <section class="home-enquete home-info__enquete">
@@ -269,8 +260,6 @@
         </a>
 
       </div>
-    </section>
-
     </section>
 
   </main>
