@@ -2,7 +2,8 @@
 因为觉得这个主页很好看，同时也在学搭建网站，所以就拿来练练手。打造漫画仓库，海报墙墙赏心悦目！
 
 ### 关于漫画导入
-本项目和 [mokuro](https://github.com/kha-white/mokuro) 进行了结合。经过我的一些修改来适配本项目，详情请看  [mokuro_r yrhm](https://github.com/raindrop213/mokuro_r/tree/yrhm/) 。
+本项目和 [mokuro](https://github.com/kha-white/mokuro) 进行了结合。经过我的一些修改来适配本项目，详情请看 [mokuro_r yrhm](https://github.com/raindrop213/mokuro_r/tree/yrhm/) 。
+这部分还是建议先熟悉mokuro，按照自己的阅读习惯来修改吧，这里只提供一个思路。
 
 ### 文件结构
 ```
