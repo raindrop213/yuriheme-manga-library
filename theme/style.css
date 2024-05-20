@@ -5686,7 +5686,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 
 .p-h_underline {
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   padding-bottom: 0.3em;
   border-bottom: solid 1px rgba(218, 86, 195, 0.6);
   line-height: 1.445;
@@ -6173,7 +6173,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 
 .c-content-title {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 26px;
 }
 @media screen and (max-width: 896px) {

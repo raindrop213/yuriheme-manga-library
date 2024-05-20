@@ -1,5 +1,11 @@
 (function () {
-  var content = `<div id="commonfooter">
+  var content = `<footer class="c-footer">
+    <p class="c-footer__copyright">©REBUILT FROM ICHIJINSHA-YURIHIME</p>
+  </footer>
+
+  <a href="" class="p-return-up p-return-up--circle js-return-up js-scroll-amount"></a>
+  
+  <div id="commonfooter">
     <div id="main_bottom"></div>
     <div id="commonfooter_inner">
       <ul>

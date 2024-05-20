@@ -81,7 +81,7 @@ fetch("../title_structure.json")
                 </header>
                 <div class="title-intro__note">${titleData.summary}</div>
               </div>
-              <a href="../" class="title-intro__back p-nav-btn p-nav-btn--prev" title="戻る"></a>
+              <a href="javascript:history.go(-1);" class="title-intro__back p-nav-btn p-nav-btn--prev" title="戻る"></a>
             </article>
           </div>
           <div class="l-content_l l-content_n-sp u-mg_b_5l">
