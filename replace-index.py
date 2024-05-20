@@ -1,6 +1,12 @@
 import os
 import shutil
 
+'''
+ index-infoExample.html 是漫画中 index.html 的模板
+放入到每一个漫画文件中
+
+'''
+
 def copy_and_rename_index_html(root_path, source_html_path, overwrite=False):
     # 列出根目录下的所有文件和文件夹
     for item in os.listdir(root_path):
