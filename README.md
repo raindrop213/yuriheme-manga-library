@@ -43,7 +43,10 @@ title
 ├─script.js
 ├─styles.css
 │
-├─title_structure.json（通过运行req2.py，把所有漫画中的metadata合并而成，记录了所有漫画信息和对应路径。）
+├─index-infoExample.html（模版文件，就是每一部漫画文件夹中的index.html）
+├─metadata.json（模版文件，写明了这部漫画的bangumi页面url）
+│
+├─title_structure.json（通过运行req2.py，先根据每部漫画url获取元数据，最后把所有漫画中的metadata合并而成，记录了所有漫画信息和对应路径。）
 │
 └─index.html（海报墙主页）
 ```

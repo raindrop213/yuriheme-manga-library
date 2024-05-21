@@ -115,18 +115,57 @@
         </div>
     </section>
 
+    <section class="home-comics l-content_full l-content_full-sp">
+      <div class="l-section_l l-section_n-sp">
+        <h2 class="home-heading home-heading--center home-heading--circle">
+          <span class="heading-text heading-text--english">artbooks</span>
+          <span class="heading-text heading-text--japanese">画集</span>
+        </h2>
+        <div class="home-titles__list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m" id="artbook-list">
+          <div class="home-titles__item"></div>
+        </div>
+    </section>
+
     <script>
       fetch("./title/title_structure.json")
         .then(response => response.json())
         .then(data => {
+
+          // 最新刊更新
+          const monthlyContainer = document.getElementById("monthly-magazine");
+          const date = "2024年05月17日(金)発売"
+          const monthlyPath = "./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年07月号";
+          const monthlyhName = "コミック百合姫2024年07月号";
+
+          const monthlyContent = `
+            <a href="${monthlyPath}.html"
+              class="home-magazine__link p-link_fade" target="_blank" rel="noopener noreferrer">
+              <img src="${monthlyPath}.jpg" alt="" class="u-sz_w_100">
+            </a>
+
+            <div class="home-magazine__text">
+              <h2 class="home-magazine__title">
+                <strong>${monthlyhName}</strong>
+              </h2>
+              <p class="home-magazine__date">${date}</p>
+
+              <a href="${monthlyPath}.html"
+                class="p-btn p-btn--primary p-btn--minw_200 u-sz_w_100-sp" target="_blank"
+                rel="noopener noreferrer">Continue</a>
+            </div>`;
+          monthlyContainer.innerHTML += monthlyContent;
+
           const favoritesContainer = document.getElementById("favorites-list");
           const magazineContainer = document.getElementById("magazine-list");
           const otherContainer = document.getElementById("other-list");
-    
+          const artbookContainer = document.getElementById("artbook-list");
+
+
           // 清空现有内容
           favoritesContainer.innerHTML = '';
           magazineContainer.innerHTML = '';
           otherContainer.innerHTML = '';
+          artbookContainer.innerHTML = '';
     
           // 分类和显示数据
           data.forEach(item => {
@@ -149,36 +188,12 @@
               favoritesContainer.innerHTML += htmlContent;
             } else if (item.type.includes("yuri")) {
               magazineContainer.innerHTML += htmlContent;
+            } else if (item.type.includes("artbook")) {
+              artbookContainer.innerHTML += htmlContent;
             } else {
               otherContainer.innerHTML += htmlContent;
             }
           });
-
-          // 最新刊更新
-          const monthlyContainer = document.getElementById("monthly-magazine");
-          const date = "2024年05月17日(金)発売"
-          const monthlyPath = "./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年07月号";
-          const monthlyhName = monthlyPath.split("/").pop();
-
-          const monthlyContent = `
-            <a href="${monthlyPath}.html"
-              class="home-magazine__link p-link_fade" target="_blank" rel="noopener noreferrer">
-              <img src="${monthlyPath}.jpg" alt="" class="u-sz_w_100">
-            </a>
-
-            <div class="home-magazine__text">
-              <h2 class="home-magazine__title">
-                <strong>${monthlyhName}</strong>
-              </h2>
-              <p class="home-magazine__date">${date}</p>
-
-              <a href="${monthlyPath}.html"
-                class="p-btn p-btn--primary p-btn--minw_200 u-sz_w_100-sp" target="_blank"
-                rel="noopener noreferrer">Continue</a>
-            </div>`;
-          
-          // 根据类型分配到对应的容器
-          monthlyContainer.innerHTML += monthlyContent;
         });
 
 
@@ -198,7 +213,6 @@
         <p class="home-enquete__text">アプリへのご意見・<br>ご感想はこちらから</p>
         <a href="https://github.com/raindrop213/yuriheme-manga-library/issues/new" class="p-nav-btn p-nav-btn--small p-nav-btn--next"
           style="margin:auto;" title="アンケートページ">
-
         </a>
 
       </div>

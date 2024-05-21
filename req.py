@@ -89,7 +89,7 @@ def extract_volume_details(subfolder, volumes):
 def process_volume_images(subfolder_path):
     image_files = sorted(os.listdir(subfolder_path))
     cover_image_path = os.path.join(subfolder_path, image_files[0]) if image_files else None
-    page_count = len([file for file in image_files if file.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.avif'))])
+    page_count = len([file for file in image_files if file.lower().endswith(('.jpg', '.jpeg', '.png', '.webp', '.avif'))])
     return cover_image_path.replace("\\", "/") if cover_image_path else None, page_count
 
 for folder in os.listdir(base_dir):
