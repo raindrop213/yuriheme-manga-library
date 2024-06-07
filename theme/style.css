@@ -6580,12 +6580,14 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 
 .home-comics {
   margin-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 .home-titles {
   margin-bottom: 60px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   background-color: rgba(255, 255, 255, 0.4);
 }
 
@@ -6885,4 +6887,62 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   display: block; /* 使div居中，如果需要的话 */
   margin: 0 auto; /* 使div居中，如果需要的话 */
   opacity: 0.4;
+}
+
+.sidebar-nav {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  padding: 10px;
+  z-index: 10000;
+  font-size: 0.8em;
+}
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar-nav li {
+  margin-bottom: 10px;
+}
+.sidebar-nav a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: linear-gradient(#8d56da, #da56c3);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  position: relative;
+  writing-mode: vertical-rl; /* 使文字竖向显示 */
+}
+.sidebar-nav a:hover {
+  opacity: 0.5; /* 悬停时半透明 */
+}
+.sidebar-nav a::before {
+  content: attr(data-short-text); /* 使用data-short-text属性 */
+  position: absolute;
+}
+.sidebar-nav a span {
+  display: none;
+  white-space: nowrap; /* 防止文字换行 */
+}
+.sidebar-nav a.active::before {
+  content: ""; /* 隐藏简短文字 */
+}
+.sidebar-nav a.active {
+  height: 100px; /* 高度自动 */
+  width: 40px; /* 保持宽度不变 */
+  border-radius: 20px;
+  justify-content: center;
+}
+.sidebar-nav a.active span {
+  display: inline;
+  margin-left: 0; /* 重置 margin */
 }

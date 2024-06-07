@@ -27,7 +27,7 @@
 <body class="l-body-fit" data-menu-active="home">
 
   <script src="./header.js"></script>
-
+  
   <main class="l-body-fit__body l-wrapper">
 
     <section class="home-visual l-content_full l-content_full-sp">
@@ -83,47 +83,64 @@
     </section>
 
 
-    <section class="home-comics l-content_l l-content_n-sp">
-      <h2 class="home-heading home-heading--center home-heading--circle">
-        <span class="heading-text heading-text--english">favorites</span>
-        <span class="heading-text heading-text--japanese">お気に入り</span>
-      </h2>
-      <div class="home-comics__list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m" id="favorites-list">
-        <div class="home-titles__item"></div>
+    <section class="home-comics l-content_full l-content_full-sp" id="favorites">
+      <div class="l-section_l l-section_n-sp">
+        <h2 class="home-heading home-heading--center home-heading--circle">
+          <span class="heading-text heading-text--english">favorites</span>
+          <span class="heading-text heading-text--japanese">お気に入り</span>
+        </h2>
+        <div class="home-titles__list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m" id="favorites-list">
+          <div class="home-titles__item"></div>
+        </div>
       </div>
     </section>
 
-    <section class="home-titles l-content_full l-content_full-sp">
+    <section class="home-titles l-content_full l-content_full-sp" id="yuri">
       <div class="l-section_l l-section_n-sp">
         <h2 class="home-heading home-heading--center home-heading--circle">
           <span class="heading-text heading-text--english">yuri list</span>
           <span class="heading-text heading-text--japanese">百合作品</span>
         </h2>
-        <div class="home-titles__list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m" id="magazine-list">
+        <div class="home-titles__list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m" id="yuri-list">
           <div class="home-titles__item"></div>
         </div>
+      </div>
     </section>
 
-    <section class="home-comics l-content_full l-content_full-sp">
+    <section class="home-comics l-content_full l-content_full-sp" id="collection">
       <div class="l-section_l l-section_n-sp">
         <h2 class="home-heading home-heading--center home-heading--circle">
-          <span class="heading-text heading-text--english">title list</span>
+          <span class="heading-text heading-text--english">collection</span>
           <span class="heading-text heading-text--japanese">収録作品</span>
         </h2>
-        <div class="home-titles__list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m" id="other-list">
+        <div class="home-titles__list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m" id="collection-list">
           <div class="home-titles__item"></div>
         </div>
+      </div>
     </section>
 
-    <section class="home-comics l-content_full l-content_full-sp">
+    <section class="home-titles l-content_full l-content_full-sp" id="one-shot">
       <div class="l-section_l l-section_n-sp">
         <h2 class="home-heading home-heading--center home-heading--circle">
-          <span class="heading-text heading-text--english">artbooks</span>
+          <span class="heading-text heading-text--english">one-shot</span>
+          <span class="heading-text heading-text--japanese">読み切り</span>
+        </h2>
+        <div class="home-titles__list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m" id="one-shot-list">
+          <div class="home-titles__item"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-comics l-content_full l-content_full-sp" id="artbook">
+      <div class="l-section_l l-section_n-sp">
+        <h2 class="home-heading home-heading--center home-heading--circle">
+          <span class="heading-text heading-text--english">artbook</span>
           <span class="heading-text heading-text--japanese">画集</span>
         </h2>
         <div class="home-titles__list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m" id="artbook-list">
           <div class="home-titles__item"></div>
         </div>
+      </div>
     </section>
 
     <script>
@@ -156,15 +173,17 @@
           monthlyContainer.innerHTML += monthlyContent;
 
           const favoritesContainer = document.getElementById("favorites-list");
-          const magazineContainer = document.getElementById("magazine-list");
-          const otherContainer = document.getElementById("other-list");
+          const yuriContainer = document.getElementById("yuri-list");
+          const collectionContainer = document.getElementById("collection-list");
+          const oneShotContainer = document.getElementById("one-shot-list");
           const artbookContainer = document.getElementById("artbook-list");
 
 
           // 清空现有内容
           favoritesContainer.innerHTML = '';
-          magazineContainer.innerHTML = '';
-          otherContainer.innerHTML = '';
+          yuriContainer.innerHTML = '';
+          collectionContainer.innerHTML = '';
+          oneShotContainer.innerHTML = '';
           artbookContainer.innerHTML = '';
     
           // 分类和显示数据
@@ -187,16 +206,16 @@
             if (item.type.includes("favorites")) {
               favoritesContainer.innerHTML += htmlContent;
             } else if (item.type.includes("yuri")) {
-              magazineContainer.innerHTML += htmlContent;
+              yuriContainer.innerHTML += htmlContent;
+            } else if (item.type.includes("one-shot")) {
+              oneShotContainer.innerHTML += htmlContent;
             } else if (item.type.includes("artbook")) {
               artbookContainer.innerHTML += htmlContent;
             } else {
-              otherContainer.innerHTML += htmlContent;
+              collectionContainer.innerHTML += htmlContent;
             }
           });
         });
-
-
     </script>
 
     <section class="home-enquete home-info__enquete">
@@ -220,6 +239,65 @@
 
   </main>
 
+  <!-- 右侧导航栏 -->
+  <nav class="sidebar-nav">
+    <ul>
+      <li><a href="#favorites" class="nav-link" data-short-text="気"><span>お気に入り</span></a></li>
+      <li><a href="#yuri" class="nav-link" data-short-text="百"><span>百合作品</span></a></li>
+      <li><a href="#collection" class="nav-link" data-short-text="収"><span>収録作品</span></a></li>
+      <li><a href="#one-shot" class="nav-link" data-short-text="切"><span>読み切り</span></a></li>
+      <li><a href="#artbook" class="nav-link" data-short-text="画"><span>画集</span></a></li>
+    </ul>
+  </nav>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const sections = document.querySelectorAll("section");
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      function activateLink() {
+        const windowHeight = window.innerHeight;
+        const windowCenter = window.scrollY + windowHeight / 2;
+
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+
+          if (windowCenter >= sectionTop && windowCenter < sectionTop + sectionHeight) {
+            navLinks.forEach(link => {
+              link.classList.remove("active");
+              if (link.getAttribute("href").substring(1) === section.id) {
+                link.classList.add("active");
+              }
+            });
+          }
+        });
+      }
+
+      function scrollToSection(event) {
+        event.preventDefault();
+        const targetId = event.currentTarget.getAttribute("href").substring(1);
+        const targetSection = document.getElementById(targetId);
+
+        window.scrollTo({
+          top: targetSection.offsetTop,
+          behavior: "smooth"
+        });
+
+        // 不需要移除其他链接的激活状态，滚动时会自动激活
+      }
+
+      navLinks.forEach(link => {
+        link.addEventListener("click", scrollToSection);
+      });
+
+      window.addEventListener("scroll", activateLink);
+
+      // 初次加载时也要调用一次以确保正确的链接被激活
+      activateLink();
+    });
+  </script>
+  
   <script src="./footer.js"></script>
 
   <script defer src="./theme/js/jquery.min.js"></script>
