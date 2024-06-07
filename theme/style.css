@@ -6492,7 +6492,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 
 .home-news .home-news__more {
     position: absolute;
-    right: 1rem;
+    right: 10px;
     bottom: -20px;
 }
   @media screen and (min-width: 897px) {
@@ -6506,7 +6506,8 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 /* 标题字设置 */
 .home-heading {
   position: relative;
-  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: left; /* 确保标题整体左对齐 */
 }
 
@@ -6579,15 +6580,11 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 
 .home-comics {
-  margin-bottom: 60px;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  margin-bottom: 100px;
 }
 
 .home-titles {
-  margin-bottom: 60px;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  margin-bottom: 100px;
   background-color: rgba(255, 255, 255, 0.4);
 }
 
@@ -6827,7 +6824,8 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
   @media screen and (max-width: 420px) {
   .title-intro .title-intro__back {
-        left: calc(50% - 20px);
+        /* left: calc(50% - 20px); */
+        right: 10px;
         bottom: -20px;
 }
 }
