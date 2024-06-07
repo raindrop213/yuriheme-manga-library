@@ -99,10 +99,15 @@ for folder in os.listdir(base_dir):
         continue
     with open(json_file_path, 'r', encoding='utf-8') as file:
         metadata = json.load(file)
+
     print(folder)
+    if metadata.get('lock', False):
+        # print(f"Skipping {folder} due to lock.")  # 如果lock为true，则跳过此文件夹
+        continue
 
     # 如果 'type' 字段不存在于 metadata 中，初始化为空列表
     metadata.setdefault('type', [])  # 这里使用 setdefault 方法确保不覆盖已有数据
+    metadata.setdefault('lock', False)  # 这里使用 setdefault 方法确保不覆盖已有数据
     
     # 从 bangumi API 提取信息
     subject_id = metadata.get('url', '').split('/')[-1]

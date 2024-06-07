@@ -11,6 +11,7 @@ def main(base_dir, output_file_name):
         "summary",
         "tags",
         "type",
+        "lock",
         "volumes"
     ]
 
