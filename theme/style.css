@@ -6921,18 +6921,22 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   writing-mode: vertical-rl; /* 使文字竖向显示 */
 }
 .sidebar-nav a:hover {
-  opacity: 0.5; /* 悬停时半透明 */
+  opacity: 0.6; /* 悬停时透明 */
 }
 .sidebar-nav a::before {
   content: attr(data-short-text); /* 使用data-short-text属性 */
   position: absolute;
+  transition: opacity 0.3s ease; /* 添加过渡效果 */
+  opacity: 1; /* 默认显示 */
 }
 .sidebar-nav a span {
   display: none;
   white-space: nowrap; /* 防止文字换行 */
+  opacity: 0; /* 默认隐藏 */
+  transition: opacity 0.3s ease; /* 添加过渡效果 */
 }
 .sidebar-nav a.active::before {
-  content: ""; /* 隐藏简短文字 */
+  opacity: 0; /* 隐藏简短文字 */
 }
 .sidebar-nav a.active {
   height: 100px; /* 高度自动 */
@@ -6942,5 +6946,5 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 .sidebar-nav a.active span {
   display: inline;
-  margin-left: 0; /* 重置 margin */
+  opacity: 1; /* 显示完整文字 */
 }
