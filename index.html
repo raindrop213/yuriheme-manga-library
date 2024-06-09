@@ -54,16 +54,16 @@
       <ul class="home-news__list">
 
         <li class="home-news__item">
-          <a href="https://www.raindrop213.info/" class="home-news__link" target="_blank">
-            <span class="home-news__date">Raindrop213</span>
-            <span class="home-news__title">個人ブログへようこそ</span>
+          <a href="https://github.com/raindrop213/yuriheme-manga-library/" class="home-news__link" target="_blank">
+            <span class="home-news__date">Yuri·Hime·Lib</span>
+            <span class="home-news__title">プロジェクトのリポジトリ</span>
           </a>
         </li>
 
         <li class="home-news__item">
           <a href="https://ebook.raindrop213.info/" class="home-news__link" target="_blank">
             <span class="home-news__date">Calibre-Web</span>
-            <span class="home-news__title">個人用EPUBサイトです</span>
+            <span class="home-news__title">個人用epubサイトです</span>
           </a>
         </li>
 
@@ -147,10 +147,9 @@
       fetch("./title/title_structure.json")
         .then(response => response.json())
         .then(data => {
-
           // 最新刊更新
           const monthlyContainer = document.getElementById("monthly-magazine");
-          const date = "2024年05月17日(金)発売"
+          const date = "2024年05月17日(金)発売";
           const monthlyPath = "./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年07月号";
           const monthlyhName = "コミック百合姫2024年07月号";
 
@@ -172,12 +171,12 @@
             </div>`;
           monthlyContainer.innerHTML += monthlyContent;
 
+          // main栏
           const favoritesContainer = document.getElementById("favorites-list");
           const yuriContainer = document.getElementById("yuri-list");
           const collectionContainer = document.getElementById("collection-list");
           const oneShotContainer = document.getElementById("one-shot-list");
           const artbookContainer = document.getElementById("artbook-list");
-
 
           // 清空现有内容
           favoritesContainer.innerHTML = '';
@@ -185,8 +184,9 @@
           collectionContainer.innerHTML = '';
           oneShotContainer.innerHTML = '';
           artbookContainer.innerHTML = '';
-    
+
           // 分类和显示数据
+          const artbookItems = [];
           data.forEach(item => {
             const path = encodeURIComponent(item.folderName);
             const htmlContent = `
@@ -210,12 +210,26 @@
             } else if (item.type.includes("one-shot")) {
               oneShotContainer.innerHTML += htmlContent;
             } else if (item.type.includes("artbook")) {
-              artbookContainer.innerHTML += htmlContent;
+              artbookItems.push({ htmlContent, folderName: item.folderName });
             } else {
               collectionContainer.innerHTML += htmlContent;
             }
           });
+    
+          // 对 artbookItems 进行排序
+          artbookItems.sort((a, b) => {
+            const order = ["(画集)", "(資料集)", "(図書)"];
+            const aIndex = order.findIndex(keyword => a.folderName.includes(keyword));
+            const bIndex = order.findIndex(keyword => b.folderName.includes(keyword));
+            return aIndex - bIndex;
+          });
+    
+          // 将排序后的内容添加到 artbookContainer
+          artbookItems.forEach(item => {
+            artbookContainer.innerHTML += item.htmlContent;
+          });
         });
+        
     </script>
 
     <section class="home-enquete home-info__enquete">
