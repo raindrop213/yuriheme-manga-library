@@ -10,7 +10,7 @@ let defaultState = {
     page_idx: 0,
     page2_idx: -1,
     hasCover: true,
-    r2l: true,
+    r2l: false,
     singlePageView: false,
     ctrlToPan: false,
     textBoxBorders: false,

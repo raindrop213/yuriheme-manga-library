@@ -5,11 +5,14 @@ title/*
 !title/index.html
 !title/panzoom.min.js
 !title/script.js
+!title/scriptL2R.js
+!title/scriptSinglePage.js
 !title/styles.css
 !title/title-list.js
 !title/volume-list.js
 !title/index-infoExample.html
 !title/metadata.json
+!title/title_structure.json
 
 node_modules
 venv
