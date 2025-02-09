@@ -23,13 +23,7 @@
   <link href="./theme/style.css?3" rel="stylesheet">
   
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDX9RHEN77"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-LDX9RHEN77');
-  </script>
+  <script src="./analytics.js"></script>
 </head>
 
 <body class="l-body-fit" data-menu-active="home">
@@ -157,9 +151,9 @@
         .then(data => {
           // 最新刊更新
           const monthlyContainer = document.getElementById("monthly-magazine");
-          const date = "2024年05月17日(金)発売";
-          const monthlyPath = "./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年07月号";
-          const monthlyhName = "コミック百合姫2024年07月号";
+          const date = "2025年01月18日(土)発売";
+          const monthlyPath = "./title/[一迅社] コミック百合姫 2025年/[一迅社] コミック百合姫 2025年03月号";
+          const monthlyhName = "コミック百合姫2025年03月号";
 
           const monthlyContent = `
             <a href="${monthlyPath}.html"
