@@ -22,7 +22,6 @@
   <!-- <link rel="stylesheet" type="text/css" href="./theme/css/jquery.fancybox.min.css"> -->
   <link href="./theme/style.css?3" rel="stylesheet">
   
-  <!-- Google tag (gtag.js) -->
   <script src="./analytics.js"></script>
 </head>
 
@@ -54,13 +53,6 @@
 
 
       <ul class="home-news__list">
-
-        <li class="home-news__item">
-          <a href="https://github.com/raindrop213/yuriheme-manga-library/" class="home-news__link" target="_blank">
-            <span class="home-news__date">Yuri·Hime·Lib</span>
-            <span class="home-news__title">プロジェクトのリポジトリ</span>
-          </a>
-        </li>
 
         <li class="home-news__item">
           <a href="https://ebook.raindrop213.com/" class="home-news__link" target="_blank">
@@ -149,30 +141,58 @@
       fetch("./title/title_structure.json")
         .then(response => response.json())
         .then(data => {
-          // 最新刊更新
+          // 初始化收藏列表（如果还没有的话）
+          if (!localStorage.getItem('favorites')) {
+            const defaultFavorites = [
+              "./title/[博] 明日ちゃんのセーラー服/",
+              "./title/[天野こずえ] ARIA The MASTERPIECE/",
+              "./title/[樫木祐人] ハクメイとミコチ/",
+              "./title/[石黒正数] 外天楼/",
+              "./title/[芦奈野ひとし] ヨコハマ買い出し紀行/"
+            ];
+            localStorage.setItem('favorites', JSON.stringify(defaultFavorites));
+          }
+
+          // 创建月刊内容的函数
+          function createMonthlyContent(path, title, date) {
+            return `
+              <a href="${path}"
+                class="home-magazine__link p-link_fade" target="_blank" rel="noopener noreferrer">
+                <img src="${path.replace('.html', '.jpg')}" alt="" class="u-sz_w_100">
+              </a>
+
+              <div class="home-magazine__text">
+                <h2 class="home-magazine__title">
+                  <strong>${title}</strong>
+                </h2>
+                <p class="home-magazine__date">${date}</p>
+
+                <a href="${path}"
+                  class="p-btn p-btn--primary p-btn--minw_200 u-sz_w_100-sp" target="_blank"
+                  rel="noopener noreferrer">Continue</a>
+              </div>`;
+          }
+
+          // 最新刊更新区域
           const monthlyContainer = document.getElementById("monthly-magazine");
-          const date = "2025年01月18日(土)発売";
-          const monthlyPath = "./title/[一迅社] コミック百合姫 2025年/[一迅社] コミック百合姫 2025年03月号";
-          const monthlyhName = "コミック百合姫2025年03月号";
+          
+          // 获取最后阅读记录
+          const lastReadPath = localStorage.getItem('lastReadPath');
+          const lastReadTime = localStorage.getItem('lastReadTime');
+          const lastReadTitle = localStorage.getItem('lastReadTitle');
+          
+          if (lastReadPath && lastReadTime && lastReadTitle) {
+            // 使用阅读记录
+            monthlyContainer.innerHTML = createMonthlyContent(lastReadPath, lastReadTitle, lastReadTime);
+          } else {
+            // 如果没有阅读记录，显示默认的最新刊
+            const date = "2024年05月17日(金)発売";
+            const monthlyPath = "./title/[一迅社] コミック百合姫 2024年/[一迅社] コミック百合姫 2024年07月号";
+            const monthlyhName = "コミック百合姫2024年07月号";
 
-          const monthlyContent = `
-            <a href="${monthlyPath}.html"
-              class="home-magazine__link p-link_fade" target="_blank" rel="noopener noreferrer">
-              <img src="${monthlyPath}.jpg" alt="" class="u-sz_w_100">
-            </a>
-
-            <div class="home-magazine__text">
-              <h2 class="home-magazine__title">
-                <strong>${monthlyhName}</strong>
-              </h2>
-              <p class="home-magazine__date">${date}</p>
-
-              <a href="${monthlyPath}.html"
-                class="p-btn p-btn--primary p-btn--minw_200 u-sz_w_100-sp" target="_blank"
-                rel="noopener noreferrer">Continue</a>
-            </div>`;
-          monthlyContainer.innerHTML += monthlyContent;
-
+            monthlyContainer.innerHTML = createMonthlyContent(monthlyPath + '.html', monthlyhName, date);
+          }
+          
           // main栏
           const favoritesContainer = document.getElementById("favorites-list");
           const yuriContainer = document.getElementById("yuri-list");
@@ -186,6 +206,9 @@
           collectionContainer.innerHTML = '';
           oneShotContainer.innerHTML = '';
           artbookContainer.innerHTML = '';
+
+          // 获取收藏列表
+          const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
 
           // 分类和显示数据
           const artbookItems = [];
@@ -204,10 +227,13 @@
               </div>
             `;
     
-            // 根据类型分配到对应的容器
-            if (item.type.includes("favorites")) {
+            // 检查是否在收藏列表中
+            const itemPath = `./title/${item.folderName}/`;
+            if (favorites.includes(itemPath)) {
               favoritesContainer.innerHTML += htmlContent;
-            } else if (item.type.includes("yuri")) {
+            } 
+            
+            if (item.type.includes("yuri")) {
               yuriContainer.innerHTML += htmlContent;
             } else if (item.type.includes("one-shot")) {
               oneShotContainer.innerHTML += htmlContent;

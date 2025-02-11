@@ -118,7 +118,29 @@ document.addEventListener('DOMContentLoaded', function () {
         pz.pause();
     }
 
+    recordReadingStatus()
+
 }, false);
+
+// 记录阅读状态
+function recordReadingStatus() {
+    const currentPath = window.location.pathname;
+    
+    // 格式化时间
+    const now = new Date();
+    const weekDayJP = ['日', '月', '火', '水', '木', '金', '土'][now.getDay()];
+    const formattedDate = `${now.getFullYear()}年${String(now.getMonth() + 1).padStart(2, '0')}月${String(now.getDate()).padStart(2, '0')}日(${weekDayJP}) ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+    
+    // 处理标题
+    const titleMatch = currentPath.match(/([^\/]+)\.html$/);
+    let title = titleMatch ? decodeURIComponent(titleMatch[1]) : "？？？";
+    title = title.replace(/\[[^\]]+\]\s*/g, ''); // 去掉方括号中的作者名
+    
+    // 存储处理好的数据
+    localStorage.setItem('lastReadPath', currentPath);
+    localStorage.setItem('lastReadTime', formattedDate);
+    localStorage.setItem('lastReadTitle', title);
+  }
 
 function disablePanzoomOnElement(element) {
     return document.getElementById('topMenu').contains(element);

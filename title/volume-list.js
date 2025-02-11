@@ -50,12 +50,45 @@ document.addEventListener("DOMContentLoaded", function() {
   };
 });
 
+// 从localStorage获取收藏列表
+function getFavorites() {
+  const favorites = localStorage.getItem('favorites');
+  return favorites ? JSON.parse(favorites) : [];  // 如果没有收藏列表就返回空数组
+}
+
+// 切换收藏状态
+function toggleFavorite(currentPath) {
+  let favorites = getFavorites();
+  const index = favorites.indexOf(currentPath);
+  
+  if (index === -1) {
+    favorites.push(currentPath);
+  } else {
+    favorites.splice(index, 1);
+  }
+  
+  localStorage.setItem('favorites', JSON.stringify(favorites));
+  updateFavoriteIcon(currentPath);
+}
+
+// 更新收藏图标状态
+function updateFavoriteIcon(currentPath) {
+  const favorites = getFavorites();
+  const isFavorite = favorites.includes(currentPath);
+  const favoriteIcon = document.getElementById('favoriteIcon');
+  
+  if (favoriteIcon) {
+    favoriteIcon.style.fill = isFavorite ? '#FFD700' : 'none';
+    favoriteIcon.style.stroke = isFavorite ? '#FFD700' : 'currentColor';
+  }
+}
 
 fetch("../title_structure.json")
   .then((response) => response.json())
   .then((data) => {
     // 获取当前页面的路径
     const path = window.location.pathname;
+    const currentPath = './title/' + decodeURIComponent(path.split("/").slice(-2, -1)[0]) + '/';
 
     // 提取并解码文件夹名称
     const folderName = decodeURIComponent(path.split("/").slice(-2, -1)[0]);
@@ -65,9 +98,22 @@ fetch("../title_structure.json")
       const mainContent = document.getElementById("main-content");
       const coverPath = './cover.jpg';
 
+      // 检查是否在收藏列表中
+      const favorites = getFavorites();
+      const isFavorite = favorites.includes(currentPath);
+
       let htmlContent = `
           <div class="l-content_n l-content_n-sp">
             <article class="title-intro">
+              <!-- 收藏按钮 -->
+              <div class="favorite-toggle">
+                <svg id="favoriteIcon" viewBox="0 0 24 24" 
+                     fill="${isFavorite ? '#FFD700' : 'none'}" 
+                     stroke="${isFavorite ? '#FFD700' : 'currentColor'}" 
+                     stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
               <div class="title-intro__layout_image image-hover-text">
                 <div class="title-intro__jk">
                   <a href="${titleData.url}" target="_blank">
@@ -113,6 +159,9 @@ fetch("../title_structure.json")
       });
       htmlContent += `</section></div>`;
       mainContent.innerHTML = htmlContent;
+
+      // 添加收藏按钮点击事件
+      document.querySelector('.favorite-toggle').addEventListener('click', () => toggleFavorite(currentPath));
     }
   })
   .catch((error) =>
