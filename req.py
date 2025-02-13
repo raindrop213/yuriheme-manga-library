@@ -61,7 +61,7 @@ def process_volumes(folder_path, metadata, overwrite=False):
             cover_image_path, page_count = process_volume_images(subfolder_path)
             if cover_image_path:
                 thumbnail_path = cover_image_path.rsplit('/', 1)[0] + '.jpg'
-                create_thumbnail(cover_image_path, thumbnail_path, width=270, overwrite=overwrite)
+                create_thumbnail(cover_image_path, thumbnail_path, width=340, overwrite=overwrite)
 
                 if not first_volume_found:  # 检查是否为第一卷
                     cover_path = os.path.join(folder_path, 'cover.jpg')

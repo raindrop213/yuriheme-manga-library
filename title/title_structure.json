@@ -153,8 +153,8 @@
     },
     {
         "url": "https://bgm.tv/subject/104805",
-        "folderName": "[(画集)Koi] ご注文はうさぎですか？画集",
-        "name": "ご注文はうさぎですか？画集",
+        "folderName": "[(画集)Koi] ご注文はうさぎですか 画集",
+        "name": "ご注文はうさぎですか 画集",
         "author": [
             "(画集)Koi"
         ],
@@ -169,30 +169,30 @@
             "ご注文はうさぎですか",
             "轻百合",
             "漫画",
-            "画集公式书",
-            "已购"
+            "已购",
+            "まんがタイムKRコミックス"
         ],
         "type": [
             "artbook"
         ],
-        "lock": true,
+        "lock": false,
         "volumes": [
             {
                 "volumeNumber": 1,
-                "volumeName": "ご注文はうさぎですか？画集 Cafe du Lapin",
-                "coverImagePath": "title/[(画集)Koi] ご注文はうさぎですか？画集/[(画集)Koi] ご注文はうさぎですか？画集 Cafe du Lapin/0000.jpg",
-                "pageCount": 116
-            },
-            {
-                "volumeNumber": 2,
-                "volumeName": "ご注文はうさぎですか？画集 Cafe du Soleil",
-                "coverImagePath": "title/[(画集)Koi] ご注文はうさぎですか？画集/[(画集)Koi] ご注文はうさぎですか？画集 Cafe du Soleil/0000.jpg",
+                "volumeName": "ご注文はうさぎですか 画集 Cafe de Etoile",
+                "coverImagePath": "title/[(画集)Koi] ご注文はうさぎですか 画集/[(画集)Koi] ご注文はうさぎですか 画集 Cafe de Etoile/0000.jpg",
                 "pageCount": 124
             },
             {
+                "volumeNumber": 2,
+                "volumeName": "ご注文はうさぎですか 画集 Cafe du Lapin",
+                "coverImagePath": "title/[(画集)Koi] ご注文はうさぎですか 画集/[(画集)Koi] ご注文はうさぎですか 画集 Cafe du Lapin/0000.jpg",
+                "pageCount": 116
+            },
+            {
                 "volumeNumber": 3,
-                "volumeName": "ご注文はうさぎですか？画集 Cafe de Etoile",
-                "coverImagePath": "title/[(画集)Koi] ご注文はうさぎですか？画集/[(画集)Koi] ご注文はうさぎですか？画集 Cafe de Etoile/0000.jpg",
+                "volumeName": "ご注文はうさぎですか 画集 Cafe du Soleil",
+                "coverImagePath": "title/[(画集)Koi] ご注文はうさぎですか 画集/[(画集)Koi] ご注文はうさぎですか 画集 Cafe du Soleil/0000.jpg",
                 "pageCount": 124
             }
         ]
