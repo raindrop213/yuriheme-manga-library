@@ -672,6 +672,40 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/207157",
+        "folderName": "[(画集)八宝備仁] 八宝備仁画集 紅蝶(ほてり)",
+        "name": "八宝備仁画集 紅蝶(ほてり)",
+        "author": [
+            "(画集)八宝備仁"
+        ],
+        "date": "2017-02-10",
+        "summary": "八宝備仁10年ぶりのオリジナル画集！\r\n人気イラストレーターの10年間の進化がここにある！オリジナルイラスト&コミックを中心に収録！ \r\n\r\n八宝備仁の魅力を多角度から楽しめる！",
+        "tags": [
+            "画集",
+            "八宝備仁",
+            "R18",
+            "2017",
+            "2017年",
+            "漫画",
+            "成年コミック",
+            "画集或公式类书",
+            "美少女万华镜",
+            "八宝备仁"
+        ],
+        "type": [
+            "artbook"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "八宝備仁画集 紅蝶(ほてり)",
+                "coverImagePath": "title/[(画集)八宝備仁] 八宝備仁画集 紅蝶(ほてり)/[(画集)八宝備仁] 八宝備仁画集 紅蝶(ほてり)/0000.jpg",
+                "pageCount": 137
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/361419",
         "folderName": "[(画集)博] 博イラスト集～明日ちゃんまでの足跡～",
         "name": "博イラスト集～明日ちゃんまでの足跡～",
@@ -11265,12 +11299,6 @@
         "volumes": [
             {
                 "volumeNumber": 1,
-                "volumeName": "蟲師 特別篇 日蝕む翳",
-                "coverImagePath": "title/[漆原友紀] 蟲師/[漆原友紀] 蟲師 特別篇 日蝕む翳/0000.jpg",
-                "pageCount": 111
-            },
-            {
-                "volumeNumber": 1,
                 "volumeName": "蟲師",
                 "coverImagePath": "title/[漆原友紀] 蟲師/[漆原友紀] 蟲師 第01巻/0000.jpg",
                 "pageCount": 235
@@ -11328,6 +11356,12 @@
                 "volumeName": "蟲師",
                 "coverImagePath": "title/[漆原友紀] 蟲師/[漆原友紀] 蟲師 第10巻/0000.jpg",
                 "pageCount": 256
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "蟲師 特別篇 日蝕む翳",
+                "coverImagePath": "title/[漆原友紀] 蟲師/[漆原友紀] 蟲師 特別篇 日蝕む翳/0000.jpg",
+                "pageCount": 111
             }
         ]
     },

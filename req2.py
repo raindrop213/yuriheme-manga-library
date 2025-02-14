@@ -29,8 +29,8 @@ def main(base_dir, output_file_name):
             metadata = {field: metadata.get(field, None) for field in field_order}
 
             # 直接覆盖原文件
-            with open(json_file_path, 'w', encoding='utf-8') as f:
-                json.dump(metadata, f, ensure_ascii=False, indent=4)
+            # with open(json_file_path, 'w', encoding='utf-8') as f:
+            #     json.dump(metadata, f, ensure_ascii=False, indent=4)
 
             all_metadata.append(metadata)
 

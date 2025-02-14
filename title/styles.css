@@ -178,7 +178,7 @@ body {
 }
 
 #topMenu input {
-    height: 1.1em;
+    height: 1.5em;
     margin: 0 3px;
 }
 
@@ -520,3 +520,34 @@ input[type=number] {
     bottom: 0;
     right: 0;
 }
+
+#backButton {
+    position: fixed;
+    cursor: pointer;
+    top: 5px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 8px 0px var(--color3a);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.1s ease-out;
+}
+#backButton:hover {
+    opacity: 0.8;
+}
+#backButton.hidden {
+    opacity: 0;
+}
+#backButton.hidden:hover {
+    opacity: 0.8;
+}
+

@@ -4,6 +4,15 @@ let r = document.querySelector(':root');
 let pz;
 let showAboutOnStart = false;
 
+// 添加返回按钮
+let backButton = document.createElement('button');
+backButton.id = 'backButton';
+backButton.innerHTML = '×';
+document.body.appendChild(backButton);
+backButton.addEventListener('click', function() {
+    window.history.back();
+});
+
 let storageKey = "mokuro_" + window.location.pathname;
 
 let defaultState = {
@@ -353,15 +362,15 @@ document.getElementById('pageIdxInput').addEventListener('change', (e) => {
 })
 
 document.getElementById('buttonHideMenu').addEventListener('click', function () {
-    // document.getElementById('topMenu').style.display = "none";
     document.getElementById('showMenuA').style.display = "inline-block";
     document.getElementById('topMenu').classList.add("hidden");
+    document.getElementById('backButton').classList.add("hidden");
 }, false);
 
 document.getElementById('showMenuA').addEventListener('click', function () {
-    // document.getElementById('topMenu').style.display = "initial";
     document.getElementById('showMenuA').style.display = "none";
     document.getElementById('topMenu').classList.remove("hidden");
+    document.getElementById('backButton').classList.remove("hidden");
 }, false);
 
 document.getElementById('buttonLeftLeft').addEventListener('click', inputLeftLeft, false);
