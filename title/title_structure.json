@@ -2753,6 +2753,12 @@
                 "volumeName": "恋文と１３歳の女優",
                 "coverImagePath": "title/[じゃが] 恋文と１３歳の女優/[じゃが] 恋文と１３歳の女優 第04巻/00001.avif",
                 "pageCount": 220
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "恋文と１３歳の女優",
+                "coverImagePath": "title/[じゃが] 恋文と１３歳の女優/[じゃが] 恋文と１３歳の女優 第05巻/0001.jpg",
+                "pageCount": 215
             }
         ]
     },
@@ -11295,7 +11301,7 @@
             "灵气"
         ],
         "type": [],
-        "lock": false,
+        "lock": true,
         "volumes": [
             {
                 "volumeNumber": 1,
@@ -11358,7 +11364,7 @@
                 "pageCount": 256
             },
             {
-                "volumeNumber": 11,
+                "volumeNumber": 10,
                 "volumeName": "蟲師 特別篇 日蝕む翳",
                 "coverImagePath": "title/[漆原友紀] 蟲師/[漆原友紀] 蟲師 特別篇 日蝕む翳/0000.jpg",
                 "pageCount": 111

@@ -124,3 +124,4 @@ for folder in os.listdir(base_dir):
     with open(json_file_path, 'w', encoding='utf-8') as f:
         json.dump(metadata, f, ensure_ascii=False, indent=4)
 
+# py310/python.exe req.py

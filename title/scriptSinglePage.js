@@ -10,7 +10,11 @@ backButton.id = 'backButton';
 backButton.innerHTML = '×';
 document.body.appendChild(backButton);
 backButton.addEventListener('click', function() {
-    window.history.back();
+    if (window.history.length > 1) {
+        window.history.back();
+    } else {
+        window.location.href = './'; // 跳转到上一层级
+    }
 });
 
 let storageKey = "mokuro_" + window.location.pathname;

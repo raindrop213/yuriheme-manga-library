@@ -42,3 +42,5 @@ if __name__ == "__main__":
     base_dir = "title/"  # 修改为您存放 JSON 文件的实际目录
     output_file_name = 'title_structure.json'  # 输出文件名称
     main(base_dir, output_file_name)
+
+# py310/python.exe req2.py
