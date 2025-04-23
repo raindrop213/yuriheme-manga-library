@@ -4,6 +4,7 @@ import requests
 import re
 from PIL import Image
 import pillow_avif # 处理avif用，不可以删除  pip install pillow-avif-plugin
+import copy
 
 base_dir = "title/"
 all_metadata = []
@@ -99,8 +100,9 @@ for folder in os.listdir(base_dir):
         continue
     with open(json_file_path, 'r', encoding='utf-8') as file:
         metadata = json.load(file)
+        original_metadata = copy.deepcopy(metadata)  # 保存原始metadata的副本用于比较
 
-    print(folder)
+    # print(folder)
     if metadata.get('lock', False):
         # print(f"Skipping {folder} due to lock.")  # 如果lock为true，则跳过此文件夹
         continue
@@ -119,9 +121,15 @@ for folder in os.listdir(base_dir):
     metadata['folderName'] = folder
     metadata['name'] = name
     metadata['author'] = authors
-    process_volumes(folder_path, metadata, overwrite=False)
+    process_volumes(folder_path, metadata, overwrite=False) # 确保不覆盖原图
 
-    with open(json_file_path, 'w', encoding='utf-8') as f:
-        json.dump(metadata, f, ensure_ascii=False, indent=4)
+    # 比较修改后的metadata与原始metadata是否相同
+    if json.dumps(metadata, ensure_ascii=False, sort_keys=True) == json.dumps(original_metadata, ensure_ascii=False, sort_keys=True):
+        print(f"跳过 {folder} 的metadata.json - 内容未变更")
+        continue
+    else:
+        with open(json_file_path, 'w', encoding='utf-8') as f:
+            json.dump(metadata, f, ensure_ascii=False, indent=4)
+        print(f"已更新 {folder} 的metadata.json")
 
 # py310/python.exe req.py
