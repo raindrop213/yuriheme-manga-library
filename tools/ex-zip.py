@@ -39,12 +39,12 @@ def extract_images_from_epub(epub_path, output_dir):
 def extract_images_from_directory(directory_path, output_dir):
     # 遍历目录中的所有文件
     for filename in os.listdir(directory_path):
-        if filename.endswith('.cbz'):
+        if filename.endswith('.epub'):
             epub_path = os.path.join(directory_path, filename)
             extract_images_from_epub(epub_path, output_dir)
 
 # 使用示例
-name = "F:\qBit\manga\Ikki Tousen v01-08 {3-in-1 Edition} (2016) (Digital SD) (KG Manga)"
+name = "F:\ebook\[ばったん] そしてヒロインはいなくなった"
 directory_path = name  # EPUB 文件所在的目录
 output_dir = name + "2"    # 图片输出目录
 extract_images_from_directory(directory_path, output_dir)

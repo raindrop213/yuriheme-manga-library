@@ -101,7 +101,19 @@
       </div>
     </section>
 
-    <section class="home-comics l-content_full l-content_full-sp" id="collection">
+    <section class="home-comics l-content_full l-content_full-sp" id="anthology">
+      <div class="l-section_l l-section_n-sp">
+        <h2 class="home-heading home-heading--center home-heading--circle">
+          <span class="heading-text heading-text--english">anthology</span>
+          <span class="heading-text heading-text--japanese">百合アンソロジー</span>
+        </h2>
+        <div class="home-titles__list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m" id="anthology-list">
+          <div class="home-titles__item"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-titles l-content_full l-content_full-sp" id="collection">
       <div class="l-section_l l-section_n-sp">
         <h2 class="home-heading home-heading--center home-heading--circle">
           <span class="heading-text heading-text--english">collection</span>
@@ -113,7 +125,7 @@
       </div>
     </section>
 
-    <section class="home-titles l-content_full l-content_full-sp" id="one-shot">
+    <section class="home-comics l-content_full l-content_full-sp" id="one-shot">
       <div class="l-section_l l-section_n-sp">
         <h2 class="home-heading home-heading--center home-heading--circle">
           <span class="heading-text heading-text--english">one-shot</span>
@@ -125,7 +137,7 @@
       </div>
     </section>
 
-    <section class="home-comics l-content_full l-content_full-sp" id="artbook">
+    <section class="home-titles l-content_full l-content_full-sp" id="artbook">
       <div class="l-section_l l-section_n-sp">
         <h2 class="home-heading home-heading--center home-heading--circle">
           <span class="heading-text heading-text--english">artbook</span>
@@ -157,7 +169,7 @@
           function createMonthlyContent(path, title, date) {
             return `
               <a href="${path}"
-                class="home-magazine__link p-link_fade" target="_blank" rel="noopener noreferrer">
+                class="home-magazine__link p-link_fade" rel="noopener noreferrer">
                 <img src="${path.replace('.html', '.jpg')}" alt="" class="u-sz_w_100">
               </a>
 
@@ -196,6 +208,7 @@
           // main栏
           const favoritesContainer = document.getElementById("favorites-list");
           const yuriContainer = document.getElementById("yuri-list");
+          const anthologyContainer = document.getElementById("anthology-list");
           const collectionContainer = document.getElementById("collection-list");
           const oneShotContainer = document.getElementById("one-shot-list");
           const artbookContainer = document.getElementById("artbook-list");
@@ -203,6 +216,7 @@
           // 清空现有内容
           favoritesContainer.innerHTML = '';
           yuriContainer.innerHTML = '';
+          anthologyContainer.innerHTML = '';
           collectionContainer.innerHTML = '';
           oneShotContainer.innerHTML = '';
           artbookContainer.innerHTML = '';
@@ -235,6 +249,8 @@
             
             if (item.type.includes("yuri")) {
               yuriContainer.innerHTML += htmlContent;
+            } else if (item.type.includes("anthology")) {
+              anthologyContainer.innerHTML += htmlContent;
             } else if (item.type.includes("one-shot")) {
               oneShotContainer.innerHTML += htmlContent;
             } else if (item.type.includes("artbook")) {
@@ -286,6 +302,7 @@
     <ul>
       <li><a href="#favorites" class="nav-link" data-short-text="気"><span>お気に入り</span></a></li>
       <li><a href="#yuri" class="nav-link" data-short-text="百"><span>百合作品</span></a></li>
+      <li><a href="#anthology" class="nav-link" data-short-text="合"><span>アンソロジー</span></a></li>
       <li><a href="#collection" class="nav-link" data-short-text="収"><span>収録作品</span></a></li>
       <li><a href="#one-shot" class="nav-link" data-short-text="切"><span>読み切り</span></a></li>
       <li><a href="#artbook" class="nav-link" data-short-text="画"><span>画集</span></a></li>
