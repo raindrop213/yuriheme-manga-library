@@ -4080,12 +4080,12 @@
             "アンソロジー"
         ],
         "date": "2018-06-25",
-        "summary": "",
+        "summary": "百合専門レーベル girls×gardenより、初のアンソロジーコミックが登場 !一般誌・成年誌の垣根を越え集まった気鋭の作家陣が描く。",
         "tags": [],
         "type": [
             "anthology"
         ],
-        "lock": false,
+        "lock": true,
         "volumes": [
             {
                 "volumeNumber": 1,
@@ -4095,21 +4095,21 @@
             },
             {
                 "volumeNumber": 2,
-                "volumeName": "Avalon Alter ~karma~",
-                "coverImagePath": "title/[アンソロジー] Avalon/[アンソロジー] Avalon Alter ~karma~/0000.jpg",
-                "pageCount": 304
-            },
-            {
-                "volumeNumber": 3,
                 "volumeName": "Avalon ~bitter~",
                 "coverImagePath": "title/[アンソロジー] Avalon/[アンソロジー] Avalon ~bitter~/0000.jpg",
                 "pageCount": 251
             },
             {
-                "volumeNumber": 4,
+                "volumeNumber": 3,
                 "volumeName": "Avalon ~bloom~",
                 "coverImagePath": "title/[アンソロジー] Avalon/[アンソロジー] Avalon ~bloom~/0000.jpg",
                 "pageCount": 288
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "Avalon Alter ~karma~",
+                "coverImagePath": "title/[アンソロジー] Avalon/[アンソロジー] Avalon Alter ~karma~/0000.jpg",
+                "pageCount": 304
             }
         ]
     },
@@ -4414,37 +4414,37 @@
         "type": [
             "anthology"
         ],
-        "lock": false,
+        "lock": true,
         "volumes": [
             {
                 "volumeNumber": 1,
-                "volumeName": "アップルパルフェ おねロリ百合アンソロジー",
-                "coverImagePath": "title/[アンソロジー] おねロリ百合アンソロジー/[アンソロジー] アップルパルフェ おねロリ百合アンソロジー/0000.jpg",
-                "pageCount": 184
-            },
-            {
-                "volumeNumber": 2,
-                "volumeName": "ストロベリーパルフェ おねロリ百合アンソロジー",
-                "coverImagePath": "title/[アンソロジー] おねロリ百合アンソロジー/[アンソロジー] ストロベリーパルフェ おねロリ百合アンソロジー/0000.jpg",
-                "pageCount": 185
-            },
-            {
-                "volumeNumber": 3,
                 "volumeName": "パルフェ おねロリ百合アンソロジー",
                 "coverImagePath": "title/[アンソロジー] おねロリ百合アンソロジー/[アンソロジー] パルフェ おねロリ百合アンソロジー/0000.jpg",
                 "pageCount": 152
             },
             {
-                "volumeNumber": 4,
+                "volumeNumber": 2,
                 "volumeName": "パルフェ2 おねロリ百合アンソロジー",
                 "coverImagePath": "title/[アンソロジー] おねロリ百合アンソロジー/[アンソロジー] パルフェ2 おねロリ百合アンソロジー/0000.jpg",
                 "pageCount": 176
             },
             {
-                "volumeNumber": 5,
+                "volumeNumber": 3,
                 "volumeName": "パルフェ3 おねロリ百合アンソロジー",
                 "coverImagePath": "title/[アンソロジー] おねロリ百合アンソロジー/[アンソロジー] パルフェ3 おねロリ百合アンソロジー/0000.jpg",
                 "pageCount": 185
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "ストロベリーパルフェ おねロリ百合アンソロジー",
+                "coverImagePath": "title/[アンソロジー] おねロリ百合アンソロジー/[アンソロジー] ストロベリーパルフェ おねロリ百合アンソロジー/0000.jpg",
+                "pageCount": 185
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "アップルパルフェ おねロリ百合アンソロジー",
+                "coverImagePath": "title/[アンソロジー] おねロリ百合アンソロジー/[アンソロジー] アップルパルフェ おねロリ百合アンソロジー/0000.jpg",
+                "pageCount": 184
             }
         ]
     },
@@ -4586,25 +4586,25 @@
         "type": [
             "anthology"
         ],
-        "lock": false,
+        "lock": true,
         "volumes": [
             {
                 "volumeNumber": 1,
+                "volumeName": "エクレア あなたに響く百合アンソロジー",
+                "coverImagePath": "title/[アンソロジー] エクレア/[アンソロジー] エクレア あなたに響く百合アンソロジー/0000.jpg",
+                "pageCount": 282
+            },
+            {
+                "volumeNumber": 2,
                 "volumeName": "エクレア blanche　あなたに響く百合アンソロジー",
                 "coverImagePath": "title/[アンソロジー] エクレア/[アンソロジー] エクレア blanche　あなたに響く百合アンソロジー/0000.jpg",
                 "pageCount": 298
             },
             {
-                "volumeNumber": 2,
+                "volumeNumber": 3,
                 "volumeName": "エクレア bleue　あなたに響く百合アンソロジー",
                 "coverImagePath": "title/[アンソロジー] エクレア/[アンソロジー] エクレア bleue　あなたに響く百合アンソロジー/0000.jpg",
                 "pageCount": 298
-            },
-            {
-                "volumeNumber": 3,
-                "volumeName": "エクレア orange　あなたに響く百合アンソロジー",
-                "coverImagePath": "title/[アンソロジー] エクレア/[アンソロジー] エクレア orange　あなたに響く百合アンソロジー/0000.jpg",
-                "pageCount": 315
             },
             {
                 "volumeNumber": 4,
@@ -4614,9 +4614,9 @@
             },
             {
                 "volumeNumber": 5,
-                "volumeName": "エクレア あなたに響く百合アンソロジー",
-                "coverImagePath": "title/[アンソロジー] エクレア/[アンソロジー] エクレア あなたに響く百合アンソロジー/0000.jpg",
-                "pageCount": 282
+                "volumeName": "エクレア orange　あなたに響く百合アンソロジー",
+                "coverImagePath": "title/[アンソロジー] エクレア/[アンソロジー] エクレア orange　あなたに響く百合アンソロジー/0000.jpg",
+                "pageCount": 315
             }
         ]
     },
@@ -4812,37 +4812,37 @@
         "type": [
             "anthology"
         ],
-        "lock": false,
+        "lock": true,
         "volumes": [
             {
                 "volumeNumber": 1,
-                "volumeName": "シロップ HONEY 初夜百合アンソロジー",
-                "coverImagePath": "title/[アンソロジー] シロップ/シロップ HONEY 初夜百合アンソロジー/0000.webp",
-                "pageCount": 167
-            },
-            {
-                "volumeNumber": 2,
-                "volumeName": "シロップ NIGHT 初夜百合アンソロジー",
-                "coverImagePath": "title/[アンソロジー] シロップ/シロップ NIGHT 初夜百合アンソロジー/0000.webp",
+                "volumeName": "シロップ 社会人百合アンソロジー",
+                "coverImagePath": "title/[アンソロジー] シロップ/シロップ 社会人百合アンソロジー/0000.webp",
                 "pageCount": 161
             },
             {
-                "volumeNumber": 3,
-                "volumeName": "シロップ PURE おねロリ百合アンソロジー",
-                "coverImagePath": "title/[アンソロジー] シロップ/シロップ PURE おねロリ百合アンソロジー/0000.webp",
-                "pageCount": 167
-            },
-            {
-                "volumeNumber": 4,
+                "volumeNumber": 2,
                 "volumeName": "シロップ secret 禁断×百合アンソロジー",
                 "coverImagePath": "title/[アンソロジー] シロップ/シロップ secret 禁断×百合アンソロジー/0000.webp",
                 "pageCount": 161
             },
             {
-                "volumeNumber": 5,
-                "volumeName": "シロップ 社会人百合アンソロジー",
-                "coverImagePath": "title/[アンソロジー] シロップ/シロップ 社会人百合アンソロジー/0000.webp",
+                "volumeNumber": 3,
+                "volumeName": "シロップ NIGHT 初夜百合アンソロジー",
+                "coverImagePath": "title/[アンソロジー] シロップ/シロップ NIGHT 初夜百合アンソロジー/0000.webp",
                 "pageCount": 161
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "シロップ HONEY 初夜百合アンソロジー",
+                "coverImagePath": "title/[アンソロジー] シロップ/シロップ HONEY 初夜百合アンソロジー/0000.webp",
+                "pageCount": 167
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "シロップ PURE おねロリ百合アンソロジー",
+                "coverImagePath": "title/[アンソロジー] シロップ/シロップ PURE おねロリ百合アンソロジー/0000.webp",
+                "pageCount": 167
             }
         ]
     },
@@ -5242,35 +5242,6 @@
         ]
     },
     {
-        "url": "https://bgm.tv/subject/373184",
-        "folderName": "[アンソロジー] 強制発情百合アンソロジー",
-        "name": "強制発情百合アンソロジー",
-        "author": [
-            "アンソロジー"
-        ],
-        "date": null,
-        "summary": null,
-        "tags": null,
-        "type": [
-            "anthology"
-        ],
-        "lock": false,
-        "volumes": [
-            {
-                "volumeNumber": 1,
-                "volumeName": "強制発情百合アンソロジー",
-                "coverImagePath": "title/[アンソロジー] 強制発情百合アンソロジー/[アンソロジー] 強制発情百合アンソロジー 第01巻/001.jpg",
-                "pageCount": 100
-            },
-            {
-                "volumeNumber": 2,
-                "volumeName": "強制発情百合アンソロジー",
-                "coverImagePath": "title/[アンソロジー] 強制発情百合アンソロジー/[アンソロジー] 強制発情百合アンソロジー 第02巻/01.jpg",
-                "pageCount": 82
-            }
-        ]
-    },
-    {
         "url": "https://bgm.tv/subject/287734",
         "folderName": "[アンソロジー] 教師×生徒の百合アンソロジーコミック",
         "name": "教師×生徒の百合アンソロジーコミック",
@@ -5446,7 +5417,7 @@
         "type": [
             "anthology"
         ],
-        "lock": false,
+        "lock": true,
         "volumes": [
             {
                 "volumeNumber": 1,
@@ -5456,15 +5427,15 @@
             },
             {
                 "volumeNumber": 2,
-                "volumeName": "百合ドリル 応用編",
-                "coverImagePath": "title/[アンソロジー] 百合ドリル/[アンソロジー] 百合ドリル 応用編/0000.jpg",
-                "pageCount": 217
+                "volumeName": "百合ドリル 難問編",
+                "coverImagePath": "title/[アンソロジー] 百合ドリル/[アンソロジー] 百合ドリル 難問編/0000.jpg",
+                "pageCount": 135
             },
             {
                 "volumeNumber": 3,
-                "volumeName": "百合ドリル 沼編",
-                "coverImagePath": "title/[アンソロジー] 百合ドリル/[アンソロジー] 百合ドリル 沼編/0000.jpg",
-                "pageCount": 133
+                "volumeName": "百合ドリル 応用編",
+                "coverImagePath": "title/[アンソロジー] 百合ドリル/[アンソロジー] 百合ドリル 応用編/0000.jpg",
+                "pageCount": 217
             },
             {
                 "volumeNumber": 4,
@@ -5474,9 +5445,9 @@
             },
             {
                 "volumeNumber": 5,
-                "volumeName": "百合ドリル 難問編",
-                "coverImagePath": "title/[アンソロジー] 百合ドリル/[アンソロジー] 百合ドリル 難問編/0000.jpg",
-                "pageCount": 135
+                "volumeName": "百合ドリル 沼編",
+                "coverImagePath": "title/[アンソロジー] 百合ドリル/[アンソロジー] 百合ドリル 沼編/0000.jpg",
+                "pageCount": 133
             }
         ]
     },
@@ -5643,37 +5614,37 @@
         "type": [
             "anthology"
         ],
-        "lock": false,
+        "lock": true,
         "volumes": [
             {
                 "volumeNumber": 1,
-                "volumeName": "White Lilies in Love 私が酔いしれるのは、夏の陽射しと貴方だけ。",
-                "coverImagePath": "title/[アンソロジー] 社会人百合アンソロジー/[アンソロジー] White Lilies in Love 私が酔いしれるのは、夏の陽射しと貴方だけ。/0000.jpg",
-                "pageCount": 265
-            },
-            {
-                "volumeNumber": 2,
-                "volumeName": "White Lilies in Love 花香るとき、貴方は。",
-                "coverImagePath": "title/[アンソロジー] 社会人百合アンソロジー/[アンソロジー] White Lilies in Love 花香るとき、貴方は。/0000.jpg",
+                "volumeName": "あの娘と目が合うたび私は",
+                "coverImagePath": "title/[アンソロジー] 社会人百合アンソロジー/[アンソロジー] あの娘と目が合うたび私は/0000.jpg",
                 "pageCount": 201
             },
             {
-                "volumeNumber": 3,
-                "volumeName": "White Lilies in Love 茜さす恋心を、紅く染めてほしいの貴方に。",
-                "coverImagePath": "title/[アンソロジー] 社会人百合アンソロジー/[アンソロジー] White Lilies in Love 茜さす恋心を、紅く染めてほしいの貴方に。/0000.jpg",
-                "pageCount": 263
-            },
-            {
-                "volumeNumber": 4,
+                "volumeNumber": 2,
                 "volumeName": "あなたの側にいると私は",
                 "coverImagePath": "title/[アンソロジー] 社会人百合アンソロジー/[アンソロジー] あなたの側にいると私は/0000.jpg",
                 "pageCount": 281
             },
             {
-                "volumeNumber": 5,
-                "volumeName": "あの娘と目が合うたび私は",
-                "coverImagePath": "title/[アンソロジー] 社会人百合アンソロジー/[アンソロジー] あの娘と目が合うたび私は/0000.jpg",
+                "volumeNumber": 3,
+                "volumeName": "White Lilies in Love 花香るとき、貴方は。",
+                "coverImagePath": "title/[アンソロジー] 社会人百合アンソロジー/[アンソロジー] White Lilies in Love 花香るとき、貴方は。/0000.jpg",
                 "pageCount": 201
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "White Lilies in Love 私が酔いしれるのは、夏の陽射しと貴方だけ。",
+                "coverImagePath": "title/[アンソロジー] 社会人百合アンソロジー/[アンソロジー] White Lilies in Love 私が酔いしれるのは、夏の陽射しと貴方だけ。/0000.jpg",
+                "pageCount": 265
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "White Lilies in Love 茜さす恋心を、紅く染めてほしいの貴方に。",
+                "coverImagePath": "title/[アンソロジー] 社会人百合アンソロジー/[アンソロジー] White Lilies in Love 茜さす恋心を、紅く染めてほしいの貴方に。/0000.jpg",
+                "pageCount": 263
             }
         ]
     },
