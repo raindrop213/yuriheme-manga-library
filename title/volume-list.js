@@ -143,8 +143,8 @@ fetch("../title_structure.json")
       
         htmlContent += `
             <div class="title-comics__item">
-              <section class="c-cardbox">
-                <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover p-link_fade u-mg_b_n"
+              <div class="c-cardbox">
+                <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-link_fade p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n"
                   style="background-image:url('./${thumbnailPath}')" onclick="showModal('./${imagePath}')"></span>
                 <span class="c-cardbox__text">
                 <span class="c-cardbox__title">${volume.volumeName} [${volume.volumeNumber}]</span>
@@ -153,7 +153,7 @@ fetch("../title_structure.json")
                   <a href="./${volumeName}.html" class="p-btn p-btn--primary u-sz_w_100">Read</a>
                   </span>
                 </span>
-              </section>
+              </div>
             </div>
           `;
       });

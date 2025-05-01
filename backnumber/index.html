@@ -51,12 +51,12 @@
                 const path = imagePath.split('/').slice(0, -1).join('/');
                 // 将每个项作为字符串添加到数组中
                 items.push(`<div class="home-comics__item">
-                    <a href="../${path}.html" class="c-cardbox p-link_fade">
-                      <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n" style="background-image:url('../${path}.jpg')"></span>
+                    <div class="c-cardbox">
+                      <a href="../${path}.html" class="c-cardbox__thumb c-cardbox__thumb--shadow p-link_fade p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n" style="background-image:url('../${path}.jpg')"></a>
                       <span class="c-cardbox__text">
-                        <span class="c-cardbox__title">${volume.volumeName}</span>
+                        <span class="c-cardbox__title">${volume.volumeName.replace('コミック', '')}</span>
                       </span>
-                    </a>
+                    </div>
                   </div>
                 `);
               });

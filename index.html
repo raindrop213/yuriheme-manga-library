@@ -230,14 +230,14 @@
             const path = encodeURIComponent(item.folderName);
             const htmlContent = `
               <div class="home-titles__item">
-                <a href="./title/${path}/" class="c-cardbox p-link_fade">
-                  <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n"
-                    style="background-image:url('./title/${path}/cover.jpg')"></span>
+                <div class="c-cardbox">
+                  <a href="./title/${path}/" class="c-cardbox__thumb c-cardbox__thumb--shadow p-link_fade p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n"
+                    style="background-image:url('./title/${path}/cover.jpg')"></a>
                   <span class="c-cardbox__text">
                     <span class="c-cardbox__title">${item.name}</span>
                     <span class="c-cardbox__meta">${item.author.join('×')}</span>
                   </span>
-                </a>
+                </div>
               </div>
             `;
     

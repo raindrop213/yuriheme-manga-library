@@ -570,9 +570,50 @@ label {
   will-change: opacity;
 }
 .p-link_fade:hover {
-    opacity: 0.6;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-out;
+}
+
+/* .c-cardbox__fade {
+  will-change: opacity;
+  position: relative;
+}
+.c-cardbox__fade:hover {
+    transition: all 0.3s ease;
+}
+.c-cardbox__fade::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mask-image: url('./img/book.svg');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    background: radial-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.9));
+    opacity: 0;
     transition: opacity 0.3s ease;
 }
+.c-cardbox__fade:hover::before {
+    opacity: 1;
+}
+.c-cardbox__fade::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(#8d56da, #da56c3);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+.c-cardbox__fade:hover::after {
+    opacity: 1;
+} */
 
 .p-link_scale-11 {
   display: inline-block;
@@ -2569,7 +2610,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 }
 
 /*
-ç”»åƒã‚’èƒŒæ™¯ã«ã—ã„ãŸã‚‚ã®
+ç”»åƒã‚'èƒŒæ™¯ã«ã—ã„ãŸã‚‚ã®
 */
 .p-bgimg {
   background-position: center;
@@ -3097,15 +3138,6 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   cursor: pointer;
 }
 
-
-/* 鼠标悬停时图片放大效果 */
-.c-cardbox__thumb {
-  transition: transform 0.2s ease; /* 添加这行代码 */
-}
-
-.c-cardbox__thumb:hover {
-  transform: scale(1.03); /* 轻微放大 */
-}
 
 .image-hover-text {
   position: relative;
@@ -3922,7 +3954,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   justify-content: center;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 20px;
   background-image: linear-gradient(#8d56da, #da56c3);
   transition: all 0.3s ease;
   overflow: hidden;
@@ -3939,7 +3971,7 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
   opacity: 1; /* 默认显示 */
 }
 .sidebar-nav a span {
-  display: none;
+  display: block;
   white-space: nowrap; /* 防止文字换行 */
   opacity: 0; /* 默认隐藏 */
   transition: opacity 0.3s ease; /* 添加过渡效果 */
@@ -3950,11 +3982,10 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 .sidebar-nav a.active {
   height: 100px; /* 高度自动 */
   width: 40px; /* 保持宽度不变 */
-  border-radius: 20px;
   justify-content: center;
 }
 .sidebar-nav a.active span {
-  display: inline;
+  display: block;
   opacity: 1; /* 显示完整文字 */
 }
 
