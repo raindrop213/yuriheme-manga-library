@@ -47,8 +47,8 @@
         </li>
 
         <li class="c-mainmenu__item">
-          <a href="/magazine/" class="c-mainmenu__link" data-menu-item="magazine">
-            最新号
+          <a href="/anthology/" class="c-mainmenu__link" data-menu-item="anthology">
+            アンソロジー
           </a>
         </li>
 

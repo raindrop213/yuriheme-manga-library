@@ -21,7 +21,7 @@ def main(base_dir, output_file_name):
         json_file_path = os.path.join(folder_path, "metadata.json")
         
         if os.path.exists(json_file_path):
-            print(json_file_path)
+            # print(json_file_path)
 
             # 排序
             with open(json_file_path, 'r', encoding='utf-8') as file:
@@ -37,6 +37,7 @@ def main(base_dir, output_file_name):
     # 保存整体结构的 JSON 文件
     with open(os.path.join(base_dir, output_file_name), 'w', encoding='utf-8') as f:
         json.dump(all_metadata, f, ensure_ascii=False, indent=4)
+        print("Saved " + output_file_name)
 
 if __name__ == "__main__":
     base_dir = "title/"  # 修改为您存放 JSON 文件的实际目录

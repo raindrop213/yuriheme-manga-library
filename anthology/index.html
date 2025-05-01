@@ -1,0 +1,95 @@
+<!doctype html>
+
+<html class="no-js" lang="ja">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="all" />
+
+  <title>アンソロジー | Yuri·Hime·Lib</title>
+
+  <link rel="stylesheet" type="text/css" media="all" href="../theme/css/common.css">
+  <link rel="stylesheet" type="text/css" media="all" href="../theme/css/wxgap.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Rajdhani:400,700" rel="stylesheet">
+  <link href="../theme/fonts/font-icomoon/style.css" rel="stylesheet">
+  <link href="../theme/fonts/font-arrows/style.css" rel="stylesheet">
+  <link href="../theme/fonts/font-brand/style.css" rel="stylesheet">
+  <link href="../theme/style.css?3" rel="stylesheet">
+
+  <script src="../analytics.js"></script>
+</head>
+
+<body class="l-body-fit" data-menu-active="anthology">
+
+  <script src="../header.js"></script>
+
+  <main class="l-body-fit__body l-wrapper">
+
+    <h1 class="c-content-title">
+      <span class="heading-text heading-text--english" style="color: #fff;">anthology</span><span class="heading-text heading-text--japanese" style="color: #fff;">アンソロジー</span>
+    </h1>
+
+    <div class="l-content_n l-content_full-sp u-mg_b_5l" id="app-anthology-list"></div>
+
+  </main>
+
+  <script>
+    fetch("../title/title_structure.json")
+      .then((response) => response.json())
+      .then((data) => {
+        const container = document.getElementById("app-anthology-list");
+        let items = []; // 创建一个空数组来存储所有项
+
+        data.forEach((item) => {
+
+          // 检查标题是否包含指定字符串，如果不需要这个条件，可以去掉这个if语句
+          if (item.type.includes("anthology")) {
+            item.volumes.forEach((volume) => { // 遍历每个作品的所有卷
+              const imagePath = volume.coverImagePath;
+              const path = imagePath.split('/').slice(0, -1).join('/');
+              // 将每个项作为字符串添加到数组中
+              items.push(`<div class="home-comics__item">
+                  <a href="../${path}.html" class="c-cardbox p-link_fade">
+                    <span class="c-cardbox__thumb c-cardbox__thumb--shadow p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n" style="background-image:url('../${path}.jpg')"></span>
+                    <span class="c-cardbox__text">
+                      <span class="c-cardbox__title">${volume.volumeName}</span>
+                    </span>
+                  </a>
+                </div>
+              `);
+            });
+          }
+        });
+
+        // 反转数组
+        // items = items.reverse();
+
+        // 初始化htmlContent并添加反转后的items
+        let htmlContent = '<section class="backnumber-list l-grid l-grid--5 l-grid--2-sp l-grid--gap-c_m l-grid--gap-r_m">';
+        items.forEach((item) => {
+          htmlContent += item;
+        });
+        htmlContent += "</section>";
+        
+        // 将构建好的htmlContent设置到container中
+        container.innerHTML = htmlContent;
+      });
+  </script>
+
+  <script src="../footer.js"></script>
+
+  <script defer src="../theme/js/jquery.min.js"></script>
+  <script defer src="../theme/js/polyfill.min.js"></script>
+  <script defer src="../theme/js/stickyfill.min.js"></script>
+  <script defer src="../theme/js/jquery.fancybox.min.js"></script>
+
+  <script defer src="../theme/js/vendor.js?0.04740061964602149"></script>
+  <script defer src="../theme/js/bundle.js?0.04740061964602149"></script>
+
+</body>
+
+</html>
