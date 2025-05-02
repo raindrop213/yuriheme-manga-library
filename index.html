@@ -168,7 +168,7 @@
           // 创建月刊内容的函数
           function createMonthlyContent(path, title, date) {
             return `
-              <a href="${path}"
+              <a href="${path.replace(/\/[^\/?#]*([?#].*)?$/, '/')}"
                 class="home-magazine__link p-link_fade" rel="noopener noreferrer">
                 <img src="${path.replace('.html', '.jpg')}" alt="" class="u-sz_w_100">
               </a>
