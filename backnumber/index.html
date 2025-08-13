@@ -21,6 +21,7 @@
   <link href="../theme/style.css?3" rel="stylesheet">
 
   <script src="../analytics.js"></script>
+  <script src="../lazy-bg.js"></script>
 </head>
 
 <body class="l-body-fit" data-menu-active="backnumber">
@@ -52,7 +53,7 @@
                 // 将每个项作为字符串添加到数组中
                 items.push(`<div class="home-comics__item">
                     <div class="c-cardbox">
-                      <a href="../${path}.html" class="c-cardbox__thumb c-cardbox__thumb--shadow p-link_fade p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n" style="background-image:url('../${path}.jpg')"></a>
+                      <a href="../${path}.html" class="c-cardbox__thumb c-cardbox__thumb--shadow p-link_fade p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n" data-bg="../${path}.jpg"></a>
                       <span class="c-cardbox__text">
                         <span class="c-cardbox__title">${volume.volumeName.replace('コミック', '')}</span>
                       </span>
@@ -75,6 +76,7 @@
           
           // 将构建好的htmlContent设置到container中
           container.innerHTML = htmlContent;
+          if (window.setupLazyBackgrounds) window.setupLazyBackgrounds();
         });
     </script>
 

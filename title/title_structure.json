@@ -866,6 +866,33 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/80691",
+        "folderName": "[(画集)岸田メル] ロロナ＆トトリ＆メルルのアトリエ プレミアムアートブック",
+        "name": "ロロナ＆トトリ＆メルルのアトリエ プレミアムアートブック",
+        "author": [
+            "(画集)岸田メル"
+        ],
+        "date": "2011-11-01",
+        "summary": "「アーランド」シリーズ3作品をタイトル別に全4パートで構成。",
+        "tags": [
+            "画集",
+            "设定集",
+            "岸田メル"
+        ],
+        "type": [
+            "artbook"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "ロロナ＆トトリ＆メルルのアトリエ プレミアムアートブック",
+                "coverImagePath": "title/[(画集)岸田メル] ロロナ＆トトリ＆メルルのアトリエ プレミアムアートブック/[(画集)岸田メル] ロロナ＆トトリ＆メルルのアトリエ プレミアムアートブック/0000.jpg",
+                "pageCount": 305
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/19335",
         "folderName": "[(画集)新海誠] 新海誠美術作品集 空の記憶~The sky of the longing for memories~",
         "name": "新海誠美術作品集 空の記憶~The sky of the longing for memories~",
@@ -1530,6 +1557,226 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/2123",
+        "folderName": "[CLAMP] カードキャプターさくら",
+        "name": "カードキャプターさくら",
+        "author": [
+            "CLAMP"
+        ],
+        "date": "1996-11-20",
+        "summary": "　　《百变小樱魔法卡》中的女主角——木之本樱，是日本友枝小学四年级的学生，无意之中解开了库洛卡的封印。从此，她的生活被改变。受封印小兽小可的委托，小樱成了“库洛魔法使”，要把拥有魔力、到处作乱的库洛卡降服。小樱的身边有很多的好朋友，在他们的帮助下，小樱最终把库洛卡一一收服，并把它们全部转换成小樱卡。",
+        "tags": [
+            "CLAMP",
+            "漫画",
+            "小樱",
+            "魔法少女",
+            "讲谈社",
+            "童年",
+            "少女",
+            "治愈",
+            "少女漫画",
+            "治愈系"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第01巻/0000.jpeg",
+                "pageCount": 198
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第02巻/0000.jpeg",
+                "pageCount": 196
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第03巻/0000.jpeg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第04巻/0000.jpeg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第05巻/0000.jpeg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第06巻/0000.jpeg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第07巻/0000.jpeg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第08巻/0000.jpeg",
+                "pageCount": 192
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第09巻/0000.jpeg",
+                "pageCount": 192
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第10巻/0000.jpeg",
+                "pageCount": 190
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第11巻/0000.jpeg",
+                "pageCount": 186
+            },
+            {
+                "volumeNumber": 12,
+                "volumeName": "カードキャプターさくら",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら/[CLAMP] カードキャプターさくら 第12巻/0000.jpeg",
+                "pageCount": 192
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/180841",
+        "folderName": "[CLAMP] カードキャプターさくら クリアカード編",
+        "name": "カードキャプターさくら クリアカード編",
+        "author": [
+            "CLAMP"
+        ],
+        "date": "2016-12-02",
+        "summary": "　　在梦之钥和透明牌的引导下，小樱的崭新故事即将开始！\r\n\r\n　　樱花盛开的4月，小樱升上中学1年级了。与心爱的小狼重逢、今后能够一起去上学，让她脸上绽放出灿烂笑容。但是当她从不可思议的梦中醒来，却发现小樱牌出现异变……全世界都在期待的新章「透明牌篇」，终于开幕！",
+        "tags": [
+            "CLAMP",
+            "漫画",
+            "讲谈社",
+            "魔法少女",
+            "少女漫",
+            "2016",
+            "少女",
+            "小樱",
+            "奇幻",
+            "连载"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第01巻/0000.jpeg",
+                "pageCount": 159
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第02巻/0000.jpeg",
+                "pageCount": 161
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第03巻/0000.jpeg",
+                "pageCount": 163
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第04巻/0000.jpeg",
+                "pageCount": 161
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第05巻/0000.jpeg",
+                "pageCount": 161
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第06巻/0000.jpeg",
+                "pageCount": 161
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第07巻/0000.jpeg",
+                "pageCount": 161
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第08巻/0000.jpeg",
+                "pageCount": 161
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第09巻/0000.jpeg",
+                "pageCount": 161
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第10巻/0000.jpeg",
+                "pageCount": 161
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第11巻/0000.jpeg",
+                "pageCount": 161
+            },
+            {
+                "volumeNumber": 12,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第12巻/0000.jpeg",
+                "pageCount": 161
+            },
+            {
+                "volumeNumber": 13,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第13巻/0000.jpeg",
+                "pageCount": 203
+            },
+            {
+                "volumeNumber": 14,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第14巻/0000.jpeg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 15,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第15巻/0000.jpeg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 16,
+                "volumeName": "カードキャプターさくら クリアカード編",
+                "coverImagePath": "title/[CLAMP] カードキャプターさくら クリアカード編/[CLAMP] カードキャプターさくら クリアカード編 第16巻/0000.jpeg",
+                "pageCount": 235
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/278286",
         "folderName": "[Gino0808] 雪女と蟹を食う",
         "name": "雪女と蟹を食う",
@@ -1600,6 +1847,68 @@
                 "volumeName": "雪女と蟹を食う",
                 "coverImagePath": "title/[Gino0808] 雪女と蟹を食う/[Gino0808] 雪女と蟹を食う 第08巻/00001.avif",
                 "pageCount": 162
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/549239",
+        "folderName": "[ISHIDA UMI] 人魚観察日記",
+        "name": "人魚観察日記",
+        "author": [
+            "ISHIDA UMI"
+        ],
+        "date": "2025-05-20",
+        "summary": "ある夏の日。二人の少年が出会った“人魚”は、怪物か、それとも…。\r\n\r\n「よし、ここなら見つからないだろ」\r\n大人には絶対言えない、少年2人だけの秘密――。\r\n\"大人は人魚を忌避するけれど…僕たちは自分の目でみたもので判断するんだ。\"\r\n\r\n二人の少年と“人魚”との出会いから始まる、どこか不穏で目が離せない秘密の日常。\r\n\r\n「人間×人外」の出会いが、両者の運命を大きく変えていく、「人魚観察日記」\r\nウォーカープラスの連載の内容に加え、描き下ろしをたっぷり詰め込んでついに書籍化！\r\nあなたも少年2人の罪の共犯に――。\r\n\r\nそうか、これが\"人魚伝説\"の\"はじまり\"だったのか。",
+        "tags": [],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "人魚観察日記",
+                "coverImagePath": "title/[ISHIDA UMI] 人魚観察日記/[ISHIDA UMI] 人魚観察日記/0000.jpeg",
+                "pageCount": 153
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/215211",
+        "folderName": "[loundraw×三秋縋] あおぞらとくもりぞら",
+        "name": "あおぞらとくもりぞら",
+        "author": [
+            "loundraw",
+            "三秋縋"
+        ],
+        "date": null,
+        "summary": "意外獲得操控他人身體能力的青年，自稱「清潔工」，並以操控他人自殺的形式殺人。這次，他的目標是個高中少女。但在他操控少女留下遺書之後，卻遭到突如其來的反抗……\r\n一邊是一心求死的少女，一邊是打算剝奪她「求死意志」的殺手。對少女來說，一段無比幸福又無比殘酷的夏天即將展開──",
+        "tags": [
+            "漫画",
+            "三秋縋",
+            "loundraw",
+            "恋爱",
+            "青春",
+            "三秋缒",
+            "pixiv",
+            "奇幻",
+            "轻小说",
+            "漫画系列"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "あおぞらとくもりぞら",
+                "coverImagePath": "title/[loundraw×三秋縋] あおぞらとくもりぞら/[loundraw×三秋縋] あおぞらとくもりぞら 第01巻/0000.jpeg",
+                "pageCount": 174
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "あおぞらとくもりぞら",
+                "coverImagePath": "title/[loundraw×三秋縋] あおぞらとくもりぞら/[loundraw×三秋縋] あおぞらとくもりぞら 第02巻/0000.jpeg",
+                "pageCount": 166
             }
         ]
     },
@@ -2717,16 +3026,16 @@
         "date": "2012-02-27",
         "summary": "　　うえお久光原著同名科幻轻小说漫画版，由原作插画綱島志朗亲自操刀作画。\r\n\r\n　　毬井ゆかりには「人間がロボットに見える」という秘密があった。偶然その秘密を知った波濤学は、ゆかりを気にかけるようになり、やがて彼女の「友だち」となっていく。不思議な世界を共有するようになった二人。その日常には少しずつ変化が……。",
         "tags": [
-            "百合",
             "漫画",
+            "百合",
             "轻小说改",
             "綱島志朗",
-            "2011",
-            "量子力学",
             "うえお久光",
+            "量子力学",
+            "2011",
             "小说改",
             "时间系",
-            "漫画系列"
+            "系列"
         ],
         "type": [
             "yuri"
@@ -2736,20 +3045,53 @@
             {
                 "volumeNumber": 1,
                 "volumeName": "紫色のクオリア",
-                "coverImagePath": "title/[うえお久光×綱島志朗] 紫色のクオリア/[うえお久光×綱島志朗] 紫色のクオリア 第01巻/0000.jpg",
-                "pageCount": 201
+                "coverImagePath": "title/[うえお久光×綱島志朗] 紫色のクオリア/[綱島志朗×うえお久光] 紫色のクオリア 第01巻/0000.jpg",
+                "pageCount": 200
             },
             {
                 "volumeNumber": 2,
                 "volumeName": "紫色のクオリア",
-                "coverImagePath": "title/[うえお久光×綱島志朗] 紫色のクオリア/[うえお久光×綱島志朗] 紫色のクオリア 第02巻/0000.jpg",
-                "pageCount": 183
+                "coverImagePath": "title/[うえお久光×綱島志朗] 紫色のクオリア/[綱島志朗×うえお久光] 紫色のクオリア 第02巻/0000.jpg",
+                "pageCount": 184
             },
             {
                 "volumeNumber": 3,
                 "volumeName": "紫色のクオリア",
-                "coverImagePath": "title/[うえお久光×綱島志朗] 紫色のクオリア/[うえお久光×綱島志朗] 紫色のクオリア 第03巻/0000.jpg",
-                "pageCount": 247
+                "coverImagePath": "title/[うえお久光×綱島志朗] 紫色のクオリア/[綱島志朗×うえお久光] 紫色のクオリア 第03巻/0000.jpg",
+                "pageCount": 248
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/176036",
+        "folderName": "[うめざわしゅん] パンティストッキングのような空の下",
+        "name": "パンティストッキングのような空の下",
+        "author": [
+            "うめざわしゅん"
+        ],
+        "date": "2015-12-11",
+        "summary": "　　時は21世紀初め、高校生の三上とひろしは待ち望んでいた。平凡で幸福な人生と、テポドンの襲来を…！（パンティストッキングのような空）\r\n　　12年後、ヘイトとポリティカルコレクトネス蔓延る現代日本で、おっさんとなった三上とひろしは今度こそ平凡で幸福な人生をつかむことが出来るのか!?（平成の大飢饉予告編）\r\n\r\n　　“永遠の夏休み”を生きる少女との不思議な出逢いを描いた「いつ果てるとも知れぬ夏の日」、過去に性犯罪を犯したロリコン男の絶望と再生の物語「唯一者たち」など9つの読切りを収録。\r\n\r\n　　2001年から2015年にわたる、うめざわしゅん15年の軌跡を描く傑作短編集。\r\n　　450頁の超特大ボリューム‼",
+        "tags": [
+            "漫画",
+            "單卷",
+            "超短篇",
+            "一般向漫画",
+            "未分类"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "パンティストッキングのような空の下",
+                "coverImagePath": "title/[うめざわしゅん] パンティストッキングのような空の下/[うめざわしゅん] パンティストッキングのような空の下 第01巻/0000.jpg",
+                "pageCount": 223
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "パンティストッキングのような空の下",
+                "coverImagePath": "title/[うめざわしゅん] パンティストッキングのような空の下/[うめざわしゅん] パンティストッキングのような空の下 第02巻/0000.jpg",
+                "pageCount": 224
             }
         ]
     },
@@ -2938,6 +3280,110 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/119393",
+        "folderName": "[つくしあきひと] メイドインアビス",
+        "name": "メイドインアビス",
+        "author": [
+            "つくしあきひと"
+        ],
+        "date": "2013-07-31",
+        "summary": "　　已经被彻底地探索的这个世界，唯一仅存的秘境就是名为『深渊』的大洞。在这个完全不知道会通往何处的巨大垂直洞穴里，不仅有怪模怪样的生物栖息，同时还有着现今人类无法制作的珍贵遗物沉睡其中。人们受到深渊永无止尽的神秘样貌吸引，驱使他们进入内部展开冒险。就这样，面对无数次进入大洞挑战的冒险者，人们开始用「探窟家」一词来称呼他们。住在搭建于深渊周围的城镇「奥斯」的孤儿莉可，她抱持着「总有一天要和母亲一样成为伟大的探窟家，并解开所有深渊的谜团」这样的梦想。某一天，正在深渊探窟的她捡到了外表有如少年的机器人…？融入幻想与机械的庞大动作冒险故事，第一集正式开幕！！",
+        "tags": [
+            "漫画",
+            "冒险",
+            "致郁",
+            "来自深渊",
+            "奇幻",
+            "つくしあきひと",
+            "猎奇",
+            "竹書房",
+            "幼女",
+            "連載中"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第01巻/0000.jpg",
+                "pageCount": 177
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第02巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第03巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第04巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第05巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第06巻/0000.jpg",
+                "pageCount": 172
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第07巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第08巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第09巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第10巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第11巻/0000.jpg",
+                "pageCount": 155
+            },
+            {
+                "volumeNumber": 12,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第12巻/0000.jpg",
+                "pageCount": 155
+            },
+            {
+                "volumeNumber": 13,
+                "volumeName": "メイドインアビス",
+                "coverImagePath": "title/[つくしあきひと] メイドインアビス/[つくしあきひと] メイドインアビス 第13巻/0000.jpg",
+                "pageCount": 140
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/270499",
         "folderName": "[つくみず] シメジ シミュレーション",
         "name": "シメジ シミュレーション",
@@ -2988,8 +3434,237 @@
             {
                 "volumeNumber": 5,
                 "volumeName": "シメジ シミュレーション",
-                "coverImagePath": "title/[つくみず] シメジ シミュレーション/[つくみず] シメジ シミュレーション 第05巻/001.jpg",
+                "coverImagePath": "title/[つくみず] シメジ シミュレーション/[つくみず] シメジ シミュレーション 第05巻/0000.jpg",
                 "pageCount": 139
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/218102",
+        "folderName": "[ねことうふ] お兄ちゃんはおしまい！",
+        "name": "お兄ちゃんはおしまい！",
+        "author": [
+            "ねことうふ"
+        ],
+        "date": "2018-06-27",
+        "summary": "游戏宅绪山真寻某天一觉醒来后发现自己变成女生了！原来是妹妹美波里为了进行观察实验而对他下药改造。于是真寻被迫开始了女生生活，他能否适应心身的改变，又是否可以继续当哥哥呢？\r\n\r\n作者ID：ねことうふ\r\nhttps://www.pixiv.net/member.php?id=159912\r\n系列目录：\r\nhttps://www.pixiv.net/user/159912/series/12\r\n\r\n3話ずつ+オマケが入った同人誌1～5巻販売中です！\r\n【BOOTH】 https://grinp.booth.pm/\r\n【GRINP e-books】https://grinp.stores.jp/\r\n【DLsite】 http://www.dlsite.com/home/circle/profile/=/maker_id/RG40614.html\r\n【DMM】 https://www.dmm.co.jp/dc/doujin/-/list/=/article=maker/id=75890/",
+        "tags": [
+            "漫画",
+            "性转",
+            "搞笑",
+            "萌",
+            "日常",
+            "性转换",
+            "兄控",
+            "ねことうふ",
+            "别当欧尼酱了",
+            "2017"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "お兄ちゃんはおしまい！",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第01巻/0000.jpeg",
+                "pageCount": 184
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "お兄ちゃんはおしまい！",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第02巻/0000.jpeg",
+                "pageCount": 160
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "お兄ちゃんはおしまい！",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第03巻/0000.jpeg",
+                "pageCount": 184
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "お兄ちゃんはおしまい！",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第04巻/0000.jpeg",
+                "pageCount": 177
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "お兄ちゃんはおしまい！",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第05巻/0000.jpeg",
+                "pageCount": 184
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "お兄ちゃんはおしまい！",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第06巻/0000.jpeg",
+                "pageCount": 186
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "お兄ちゃんはおしまい！",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第07巻/0000.jpeg",
+                "pageCount": 178
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "「お兄ちゃんはおやすみ！」 特装版小冊子",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第07巻 「お兄ちゃんはおやすみ！」 特装版小冊子/0000.jpeg",
+                "pageCount": 23
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "お兄ちゃんはおしまい！",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第08巻/0000.jpeg",
+                "pageCount": 175
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "お兄ちゃんはおしまい！",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第09巻/0000.jpeg",
+                "pageCount": 187
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "お兄ちゃんはおしまい！",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第10巻/0000.jpg",
+                "pageCount": 177
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "「お兄ちゃんのおえかき帳！」 特装版小冊子",
+                "coverImagePath": "title/[ねことうふ] お兄ちゃんはおしまい！/[ねことうふ] お兄ちゃんはおしまい！ 第10巻 「お兄ちゃんのおえかき帳！」 特装版小冊子/0000.jpg",
+                "pageCount": 88
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/455860",
+        "folderName": "[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック",
+        "name": "お兄ちゃんはおしまい！ 公式アンソロジーコミック",
+        "author": [
+            "ねことうふ",
+            "よろず"
+        ],
+        "date": "2021-05-27",
+        "summary": "お兄ちゃんが同級生(男子)からラブレターをもらったり\r\n妹・みはりや女友達に\"アレ\"が生えちゃったり\r\nメイド服やバニーガールなどのコスプレを楽しんだり\r\nそしてやっぱり外せない\"おもらしエピソード\"など\r\n健全だけどちょっとドキドキする\r\n珠玉のTSショートコメディをたっぷりお届け‼",
+        "tags": [
+            "漫画",
+            "性转",
+            "日常",
+            "短篇",
+            "搞笑",
+            "百合",
+            "连载中",
+            "跨性别者",
+            "2021",
+            "系列"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "お兄ちゃんはおしまい！ 公式アンソロジーコミック",
+                "coverImagePath": "title/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック 第01巻/0000.jpeg",
+                "pageCount": 174
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "お兄ちゃんはおしまい！ 公式アンソロジーコミック",
+                "coverImagePath": "title/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック 第02巻/0000.jpeg",
+                "pageCount": 180
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "お兄ちゃんはおしまい！ 公式アンソロジーコミック",
+                "coverImagePath": "title/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック 第03巻/0000.jpeg",
+                "pageCount": 184
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "お兄ちゃんはおしまい！ 公式アンソロジーコミック",
+                "coverImagePath": "title/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック 第04巻/0000.jpeg",
+                "pageCount": 207
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "お兄ちゃんはおしまい！ 公式アンソロジーコミック",
+                "coverImagePath": "title/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック 第05巻/0000.jpeg",
+                "pageCount": 192
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "お兄ちゃんはおしまい！ 公式アンソロジーコミック",
+                "coverImagePath": "title/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック/[ねことうふ×よろず] お兄ちゃんはおしまい！ 公式アンソロジーコミック 第06巻/0000.jpg",
+                "pageCount": 202
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/363311",
+        "folderName": "[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～",
+        "name": "今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～",
+        "author": [
+            "のり伍郎"
+        ],
+        "date": "2022-10-17",
+        "summary": "　　与超受欢迎的3名辣妹共谱极为灿烂的后宫生活！因为某些缘故而独自一人在外生活的高中生·今泉庆太有一个不可告人的秘密。那就是他跟校园阶级最顶端的3名辣妹──滨崎蕾娜、胡桃坂瑠璃、佐佐木雪菜住在同一个屋檐下──！跟古灵精怪的辣妹们只顾着玩耍、只顾着谈天说地、只顾着成天打炮的日子。面对这段既慵懒又好色且自由的时光，今泉同学的青春将会有何发展呢？\r\n\r\n　　爛れすぎた高校生の、青春。ワケあって一人暮らしをしている高校生・今泉慶太には、誰にも言えない秘密がある。学園カースト最上位のギャル3人、浜崎レイナ、胡桃坂ルリ、佐々木ユキナと一緒に暮らしているのだ―――！一癖も二癖もあるギャルたちとただ遊び、ただ駄弁り、ただただ、体を重ねて過ごす日々。怠惰でエッチで自由な時間に、どうなる、今泉くんの青春！？",
+        "tags": [
+            "后宫",
+            "漫画",
+            "R18",
+            "恋爱",
+            "纯爱",
+            "JK",
+            "漫画系列",
+            "巨乳",
+            "同居",
+            "のり伍郎"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～",
+                "coverImagePath": "title/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～ 第01巻/0000.jpeg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～",
+                "coverImagePath": "title/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～ 第02巻/0000.jpeg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～",
+                "coverImagePath": "title/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～ 第03巻/0000.jpeg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～",
+                "coverImagePath": "title/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～ 第04巻/0000.jpeg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～",
+                "coverImagePath": "title/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～ 第05巻/0000.jpeg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～",
+                "coverImagePath": "title/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～ 第06巻/0000.jpg",
+                "pageCount": 153
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～",
+                "coverImagePath": "title/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～/[のり伍郎] 今泉ん家はどうやらギャルの溜まり場になってるらしい～DEEP～ 第07巻/0000.jpg",
+                "pageCount": 153
             }
         ]
     },
@@ -3070,6 +3745,31 @@
                 "volumeName": "苺ましまろ",
                 "coverImagePath": "title/[ばらスィー] 苺ましまろ/[ばらスィー] 苺ましまろ 第09巻/0000.jpg",
                 "pageCount": 199
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/379805",
+        "folderName": "[ばったん] いてもたってもいられないの",
+        "name": "いてもたってもいられないの",
+        "author": [
+            "ばったん"
+        ],
+        "date": "2021-05-08",
+        "summary": "この欲望は、私だけの宝物。\r\nときめきと性欲が交じり合う、きらめく5つの物語。\r\n\r\n腐女子友達に恋人ができたことをきっかけに、一念発起したトーコ。\r\nきらきらするような初体験を求めて一晩限りの男性に身体を開くが――…?\r\n(「終電なくなっちゃった」)\r\n\r\nムギにとってセックスは、この世で一番楽なコミュニケーション。\r\n指いっぽんも触れないで恋をしてしまうなんて\r\n32年生きてきて初めてのことだった。\r\n(「それは、初めての」)\r\n\r\nほか、まぶしくも儚い5編を収録した短編集、ついに発売!",
+        "tags": [
+            "漫画"
+        ],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "いてもたってもいられないの",
+                "coverImagePath": "title/[ばったん] いてもたってもいられないの/[ばったん] いてもたってもいられないの/0000.jpeg",
+                "pageCount": 171
             }
         ]
     },
@@ -3221,6 +3921,100 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/183470",
+        "folderName": "[ばったん] にじいろコンプレックス",
+        "name": "にじいろコンプレックス",
+        "author": [
+            "ばったん"
+        ],
+        "date": null,
+        "summary": "　　〈わたしたちの毎日はいつも楽しくて、いつも苦しい——。〉\r\n　　どす黒い海と、古ぼけたラブホテル以外、特にない田舎町。そこで暮らす女子高生は、毎日を明るく仲良く元気に生きている。誰もがみな、誰にも言えない「悩み」や「葛藤」を抱えながら——。",
+        "tags": [
+            "interested"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "にじいろコンプレックス",
+                "coverImagePath": "title/[ばったん] にじいろコンプレックス/[ばったん] にじいろコンプレックス 第01巻/0000.jpeg",
+                "pageCount": 163
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "にじいろコンプレックス",
+                "coverImagePath": "title/[ばったん] にじいろコンプレックス/[ばったん] にじいろコンプレックス 第02巻/0000.jpeg",
+                "pageCount": 163
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/326104",
+        "folderName": "[ばったん] まばたき",
+        "name": "まばたき",
+        "author": [
+            "ばったん"
+        ],
+        "date": "2021-02-19",
+        "summary": "タバコ屋のおばあちゃんと女子大生…「アンテロースの恋人」\r\nお金持ちと貧乏な転校生…「みどりのなかのみずたまの」\r\n母親を亡くした女子高生とクラスの嫌われ者…「初夏の葬式」\r\n失恋中の女子と旅先で出会った女の子…「人魚姫」\r\n吸血鬼とニンゲン…「さらば人間！」\r\n\r\nまるで正反対なふたりなのに\r\n一緒にいると 心が癒されていくーーー。\r\n\r\nどうしようもなく惹かれ合う〈女と女〉5組10人の物語\r\n2.6万RT＆10万いいねの大ヒット作「人魚姫」含む5編+描き下ろし漫画収録！",
+        "tags": [
+            "漫画",
+            "百合",
+            "短篇集",
+            "ばったん",
+            "單卷",
+            "单卷",
+            "超短篇"
+        ],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "まばたき",
+                "coverImagePath": "title/[ばったん] まばたき/[ばったん] まばたき/0000.jpeg",
+                "pageCount": 232
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/288224",
+        "folderName": "[ばったん] 姉の友人",
+        "name": "姉の友人",
+        "author": [
+            "ばったん"
+        ],
+        "date": "2020-06-12",
+        "summary": "今日子さんは、お姉ちゃんの年上の友達。\r\n真っ黒な髪の毛、キュってつまんで引っ張ったみたいな小さい鼻に\r\n華奢な手首とうなじからはいい匂い\r\nつまり大人のいいオンナ。\r\n\r\nでも最近ちっとも遊びに来ない。\r\nあんなにお姉ちゃんとずっと一緒にいたのに、何で━━？\r\n\r\nひとりの女性を中心に描かれる、\r\nきらきら輝く”わたしたち”の物語。",
+        "tags": [
+            "百合",
+            "漫画",
+            "ばったん",
+            "恋爱",
+            "短篇",
+            "致郁",
+            "GL",
+            "單卷",
+            "姬恋直",
+            "2019"
+        ],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "姉の友人",
+                "coverImagePath": "title/[ばったん] 姉の友人/[ばったん] 姉の友人/0000.jpeg",
+                "pageCount": 196
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/317318",
         "folderName": "[ひな姫] くっ殺せの姫騎士となり、百合娼館で働くことになりました。",
         "name": "くっ殺せの姫騎士となり、百合娼館で働くことになりました。",
@@ -3228,21 +4022,21 @@
             "ひな姫"
         ],
         "date": "2021-07-21",
-        "summary": "「くっ殺せの姫騎士となり、百合娼館で働くことになりました。」は、政治家秘書の男性・成瀬が車の事故で命を落とし、その魂が処刑される寸前の異世界の姫騎士の身体に入ってしまうトランスセクシャルストーリー。囚われの身になっても弱気な態度を見せず「…くっ殺せっ!!」と威勢のいいことを言っていた姫騎士だが、成瀬の魂が入った途端に泣き出し命乞いを始めたことで、敵兵たちは処刑をやめて姫騎士を娼館へと売り飛ばすことに決める。",
+        "summary": "　　「くっ殺せの姫騎士となり、百合娼館で働くことになりました。」は、政治家秘書の男性・成瀬が車の事故で命を落とし、その魂が処刑される寸前の異世界の姫騎士の身体に入ってしまうトランスセクシャルストーリー。囚われの身になっても弱気な態度を見せず「…くっ殺せっ！！」と威勢のいいことを言っていた姫騎士だが、成瀬の魂が入った途端に泣き出し命乞いを始めたことで、敵兵たちは処刑をやめて姫騎士を娼館へと売り飛ばすことに決める。",
         "tags": [
-            "漫画",
             "百合",
+            "漫画",
             "性转",
             "异世界",
-            "微エロ",
             "漫画系列",
-            "エロ",
+            "微エロ",
             "变百",
-            "限制",
-            "日漫"
+            "R18",
+            "エロ",
+            "TS"
         ],
         "type": [],
-        "lock": false,
+        "lock": true,
         "volumes": [
             {
                 "volumeNumber": 1,
@@ -3254,7 +4048,7 @@
                 "volumeNumber": 2,
                 "volumeName": "くっ殺せの姫騎士となり、百合娼館で働くことになりました。",
                 "coverImagePath": "title/[ひな姫] くっ殺せの姫騎士となり、百合娼館で働くことになりました。/[ひな姫] くっ殺せの姫騎士となり、百合娼館で働くことになりました。 第02巻/0000.jpg",
-                "pageCount": 167
+                "pageCount": 169
             },
             {
                 "volumeNumber": 3,
@@ -3266,7 +4060,19 @@
                 "volumeNumber": 4,
                 "volumeName": "くっ殺せの姫騎士となり、百合娼館で働くことになりました。",
                 "coverImagePath": "title/[ひな姫] くっ殺せの姫騎士となり、百合娼館で働くことになりました。/[ひな姫] くっ殺せの姫騎士となり、百合娼館で働くことになりました。 第04巻/0000.jpg",
-                "pageCount": 167
+                "pageCount": 169
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "くっ殺せの姫騎士となり、百合娼館で働くことになりました。",
+                "coverImagePath": "title/[ひな姫] くっ殺せの姫騎士となり、百合娼館で働くことになりました。/[ひな姫] くっ殺せの姫騎士となり、百合娼館で働くことになりました。 第05巻/0000.jpg",
+                "pageCount": 173
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "くっ殺せの姫騎士となり、百合娼館で働くことになりました。 SP",
+                "coverImagePath": "title/[ひな姫] くっ殺せの姫騎士となり、百合娼館で働くことになりました。/[ひな姫] くっ殺せの姫騎士となり、百合娼館で働くことになりました。 SP/0000.jpg",
+                "pageCount": 148
             }
         ]
     },
@@ -3810,64 +4616,80 @@
             "R18",
             "搞笑",
             "成人",
-            "限制",
             "战斗",
-            "狗血",
-            "2022",
-            "よのき"
+            "卖肉",
+            "限制",
+            "奇幻",
+            "狗血"
         ],
-        "type": [
-            "ht"
-        ],
+        "type": [],
         "lock": false,
         "volumes": [
             {
                 "volumeNumber": 1,
                 "volumeName": "鬼畜英雄",
-                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第01巻/00001.avif",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第01巻/0000.jpg",
                 "pageCount": 195
             },
             {
                 "volumeNumber": 2,
                 "volumeName": "鬼畜英雄",
-                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第02巻/00001.avif",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第02巻/0000.jpg",
                 "pageCount": 163
             },
             {
                 "volumeNumber": 3,
                 "volumeName": "鬼畜英雄",
-                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第03巻/00001.avif",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第03巻/0000.jpg",
                 "pageCount": 163
             },
             {
                 "volumeNumber": 4,
                 "volumeName": "鬼畜英雄",
-                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第04巻/00001.avif",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第04巻/0000.jpg",
                 "pageCount": 163
             },
             {
                 "volumeNumber": 5,
                 "volumeName": "鬼畜英雄",
-                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第05巻/00001.avif",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第05巻/0000.jpg",
                 "pageCount": 163
             },
             {
                 "volumeNumber": 6,
                 "volumeName": "鬼畜英雄",
-                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第06巻/00001.avif",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第06巻/0000.jpg",
                 "pageCount": 171
             },
             {
                 "volumeNumber": 7,
                 "volumeName": "鬼畜英雄",
-                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第07巻/00001.avif",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第07巻/0000.jpg",
                 "pageCount": 171
             },
             {
                 "volumeNumber": 8,
                 "volumeName": "鬼畜英雄",
-                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第08巻/00001.avif",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第08巻/0000.jpg",
                 "pageCount": 179
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "鬼畜英雄",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第09巻/0000.jpg",
+                "pageCount": 170
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "鬼畜英雄",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第10巻/0000.jpg",
+                "pageCount": 162
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "鬼畜英雄",
+                "coverImagePath": "title/[よのき] 鬼畜英雄/[よのき] 鬼畜英雄 第11巻/0000.jpg",
+                "pageCount": 178
             }
         ]
     },
@@ -6323,6 +7145,166 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/143597",
+        "folderName": "[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～",
+        "name": "無職転生 ～異世界行ったら本気だす～",
+        "author": [
+            "フジカワ ユカ",
+            "理不尽な孫の手",
+            "シロタカ"
+        ],
+        "date": "2014-10-23",
+        "summary": "　　同名轻小说漫画化。\r\n\r\n　　34岁无职童贞尼特身无分文地被赶出家门，发现自己的人生已经完全走投无路。刚刚产生后悔的想法，他就被卡车撞死了。\r\n　　然后醒来的地方居然是——剑与魔法的异世界！！\r\n　　重生为名叫卢迪乌斯的婴儿的他下定决心，“这次一定要认真地活下去……！”，一定要度过一段不会后悔的人生。\r\n　　他利用前世的智力很快使得自己的魔术的才能开花结果，结果一位年轻的女孩子成了自己的家庭教师。并且又与一位有着绿宝石般美丽秀发的四分一血统的精灵相遇。他崭新的人生开始前进。",
+        "tags": [
+            "漫画",
+            "异世界",
+            "轻小说改",
+            "奇幻",
+            "穿越",
+            "無職転生",
+            "轻改",
+            "后宫",
+            "フジカワユカ",
+            "2014"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第01巻/0000.jpg",
+                "pageCount": 174
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第02巻/0000.jpg",
+                "pageCount": 170
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第03巻/0000.jpg",
+                "pageCount": 179
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第04巻/0000.jpg",
+                "pageCount": 181
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第05巻/0000.jpg",
+                "pageCount": 183
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第06巻/0000.jpg",
+                "pageCount": 169
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第07巻/0000.jpg",
+                "pageCount": 169
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第08巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第09巻/0000.jpg",
+                "pageCount": 179
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第10巻/0000.jpg",
+                "pageCount": 169
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第11巻/0000.jpg",
+                "pageCount": 187
+            },
+            {
+                "volumeNumber": 12,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第12巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 13,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第13巻/0000.jpg",
+                "pageCount": 167
+            },
+            {
+                "volumeNumber": 14,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第14巻/0000.jpg",
+                "pageCount": 169
+            },
+            {
+                "volumeNumber": 15,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第15巻/0000.jpg",
+                "pageCount": 169
+            },
+            {
+                "volumeNumber": 16,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第16巻/0000.jpg",
+                "pageCount": 169
+            },
+            {
+                "volumeNumber": 17,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第17巻/0000.jpg",
+                "pageCount": 169
+            },
+            {
+                "volumeNumber": 18,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第18巻/0000.jpg",
+                "pageCount": 169
+            },
+            {
+                "volumeNumber": 19,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第19巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 20,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第20巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 21,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第21巻/0000.jpg",
+                "pageCount": 171
+            },
+            {
+                "volumeNumber": 22,
+                "volumeName": "無職転生 ～異世界行ったら本気だす～",
+                "coverImagePath": "title/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～/[フジカワ ユカ×理不尽な孫の手×シロタカ] 無職転生 ～異世界行ったら本気だす～ 第22巻/0000.jpg",
+                "pageCount": 169
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/348344",
         "folderName": "[モクモクれん] 光が死んだ夏",
         "name": "光が死んだ夏",
@@ -6357,6 +7339,44 @@
                 "volumeName": "光が死んだ夏",
                 "coverImagePath": "title/[モクモクれん] 光が死んだ夏/[モクモクれん] 光が死んだ夏 第02巻/0000.jpg",
                 "pageCount": 195
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/481846",
+        "folderName": "[リキタケ] エンドロールの後には最高の旅を",
+        "name": "エンドロールの後には最高の旅を",
+        "author": [
+            "リキタケ"
+        ],
+        "date": "2024-09-21",
+        "summary": "勇者のアイノと、魔導士のイロ。\r\n魔王討伐を果たした二人は、かねて約束を果たすため、世界を巡りはじめる。\r\nそれは、エンドロール後の世界で貴方に捧ぐ“最高”の旅。\r\n切なくまぶしい異世界ロードストーリー。",
+        "tags": [
+            "漫画",
+            "轻百合",
+            "冒险",
+            "友情",
+            "百合",
+            "2024",
+            "奇幻",
+            "漫画系列",
+            "已完结",
+            "系列"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "エンドロールの後には最高の旅を",
+                "coverImagePath": "title/[リキタケ] エンドロールの後には最高の旅を/[リキタケ] エンドロールの後には最高の旅を 第01巻/0000.jpg",
+                "pageCount": 200
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "エンドロールの後には最高の旅を",
+                "coverImagePath": "title/[リキタケ] エンドロールの後には最高の旅を/[リキタケ] エンドロールの後には最高の旅を 第02巻/0000.jpg",
+                "pageCount": 216
             }
         ]
     },
@@ -6908,6 +7928,24 @@
                 "volumeName": "コミック百合姫 2025年06月号",
                 "coverImagePath": "title/[一迅社] コミック百合姫 2025年/[一迅社] コミック百合姫 2025年06月号/0000.jpeg",
                 "pageCount": 518
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "コミック百合姫 2025年07月号",
+                "coverImagePath": "title/[一迅社] コミック百合姫 2025年/[一迅社] コミック百合姫 2025年07月号/0000.jpg",
+                "pageCount": 604
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "コミック百合姫 2025年08月号",
+                "coverImagePath": "title/[一迅社] コミック百合姫 2025年/[一迅社] コミック百合姫 2025年08月号/0000.jpeg",
+                "pageCount": 522
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "コミック百合姫 2025年09月号",
+                "coverImagePath": "title/[一迅社] コミック百合姫 2025年/[一迅社] コミック百合姫 2025年09月号/0000.jpg",
+                "pageCount": 774
             }
         ]
     },
@@ -7014,6 +8052,56 @@
                 "volumeName": "やさしいヒカリ",
                 "coverImagePath": "title/[中村ひなた] やさしいヒカリ/[中村ひなた] やさしいヒカリ 第03巻/0000.jpg",
                 "pageCount": 195
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/355256",
+        "folderName": "[中村ひなた] ココロのプログラム",
+        "name": "ココロのプログラム",
+        "author": [
+            "中村ひなた"
+        ],
+        "date": "2022-02-04",
+        "summary": "プール帰りの小学生・宇佐美九が出会ったのは、「心」を学びに来たロボットの少女・いちこ。一緒に暮らすことになった二人を待つのは...。ボーイミーツロボットガール、開演！\r\n\r\n",
+        "tags": [
+            "漫画",
+            "恋爱",
+            "中村ひなた",
+            "2021",
+            "集英社",
+            "少年ジャンプ＋",
+            "已完结",
+            "漫画系列",
+            "党争",
+            "青春文学"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "ココロのプログラム",
+                "coverImagePath": "title/[中村ひなた] ココロのプログラム/[中村ひなた] ココロのプログラム 第01巻/0000.jpg",
+                "pageCount": 204
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "ココロのプログラム",
+                "coverImagePath": "title/[中村ひなた] ココロのプログラム/[中村ひなた] ココロのプログラム 第02巻/0000.jpg",
+                "pageCount": 204
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "ココロのプログラム",
+                "coverImagePath": "title/[中村ひなた] ココロのプログラム/[中村ひなた] ココロのプログラム 第03巻/0000.jpg",
+                "pageCount": 204
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "ココロのプログラム",
+                "coverImagePath": "title/[中村ひなた] ココロのプログラム/[中村ひなた] ココロのプログラム 第04巻/0000.jpg",
+                "pageCount": 212
             }
         ]
     },
@@ -7420,6 +8508,40 @@
                 "volumeName": "ウムヴェルト 五十嵐大介作品集",
                 "coverImagePath": "title/[五十嵐大介] ウムヴェルト 五十嵐大介作品集/[五十嵐大介] ウムヴェルト 五十嵐大介作品集/0000.jpg",
                 "pageCount": 199
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/136230",
+        "folderName": "[五十嵐大介] カボチャの冒険",
+        "name": "カボチャの冒険",
+        "author": [
+            "五十嵐大介"
+        ],
+        "date": "2007-07-30",
+        "summary": "山林圍抱，四季遞嬗；一貓一人，自給自足。\r\n貓與漫畫家的鄉野同棲日記\r\n喚起你我對生命、自然的反思與感動\r\n不到一歲、未經世事而大無畏的三毛貓「南瓜」，被遺棄在五十嵐大介的家門口而成為了他家中的一份子，並隨著他從都市搬到群山圍繞的農村展開全新的生活。從小習慣了城市生活、可以說是在溫室裡長大的南瓜，面對截然不同的環境，牠竟從一隻「都市俗」的小貓脫胎換骨，在田野間來去自如，展現出了我們平常看不到的「貓的另一種可愛」——\r\n「在城市裡以為南瓜性格乖順、不與人爭，到了田野牠的本能才被激發——爬樹、抓螃蟹難不倒牠，竟然還是個武功高強的捕鳥、捕鼠高手！與野生的松鼠、狐狸、蛇進行決鬥，遇到當地的貓來搶地盤，南瓜又有什麼樣出乎意料的反應？總是跑到屋頂上用很可憐的聲音喵喵叫，原來只是引誘主人陪牠玩的招數。就算刮風下雪，沒等到主人來接，南瓜還是不願意下來……」\r\n透過五十嵐大介鏡頭般的畫筆，讓人時而擔心，時而好氣又好笑的南瓜，調皮任性、無辜慵懶的姿態躍然紙上，加上與鄉野間出現的許多動物朋友們的互動，我們才發現貓竟然也有這種自由奔放、活潑可愛的一面。田園風光鋪陳眼前，我們來到這座與世隔絕的小屋作客，走過了一趟由南瓜領路的鄉野小旅行。一本獨一無二的貓物語，邀請你暫時拋開生活繁雜，走入自然，享受一段無人打擾、有貓陪伴的鄉居時光。",
+        "tags": [
+            "五十嵐大介",
+            "漫画",
+            "日常",
+            "短篇集",
+            "日本",
+            "田舎",
+            "原创",
+            "全一卷",
+            "一卷完",
+            "已完结"
+        ],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "カボチャの冒険",
+                "coverImagePath": "title/[五十嵐大介] カボチャの冒険/[五十嵐大介] カボチャの冒険/0000.jpg",
+                "pageCount": 109
             }
         ]
     },
@@ -8390,6 +9512,50 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/188094",
+        "folderName": "[吉田基已] 官能先生",
+        "name": "官能先生",
+        "author": [
+            "吉田基已"
+        ],
+        "date": "2017-06-23",
+        "summary": "　　已年届不惑，却依然乐于享受单身生活的编辑兼小说家——鸣海六朗，在某个夏夜的祭典中，与年轻貌美的雪乃邂逅了。初次一见钟情的六朗，始终无法忘怀那宛若梦境般美好的一夜。而巧的是，雪乃竟是六朗经常造访的咖啡厅的店员！然而两人重逢后，雪乃对六朗的态度，却与祭典那夜大相径庭，变得冷淡无比。但六朗仍彷彿坠入热恋中，甚至写下各种雪乃的纪录、给她的情书⋯⋯",
+        "tags": [
+            "漫画",
+            "恋爱",
+            "吉田基已",
+            "成人",
+            "2016",
+            "青年漫画",
+            "不定期更新",
+            "情色",
+            "爱情",
+            "講談社"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "官能先生",
+                "coverImagePath": "title/[吉田基已] 官能先生/[吉田基已] 官能先生 第01巻/0000.jpg",
+                "pageCount": 202
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "官能先生",
+                "coverImagePath": "title/[吉田基已] 官能先生/[吉田基已] 官能先生 第02巻/0000.jpg",
+                "pageCount": 203
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "官能先生",
+                "coverImagePath": "title/[吉田基已] 官能先生/[吉田基已] 官能先生 第03巻/0000.jpg",
+                "pageCount": 203
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/39959",
         "folderName": "[吉田基已] 恋風",
         "name": "恋風",
@@ -8562,6 +9728,142 @@
                 "volumeName": "一騎当千",
                 "coverImagePath": "title/[塩崎雄二] 一騎当千/[塩崎雄二] 一騎当千 第08巻/0000.jpeg",
                 "pageCount": 402
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/80979",
+        "folderName": "[大今良時] 聲の形",
+        "name": "聲の形",
+        "author": [
+            "大今良時"
+        ],
+        "date": "2013-11-15",
+        "summary": "「我曾经很讨厌她。」\r\n石田将也，一个把「开朗！愉快！大冒险！」当成座右铭的少年。\r\n西宫硝子，一个耳朵听不见的女转学生。\r\n这两个人的邂逅逐渐改变了教室、学校以及将也的未来──",
+        "tags": [
+            "漫画",
+            "大今良時",
+            "声之形",
+            "校园",
+            "青春",
+            "治愈",
+            "恋爱",
+            "成长",
+            "校园霸凌",
+            "講談社"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "聲の形",
+                "coverImagePath": "title/[大今良時] 聲の形/[大今良時] 聲の形 第01巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "聲の形",
+                "coverImagePath": "title/[大今良時] 聲の形/[大今良時] 聲の形 第02巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "聲の形",
+                "coverImagePath": "title/[大今良時] 聲の形/[大今良時] 聲の形 第03巻/0000.jpg",
+                "pageCount": 193
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "聲の形",
+                "coverImagePath": "title/[大今良時] 聲の形/[大今良時] 聲の形 第04巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "聲の形",
+                "coverImagePath": "title/[大今良時] 聲の形/[大今良時] 聲の形 第05巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "聲の形",
+                "coverImagePath": "title/[大今良時] 聲の形/[大今良時] 聲の形 第06巻/0000.jpg",
+                "pageCount": 193
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "聲の形",
+                "coverImagePath": "title/[大今良時] 聲の形/[大今良時] 聲の形 第07巻/0000.jpg",
+                "pageCount": 195
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/205086",
+        "folderName": "[大川ぶくぶ ] ポプテピピック",
+        "name": "ポプテピピック",
+        "author": [
+            "大川ぶくぶ "
+        ],
+        "date": "2015-12-07",
+        "summary": "POP子和PIPI美的日常漫画 ，这一天，未知的日常开始了……\r\n\r\n風刺もパクリもどんと来い! ネット上で大人気(笑)の暴れん坊4コマ、\r\n不可能といわれていたコミックス化が実現!",
+        "tags": [
+            "漫画",
+            "搞笑",
+            "竹書房",
+            "大川ぶくぶ",
+            "四格",
+            "吐槽",
+            "2015",
+            "欢乐向",
+            "竹书房",
+            "日本"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "ポプテピピック",
+                "coverImagePath": "title/[大川ぶくぶ ] ポプテピピック/[大川ぶくぶ ] ポプテピピック 第01巻/0000.jpg",
+                "pageCount": 118
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "ポプテピピック",
+                "coverImagePath": "title/[大川ぶくぶ ] ポプテピピック/[大川ぶくぶ ] ポプテピピック 第02巻/0000.jpg",
+                "pageCount": 118
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "ポプテピピック",
+                "coverImagePath": "title/[大川ぶくぶ ] ポプテピピック/[大川ぶくぶ ] ポプテピピック 第03巻/0000.jpg",
+                "pageCount": 116
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "ポプテピピック",
+                "coverImagePath": "title/[大川ぶくぶ ] ポプテピピック/[大川ぶくぶ ] ポプテピピック 第04巻/0000.jpg",
+                "pageCount": 120
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "ポプテピピック",
+                "coverImagePath": "title/[大川ぶくぶ ] ポプテピピック/[大川ぶくぶ ] ポプテピピック 第05巻/0000.jpg",
+                "pageCount": 120
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "ポプテピピック",
+                "coverImagePath": "title/[大川ぶくぶ ] ポプテピピック/[大川ぶくぶ ] ポプテピピック 第06巻/0000.jpg",
+                "pageCount": 120
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "ポプテピピック",
+                "coverImagePath": "title/[大川ぶくぶ ] ポプテピピック/[大川ぶくぶ ] ポプテピピック 第07巻/0000.jpg",
+                "pageCount": 120
             }
         ]
     },
@@ -8871,6 +10173,50 @@
                 "volumeName": "Colori Colore Creare",
                 "coverImagePath": "title/[天野こずえ] Colori Colore Creare/[天野こずえ] Colori Colore Creare 第04巻/0000.jpg",
                 "pageCount": 188
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/22770",
+        "folderName": "[天野こずえ] 天野こずえ短編集",
+        "name": "天野こずえ短編集",
+        "author": [
+            "天野こずえ"
+        ],
+        "date": "1996-07-01",
+        "summary": "「前夜祭」「いちごちゃんパニック」「刹那の夏」「小さな聖夜」「夢空界〜開く夢の扉〜」収録。",
+        "tags": [
+            "漫画",
+            "短篇集",
+            "天野こずえ",
+            "天野梢",
+            "單卷",
+            "不到7分",
+            "超短篇",
+            "搜索用",
+            "小说",
+            "轻小说"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "天野こずえ短編集 1 夢空界",
+                "coverImagePath": "title/[天野こずえ] 天野こずえ短編集/[天野こずえ] 天野こずえ短編集 1 夢空界/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "天野こずえ短編集 2 空の謳",
+                "coverImagePath": "title/[天野こずえ] 天野こずえ短編集/[天野こずえ] 天野こずえ短編集 2 空の謳/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "天野こずえ短編集 3 向日葵",
+                "coverImagePath": "title/[天野こずえ] 天野こずえ短編集/[天野こずえ] 天野こずえ短編集 3 向日葵/0000.jpg",
+                "pageCount": 186
             }
         ]
     },
@@ -9371,6 +10717,188 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/2056",
+        "folderName": "[小林立] 咲-Saki-",
+        "name": "咲-Saki-",
+        "author": [
+            "小林立"
+        ],
+        "date": "2006-12-25",
+        "summary": "以全国高中生麻将大会冠军为目标的清澄高中麻将部以及咲的故事。在麻将漫画中少有的萌绘美少女并且主要角色是其主要特点。\r\n\r\n在本作的设定中，竞技麻将比现实中更加普及，也更受人们欢迎。在高中每年都会举行竞技麻将大赛。",
+        "tags": [
+            "百合",
+            "漫画",
+            "小林立",
+            "麻將",
+            "SAKI",
+            "咲-Saki-",
+            "麻雀",
+            "岭上开花",
+            "竞技",
+            "婊人真TM开心啊"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第01巻/0000.jpg",
+                "pageCount": 234
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第02巻/0000.jpg",
+                "pageCount": 208
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第03巻/0000.jpg",
+                "pageCount": 207
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第04巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第05巻/0000.jpg",
+                "pageCount": 207
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第06巻/0000.jpg",
+                "pageCount": 191
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第07巻/0000.jpg",
+                "pageCount": 207
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第08巻/0000.jpg",
+                "pageCount": 207
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第09巻/0000.jpg",
+                "pageCount": 207
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第10巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第11巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 12,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第12巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 13,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第13巻/0000.jpg",
+                "pageCount": 207
+            },
+            {
+                "volumeNumber": 14,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第14巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 15,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第15巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 16,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第16巻/0000.jpg",
+                "pageCount": 207
+            },
+            {
+                "volumeNumber": 17,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第17巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 18,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第18巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 19,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第19巻/0000.jpg",
+                "pageCount": 193
+            },
+            {
+                "volumeNumber": 20,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第20巻/0000.jpg",
+                "pageCount": 197
+            },
+            {
+                "volumeNumber": 21,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第21巻/0000.jpg",
+                "pageCount": 207
+            },
+            {
+                "volumeNumber": 22,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第22巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 23,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第23巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 24,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第24巻/0000.jpg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 25,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第25巻/0000.jpg",
+                "pageCount": 205
+            },
+            {
+                "volumeNumber": 26,
+                "volumeName": "咲-Saki-",
+                "coverImagePath": "title/[小林立] 咲-Saki-/[小林立] 咲-Saki- 第26巻/0000.jpg",
+                "pageCount": 209
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/242129",
         "folderName": "[小池一夫×叶精作] 実験人形ダミー・オスカー",
         "name": "実験人形ダミー・オスカー",
@@ -9510,6 +11038,332 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/1674",
+        "folderName": "[小畑健] DEATH NOTE カラー版",
+        "name": "DEATH NOTE カラー版",
+        "author": [
+            "小畑健"
+        ],
+        "date": "2004-04-02",
+        "summary": "『週刊少年ジャンプ』2003年36号に掲載された読み切りが元になっている。ジャンプ史に残ると評されたヒットを記録し、2006年には2部構成実写映画版が公開(外伝映画は2008年に公開)、日本テレビ系列でTVアニメが放映された。\r\n\r\n人を死なせる力のある死神のノート「デスノート」を使って犯罪者を裁き、新世界の神になろうとする主人公と、主人公を悪と見なし、彼を追う名探偵とその後継者との闘いを描く。\r\n\r\n単行本の初版100万部最速到達記録を持っており、2004年の売り上げは、発売から1年目で年間ベスト10に入った。12巻までの世界累計発行部数は3000万部を突破しており、一巻平均が200万部を越すのは異例とされる。宝島社「このマンガがすごい!」オトコ版では、2006年と2007年に2位を獲得した。\r\n\r\nサブタイトルの多くは漢字2文字でつけられている。",
+        "tags": [
+            "小畑健",
+            "漫画",
+            "大场鸫",
+            "推理",
+            "Death_Note",
+            "死亡笔记",
+            "少年JUMP",
+            "集英社",
+            "小册子在人间",
+            "神作"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第01巻/0000.jpg",
+                "pageCount": 196
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第02巻/0000.jpg",
+                "pageCount": 198
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第03巻/0000.jpg",
+                "pageCount": 196
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第04巻/0000.jpg",
+                "pageCount": 205
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第05巻/0000.jpg",
+                "pageCount": 202
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第06巻/0000.jpg",
+                "pageCount": 217
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第07巻/0000.jpg",
+                "pageCount": 212
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第08巻/0000.jpg",
+                "pageCount": 201
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第09巻/0000.jpg",
+                "pageCount": 193
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第10巻/0000.jpg",
+                "pageCount": 189
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第11巻/0000.jpg",
+                "pageCount": 211
+            },
+            {
+                "volumeNumber": 12,
+                "volumeName": "DEATH NOTE カラー版",
+                "coverImagePath": "title/[小畑健] DEATH NOTE カラー版/[小畑健] DEATH NOTE カラー版 第12巻/0000.jpg",
+                "pageCount": 212
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/42628",
+        "folderName": "[小花美穂] こどものおもちゃ 完全版",
+        "name": "こどものおもちゃ 完全版",
+        "author": [
+            "小花美穂"
+        ],
+        "date": "1995-04-14",
+        "summary": "　　《玩偶游戏》是小花美穗创作的少女漫画。另外也有同名的电视动画。最初在漫画杂志Ribon上连载，后来发行了10期的单行本。在作品内出现的电影〈水之馆〉也以番外篇的型式发行单行本。除了在日本以外，作品也有在台湾、美国、香港等地发行。\r\n　　故事是以有名的少女童星仓田纱南及她其中一名同学羽山秋人为中心的校园故事。\r\n　　此《玩偶游戏》作品曾得到1998年的第22回讲谈社漫画赏少女部门奖。",
+        "tags": [
+            "少女漫画",
+            "漫画",
+            "小花美穂",
+            "少女",
+            "集英社",
+            "りぼん",
+            "1994",
+            "恋爱",
+            "少女漫",
+            "已完结"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "こどものおもちゃ 完全版",
+                "coverImagePath": "title/[小花美穂] こどものおもちゃ 完全版/[小花美穂] こどものおもちゃ 完全版 第01巻/0000.jpg",
+                "pageCount": 283
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "こどものおもちゃ 完全版",
+                "coverImagePath": "title/[小花美穂] こどものおもちゃ 完全版/[小花美穂] こどものおもちゃ 完全版 第02巻/0000.jpg",
+                "pageCount": 293
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "こどものおもちゃ 完全版",
+                "coverImagePath": "title/[小花美穂] こどものおもちゃ 完全版/[小花美穂] こどものおもちゃ 完全版 第03巻/0000.jpg",
+                "pageCount": 271
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "こどものおもちゃ 完全版",
+                "coverImagePath": "title/[小花美穂] こどものおもちゃ 完全版/[小花美穂] こどものおもちゃ 完全版 第04巻/0000.jpg",
+                "pageCount": 271
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "こどものおもちゃ 完全版",
+                "coverImagePath": "title/[小花美穂] こどものおもちゃ 完全版/[小花美穂] こどものおもちゃ 完全版 第05巻/0000.jpg",
+                "pageCount": 275
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "こどものおもちゃ 完全版",
+                "coverImagePath": "title/[小花美穂] こどものおもちゃ 完全版/[小花美穂] こどものおもちゃ 完全版 第06巻/0000.jpg",
+                "pageCount": 273
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "こどものおもちゃ 完全版",
+                "coverImagePath": "title/[小花美穂] こどものおもちゃ 完全版/[小花美穂] こどものおもちゃ 完全版 第07巻/0000.jpg",
+                "pageCount": 305
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/223170",
+        "folderName": "[小西真冬] 性転換から知る保健体育 ～元男が男女の違いについて語る件～",
+        "name": "性転換から知る保健体育 ～元男が男女の違いについて語る件～",
+        "author": [
+            "小西真冬"
+        ],
+        "date": "2018-03-02",
+        "summary": "　　性別適合手術を受けた作者による、男女の違いを描いた空前絶後のエッセイ漫画！\r\n\r\n　　前作「生まれる性別をまちがえた！」で話題をさらった“元男”の作者・小西真冬がヤングエースUPに再降臨！両性を文字通り“知る”小西氏の目線から、知ってるようで知らなかった男女の違いが白日の下に…!!? トイレの問題、見た目の変化etc…\r\n　　新たな発見や日常生活の苦悩を豊富な実体験を交えてユニークに描く最新作です☆",
+        "tags": [
+            "漫画",
+            "科普",
+            "小西真冬",
+            "自传",
+            "KADOKAWA",
+            "性转换",
+            "业内人士",
+            "2017",
+            "性转",
+            "漫画系列"
+        ],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "性転換から知る保健体育 ～元男が男女の違いについて語る件～",
+                "coverImagePath": "title/[小西真冬] 性転換から知る保健体育 ～元男が男女の違いについて語る件～/[小西真冬] 性転換から知る保健体育 ～元男が男女の違いについて語る件～/0000.jpeg",
+                "pageCount": 196
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/181357",
+        "folderName": "[小西真冬] 生まれる性別をまちがえた！",
+        "name": "生まれる性別をまちがえた！",
+        "author": [
+            "小西真冬"
+        ],
+        "date": "2017-02-04",
+        "summary": "　　性別適合手術とは一体…!? 前代未聞の衝撃エッセイ！\r\n\r\n　　元男で性同一性障害の作者・小西真冬が女性の身体になるために、性別適合手術を受けた実体験を描く！ありとあらゆる痛み・苦悩を赤裸々にポジティブに再現した、異色のエッセイ漫画が登場！",
+        "tags": [
+            "漫画",
+            "科普",
+            "自传",
+            "性转",
+            "小西真冬",
+            "TS",
+            "纪实",
+            "漫画系列",
+            "一卷完",
+            "6"
+        ],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "生まれる性別をまちがえた！",
+                "coverImagePath": "title/[小西真冬] 生まれる性別をまちがえた！/[小西真冬] 生まれる性別をまちがえた！/0000.jpeg",
+                "pageCount": 197
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/279871",
+        "folderName": "[小野中彰大] 魔法少女にあこがれて",
+        "name": "魔法少女にあこがれて",
+        "author": [
+            "小野中彰大"
+        ],
+        "date": "2019-11-30",
+        "summary": "憧憬成为魔法少女却成为了反派？\r\n\r\n魔法少女に憧れている少女・柊うてな。\r\n彼女の前に突然現れたのは特別な力をくれるマスコット!?\r\nこれで私も今日から魔法少女に――!!?\r\n魔法少女VS悪の組織の熾烈なSMプレイ(!?)の幕が開く!!!",
+        "tags": [
+            "百合",
+            "漫画",
+            "魔法少女",
+            "卖肉",
+            "搞笑",
+            "SM",
+            "战斗",
+            "恶堕",
+            "小野中彰大",
+            "2019"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第01巻/0000.jpg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第02巻/0000.jpg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第03巻/0000.jpg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第04巻/0000.jpg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第05巻/0000.jpg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第06巻/0000.jpg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第07巻/0000.jpg",
+                "pageCount": 156
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第08巻/0000.jpg",
+                "pageCount": 152
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第09巻/0000.jpg",
+                "pageCount": 155
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第10巻/0000.jpg",
+                "pageCount": 153
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "魔法少女にあこがれて",
+                "coverImagePath": "title/[小野中彰大] 魔法少女にあこがれて/[小野中彰大] 魔法少女にあこがれて 第11巻/0000.jpg",
+                "pageCount": 152
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/62440",
         "folderName": "[尚月地] 廃墟少女",
         "name": "廃墟少女",
@@ -9612,6 +11466,41 @@
                 "volumeName": "兎が二匹",
                 "coverImagePath": "title/[山うた] 兎が二匹/[山うた] 兎が二匹 第02巻/0000.jpg",
                 "pageCount": 196
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/87259",
+        "folderName": "[山川あいじ×河原和音] 友だちの話",
+        "name": "友だちの話",
+        "author": [
+            "山川あいじ",
+            "河原和音"
+        ],
+        "date": "2010-10-25",
+        "summary": "　　英子不但外表普通且性格又膽小，但她的好友小萌卻是跟任何人都會想多看一眼的美少女。兩人的個性雖然截然不同，卻有著極其堅固的情誼。雖然有許多男生向小萌告白，但小萌與男生交往的條件居然是「比起自己，要更重視小萌」。不過，能夠滿足這項條件的男生卻出現了，對於自己與好友之間，開始產生變化的關係，英子決定採取行動。\r\n\r\n　　以短篇形式刊载于《Deluxe Margaret》2009年5月号和9月号及《别册Margaret sister》创刊号（2010/9/1）。单行本收录刊载于《别册Margaret》的短篇《那个男生，由我来调查》。",
+        "tags": [
+            "河原和音",
+            "山川あいじ",
+            "漫画",
+            "單卷",
+            "マンガ",
+            "超短篇",
+            "少女漫画",
+            "恋爱",
+            "校园",
+            "少女"
+        ],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "友だちの話",
+                "coverImagePath": "title/[山川あいじ×河原和音] 友だちの話/[山川あいじ×河原和音] 友だちの話/0000.jpg",
+                "pageCount": 251
             }
         ]
     },
@@ -10067,6 +11956,40 @@
                 "volumeName": "今日はカノジョがいないから",
                 "coverImagePath": "title/[岩見樹代子] 今日はカノジョがいないから/[岩見樹代子] 今日はカノジョがいないから 第04巻/0000.jpg",
                 "pageCount": 171
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/186794",
+        "folderName": "[平沢ゆうな] 僕が私になるために",
+        "name": "僕が私になるために",
+        "author": [
+            "平沢ゆうな"
+        ],
+        "date": "2016-06-23",
+        "summary": "　　性同一性障害（GID）的作者为了接受性别和合适的手术（SRS）而开始了旅程，想要成为自己真正想成为的那种人！但是，成为女生的路比想象中的还要“痛”？！",
+        "tags": [
+            "漫画",
+            "平沢ゆうな",
+            "自传",
+            "性转",
+            "科普",
+            "GID",
+            "2016",
+            "TS",
+            "教学",
+            "講談社"
+        ],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "僕が私になるために",
+                "coverImagePath": "title/[平沢ゆうな] 僕が私になるために/[平沢ゆうな] 僕が私になるために/0000.jpeg",
+                "pageCount": 147
             }
         ]
     },
@@ -10640,16 +12563,16 @@
         "date": "2015-04-13",
         "summary": "「淡島百景」は、とある歌劇学校に通う女の子たちの青春群像劇。1話ごとに主人公を、時には時代をも変えて描くオムニバスシリーズだ。本日更新された第1話「田畑若菜と竹原王子」では、ショートカットの新入生・田畑さんと、寮長を務める美しい上級生・竹原さん、ルームメイトになった2人を中心に、寄宿舎で共同生活を送る女の子たちを描く。",
         "tags": [
-            "漫画",
             "百合",
+            "漫画",
             "志村贵子",
             "志村貴子",
             "校园",
             "2011",
             "太田出版",
             "Manga",
-            "日本漫画",
-            "漫画系列"
+            "日本",
+            "日本漫画"
         ],
         "type": [
             "yuri"
@@ -10659,31 +12582,31 @@
             {
                 "volumeNumber": 1,
                 "volumeName": "淡島百景",
-                "coverImagePath": "title/[志村貴子] 淡島百景/[志村貴子] 淡島百景 第01巻/0000.jpg",
+                "coverImagePath": "title/[志村貴子] 淡島百景/[志村貴子] 淡島百景 第01巻/0000.jpeg",
                 "pageCount": 162
             },
             {
                 "volumeNumber": 2,
                 "volumeName": "淡島百景",
-                "coverImagePath": "title/[志村貴子] 淡島百景/[志村貴子] 淡島百景 第02巻/0000.jpg",
-                "pageCount": 163
+                "coverImagePath": "title/[志村貴子] 淡島百景/[志村貴子] 淡島百景 第02巻/0000.jpeg",
+                "pageCount": 162
             },
             {
                 "volumeNumber": 3,
                 "volumeName": "淡島百景",
-                "coverImagePath": "title/[志村貴子] 淡島百景/[志村貴子] 淡島百景 第03巻/0000.jpg",
-                "pageCount": 169
+                "coverImagePath": "title/[志村貴子] 淡島百景/[志村貴子] 淡島百景 第03巻/0000.jpeg",
+                "pageCount": 168
             },
             {
                 "volumeNumber": 4,
                 "volumeName": "淡島百景",
-                "coverImagePath": "title/[志村貴子] 淡島百景/[志村貴子] 淡島百景 第04巻/0000.jpg",
+                "coverImagePath": "title/[志村貴子] 淡島百景/[志村貴子] 淡島百景 第04巻/0000.jpeg",
                 "pageCount": 162
             },
             {
                 "volumeNumber": 5,
                 "volumeName": "淡島百景",
-                "coverImagePath": "title/[志村貴子] 淡島百景/[志村貴子] 淡島百景 第05巻/0000.jpg",
+                "coverImagePath": "title/[志村貴子] 淡島百景/[志村貴子] 淡島百景 第05巻/0000.jpeg",
                 "pageCount": 163
             }
         ]
@@ -11109,6 +13032,134 @@
                 "volumeName": "漂流ネットカフェ",
                 "coverImagePath": "title/[押見修造] 漂流ネットカフェ/[押見修造] 漂流ネットカフェ 第07巻/0000.jpg",
                 "pageCount": 196
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/208695",
+        "folderName": "[押見修造] 血の轍",
+        "name": "血の轍",
+        "author": [
+            "押見修造"
+        ],
+        "date": "2017-09-08",
+        "summary": "　　静一在三人小家庭长大，妈妈静子总是和言悦色地对待他和暑假每周周末必定来访的姑姑和表兄弟小茂。有一次长部家三代一同爬山，小茂在悬崖处开玩笑似地推静一，静子赶紧抱住静一的反应，被大家嘲笑是过度保护；小茂发现另一处悬崖，再度嬉闹，静子现身制止，但小茂不听，于是静子把小茂推下去！静一吓得假装没看见，在其他大人面前说谎是小茂失足坠谷……",
+        "tags": [
+            "漫画",
+            "押见修造",
+            "猎奇",
+            "黑暗",
+            "押見修造",
+            "2017",
+            "悬疑",
+            "病娇",
+            "诡异",
+            "子控"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第01巻/0000.jpeg",
+                "pageCount": 218
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第02巻/0000.jpeg",
+                "pageCount": 208
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第03巻/0000.jpeg",
+                "pageCount": 234
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第04巻/0000.jpeg",
+                "pageCount": 234
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第05巻/0000.jpeg",
+                "pageCount": 232
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第06巻/0000.jpeg",
+                "pageCount": 228
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第07巻/0000.jpeg",
+                "pageCount": 228
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第08巻/0000.jpeg",
+                "pageCount": 227
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第09巻/0000.jpeg",
+                "pageCount": 257
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第10巻/0000.jpeg",
+                "pageCount": 257
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第11巻/0000.jpeg",
+                "pageCount": 266
+            },
+            {
+                "volumeNumber": 12,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第12巻/0000.jpeg",
+                "pageCount": 262
+            },
+            {
+                "volumeNumber": 13,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第13巻/0000.jpeg",
+                "pageCount": 232
+            },
+            {
+                "volumeNumber": 14,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第14巻/0000.jpeg",
+                "pageCount": 264
+            },
+            {
+                "volumeNumber": 15,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第15巻/0000.jpeg",
+                "pageCount": 232
+            },
+            {
+                "volumeNumber": 16,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第16巻/0000.jpeg",
+                "pageCount": 232
+            },
+            {
+                "volumeNumber": 17,
+                "volumeName": "血の轍",
+                "coverImagePath": "title/[押見修造] 血の轍/[押見修造] 血の轍 第17巻/0000.jpeg",
+                "pageCount": 216
             }
         ]
     },
@@ -11548,7 +13599,7 @@
                 "volumeNumber": 5,
                 "volumeName": "かくかくしかじか",
                 "coverImagePath": "title/[東村アキコ] かくかくしかじか/[東村アキコ] かくかくしかじか 第05巻/0000.jpg",
-                "pageCount": 146
+                "pageCount": 147
             }
         ]
     },
@@ -11782,6 +13833,51 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/497467",
+        "folderName": "[栗原さくら] 君を紡ぐ",
+        "name": "君を紡ぐ",
+        "author": [
+            "栗原さくら"
+        ],
+        "date": null,
+        "summary": "裁縫が得意な人間の「つむぎ」は、ゾンビの友達「知世（ちせ）」の脆くなった手首を縫い合わせるのが日課。 残酷なこの世界で、ともに過ごし、裁縫をするのが、ふたりのささやかな楽しみだった。 切なくも尊い、ゾンビと人間のあたたかな物語。",
+        "tags": [
+            "百合",
+            "漫画",
+            "僵尸"
+        ],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "君を紡ぐ",
+                "coverImagePath": "title/[栗原さくら] 君を紡ぐ/[栗原さくら] 君を紡ぐ 第01巻/0000.jpg",
+                "pageCount": 36
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "君を紡ぐ",
+                "coverImagePath": "title/[栗原さくら] 君を紡ぐ/[栗原さくら] 君を紡ぐ 第02巻/0000.jpg",
+                "pageCount": 37
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "君を紡ぐ",
+                "coverImagePath": "title/[栗原さくら] 君を紡ぐ/[栗原さくら] 君を紡ぐ 第03巻/0000.jpg",
+                "pageCount": 21
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "君を紡ぐ",
+                "coverImagePath": "title/[栗原さくら] 君を紡ぐ/[栗原さくら] 君を紡ぐ 第04巻/0000.jpg",
+                "pageCount": 42
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/298536",
         "folderName": "[桐山はるか] ガラスの靴を脱ぎ捨てて",
         "name": "ガラスの靴を脱ぎ捨てて",
@@ -11912,16 +14008,16 @@
         "date": "2018-12-07",
         "summary": "　　拥有健全感性的善良人市川京太郎，对位于食物链顶点的美少女山田杏奈在意得不得了。通过观察发现山田意外的一面…!? 虽然完全不知道在想什么不过非常贪吃，不如说除了吃根本什么都没在想，简直是个脑袋空空的人型母猪。理应不会缩短的两人间的距离，奇迹会发生吗!? 就这样京太郎的青春，正非常安静地开始变化…!! ",
         "tags": [
-            "漫画",
             "恋爱",
-            "桜井のりお",
+            "漫画",
             "校园",
+            "桜井のりお",
             "狗粮",
             "秋田書店",
-            "2018",
             "甜",
+            "2018",
             "无糖狗粮",
-            "漫画大赏2020提名"
+            "日常"
         ],
         "type": [],
         "lock": false,
@@ -11929,113 +14025,74 @@
             {
                 "volumeNumber": 1,
                 "volumeName": "僕の心のヤバイやつ",
-                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第01巻/00001.avif",
-                "pageCount": 163
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第01巻/0000.jpg",
+                "pageCount": 166
             },
             {
                 "volumeNumber": 2,
                 "volumeName": "僕の心のヤバイやつ",
-                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第02巻/00001.avif",
-                "pageCount": 165
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第02巻/0000.jpg",
+                "pageCount": 168
             },
             {
                 "volumeNumber": 3,
                 "volumeName": "僕の心のヤバイやつ",
-                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第03巻/00001.avif",
-                "pageCount": 165
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第03巻/0000.jpg",
+                "pageCount": 168
             },
             {
                 "volumeNumber": 4,
                 "volumeName": "僕の心のヤバイやつ",
-                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第04巻/00001.avif",
-                "pageCount": 165
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第04巻/0000.jpg",
+                "pageCount": 168
             },
             {
                 "volumeNumber": 5,
                 "volumeName": "僕の心のヤバイやつ",
-                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第05巻/00001.avif",
-                "pageCount": 165
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第05巻/0000.jpg",
+                "pageCount": 168
             },
             {
                 "volumeNumber": 6,
                 "volumeName": "僕の心のヤバイやつ",
-                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第06巻/00001.avif",
-                "pageCount": 165
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第06巻/0000.jpg",
+                "pageCount": 168
             },
             {
                 "volumeNumber": 7,
                 "volumeName": "僕の心のヤバイやつ",
-                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第07巻/00001.avif",
-                "pageCount": 186
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第07巻/0000.jpg",
+                "pageCount": 185
             },
             {
                 "volumeNumber": 8,
                 "volumeName": "僕の心のヤバイやつ",
-                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第08巻/00001.avif",
-                "pageCount": 185
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第08巻/0000.jpg",
+                "pageCount": 184
             },
             {
                 "volumeNumber": 9,
                 "volumeName": "僕の心のヤバイやつ",
-                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第09巻/00001.avif",
-                "pageCount": 185
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第09巻/0000.jpg",
+                "pageCount": 184
             },
             {
                 "volumeNumber": 10,
                 "volumeName": "僕の心のヤバイやつ",
-                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第10巻/00001.avif",
-                "pageCount": 153
-            }
-        ]
-    },
-    {
-        "url": "https://bgm.tv/subject/105850",
-        "folderName": "[梶尾真治×鶴田謙二] エマノンシリーズ",
-        "name": "エマノンシリーズ",
-        "author": [
-            "梶尾真治",
-            "鶴田謙二"
-        ],
-        "date": "2008-05-20",
-        "summary": "《回忆爱玛侬》，主角是一个正在旅途中的学生，在船上遇见了美少女，问她的名字，她说叫爱玛侬（把 no name 倒过来拼），她告诉他，她的家族是一个DNA突变的家族，每个家族里必定有一个人能记得以往亲人的所有的事情，所以，从地球在三十亿年以前第一次产生了生物起源以后，所有的历史她全部都知道，她很久以前的祖先，因为能清楚记忆所有历史，有的被当成神。爱玛侬说，之所以特别亲近他，是因为她和几百年前她的某个丈夫，一个内向而温柔的江户男人长的一模一样。两个人在船上边聊边喝啤酒，喝醉了倒头而睡，第二天爱玛侬留下一张纸条不告而别。",
-        "tags": [
-            "漫画",
-            "鶴田謙二",
-            "梶尾真治",
-            "科幻",
-            "小说改",
-            "2008",
-            "漫画系列",
-            "SF",
-            "鹤田谦二",
-            "小说"
-        ],
-        "type": [],
-        "lock": false,
-        "volumes": [
-            {
-                "volumeNumber": 1,
-                "volumeName": "おもいでエマノン",
-                "coverImagePath": "title/[梶尾真治×鶴田謙二] エマノンシリーズ/[梶尾真治×鶴田謙二] エマノンシリーズ 第01巻 おもいでエマノン/00000.jpg",
-                "pageCount": 185
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第10巻/0000.jpg",
+                "pageCount": 152
             },
             {
-                "volumeNumber": 2,
-                "volumeName": "さすらいエマノン",
-                "coverImagePath": "title/[梶尾真治×鶴田謙二] エマノンシリーズ/[梶尾真治×鶴田謙二] エマノンシリーズ 第02巻 さすらいエマノン/00000.jpg",
-                "pageCount": 209
+                "volumeNumber": 11,
+                "volumeName": "僕の心のヤバイやつ",
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第11巻/0000.jpg",
+                "pageCount": 168
             },
             {
-                "volumeNumber": 3,
-                "volumeName": "續さすらいエマノン",
-                "coverImagePath": "title/[梶尾真治×鶴田謙二] エマノンシリーズ/[梶尾真治×鶴田謙二] エマノンシリーズ 第03巻 續さすらいエマノン/00000.jpg",
-                "pageCount": 231
-            },
-            {
-                "volumeNumber": 4,
-                "volumeName": "續々さすらいエマノン",
-                "coverImagePath": "title/[梶尾真治×鶴田謙二] エマノンシリーズ/[梶尾真治×鶴田謙二] エマノンシリーズ 第04巻 續々さすらいエマノン/00000.jpg",
-                "pageCount": 227
+                "volumeNumber": 12,
+                "volumeName": "僕の心のヤバイやつ",
+                "coverImagePath": "title/[桜井のりお] 僕の心のヤバイやつ/[桜井のりお] 僕の心のヤバイやつ 第12巻/0000.jpg",
+                "pageCount": 152
             }
         ]
     },
@@ -12742,6 +14799,52 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/561407",
+        "folderName": "[比古地朔弥] ラブ・クラシック",
+        "name": "ラブ・クラシック",
+        "author": [
+            "比古地朔弥"
+        ],
+        "date": "2003-11-01",
+        "summary": "一生に一度、極上のロマンス――。下校時の駅のホームで毎日朗読をする少女の「声」に魅入られていく男子学生。人妻・妙は、子供の頃に憶えた悪い遊びが忘れられず、夜毎押入れに忍び込む。とあるお屋敷に、寝たきりの若様の世話係として仕える少女――。明治から昭和初期を舞台に、女と男の儚く美しい愛と官能を描く、エロティック＆ノスタルジック短編集!!",
+        "tags": [],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "ラブ・クラシック",
+                "coverImagePath": "title/[比古地朔弥] ラブ・クラシック/[比古地朔弥] ラブ・クラシック/0000.jpg",
+                "pageCount": 160
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/561409",
+        "folderName": "[比古地朔弥] 神様ゆるして",
+        "name": "神様ゆるして",
+        "author": [
+            "比古地朔弥"
+        ],
+        "date": "1999-09-01",
+        "summary": "無責任な母親と娘に色目を使う父親のもとで、家庭に居場所がなくなっていた二人きりの兄妹は、ある日家出をし、上京する。浪人中の兄・ケンジは進学をあきらめ働き始めるが、引っ込み思案な妹・玉魚はなかなか社会に適応することができない。都会の片隅で寄り添うように暮らす兄妹はやがて、禁じられた遊びを始める――。",
+        "tags": [],
+        "type": [
+            "one-shot"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "神様ゆるして",
+                "coverImagePath": "title/[比古地朔弥] 神様ゆるして/[比古地朔弥] 神様ゆるして/0000.jpg",
+                "pageCount": 306
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/318560",
         "folderName": "[比村奇石] 月曜日のたわわ",
         "name": "月曜日のたわわ",
@@ -12824,6 +14927,68 @@
                 "volumeName": "月曜日のたわわ",
                 "coverImagePath": "title/[比村奇石] 月曜日のたわわ/[比村奇石] 月曜日のたわわ 第10巻/00001.avif",
                 "pageCount": 140
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/41437",
+        "folderName": "[水上悟志] スピリットサークル",
+        "name": "スピリットサークル",
+        "author": [
+            "水上悟志"
+        ],
+        "date": "2012-12-10",
+        "summary": "　　桶屋风太是个14岁的国二学生，他本身能够看到灵魂，过着爸爸所说的无敌国中生活。某天一个叫做石神矿子的美少女转学来到班上，身旁还跟了一个灵体叫做伊斯特，当矿子知道风太看得见伊斯特之后，态度就出现一百八十度大转变，还说他是自己讨厌的家伙，甚至还说彼此已经认识很久了，最后还拿出一个叫做「魂环」的武器让风太来到了前世。",
+        "tags": [
+            "水上悟志",
+            "漫画",
+            "轮回",
+            "奇幻",
+            "治愈",
+            "神作",
+            "2012",
+            "魂环",
+            "少年画報社",
+            "少年漫画"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "スピリットサークル",
+                "coverImagePath": "title/[水上悟志] スピリットサークル/[水上悟志] スピリットサークル 第01巻/0000.jpg",
+                "pageCount": 196
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "スピリットサークル",
+                "coverImagePath": "title/[水上悟志] スピリットサークル/[水上悟志] スピリットサークル 第02巻/0000.jpg",
+                "pageCount": 192
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "スピリットサークル",
+                "coverImagePath": "title/[水上悟志] スピリットサークル/[水上悟志] スピリットサークル 第03巻/0000.jpg",
+                "pageCount": 196
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "スピリットサークル",
+                "coverImagePath": "title/[水上悟志] スピリットサークル/[水上悟志] スピリットサークル 第04巻/0000.jpg",
+                "pageCount": 200
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "スピリットサークル",
+                "coverImagePath": "title/[水上悟志] スピリットサークル/[水上悟志] スピリットサークル 第05巻/0000.jpg",
+                "pageCount": 198
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "スピリットサークル",
+                "coverImagePath": "title/[水上悟志] スピリットサークル/[水上悟志] スピリットサークル 第06巻/0000.jpg",
+                "pageCount": 228
             }
         ]
     },
@@ -13268,6 +15433,112 @@
                 "volumeName": "蟲師 特別篇 日蝕む翳",
                 "coverImagePath": "title/[漆原友紀] 蟲師/[漆原友紀] 蟲師 特別篇 日蝕む翳/0000.jpg",
                 "pageCount": 111
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "蟲師 外譚集",
+                "coverImagePath": "title/[漆原友紀] 蟲師/[漆原友紀] 蟲師 外譚集/0000.jpg",
+                "pageCount": 195
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/494843",
+        "folderName": "[灰刃ねむみ] ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～",
+        "name": "ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～",
+        "author": [
+            "灰刃ねむみ"
+        ],
+        "date": "2024-05-15",
+        "summary": "　　孤独死してしまった男は女神ニケに「動けるバージョンの種付けおじさん」に転生させて欲しいと願い、自らにゲンジと名付けて転生した。ニケは上司の女神にお目付け役としてひよこの「ぴのこ」にされてしまいゲンジと行動をともにすることに。転生したゲンジはギルドの受付女性シンディに告白するが、強い男が好きと断られてしまう。そこでゲンジはシンディに種付けするため、ギルドで噂になっている最強の黒竜討伐へ向かうことに――。弱きを助け、強きを挫き、好みの女性はものする心優しきおじさんのエロコメファンタジー開幕！",
+        "tags": [
+            "漫画",
+            "卖肉",
+            "异世界",
+            "后宫",
+            "灰刃ねむみ",
+            "搞笑",
+            "喜剧",
+            "限制",
+            "连载中",
+            "Type-Moon"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～",
+                "coverImagePath": "title/[灰刃ねむみ] ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～/[灰刃ねむみ] ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～ 第01巻/0000.jpg",
+                "pageCount": 168
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～",
+                "coverImagePath": "title/[灰刃ねむみ] ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～/[灰刃ねむみ] ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～ 第02巻/0000.jpg",
+                "pageCount": 168
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～",
+                "coverImagePath": "title/[灰刃ねむみ] ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～/[灰刃ねむみ] ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～ 第03巻/0000.jpg",
+                "pageCount": 168
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～",
+                "coverImagePath": "title/[灰刃ねむみ] ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～/[灰刃ねむみ] ハーレム王の異世界プレス漫遊記 ～最強無双のおじさんはあらゆる種族を嫁にする～ 第04巻/0000.jpg",
+                "pageCount": 168
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/252124",
+        "folderName": "[灰刃ねむみ] 足芸少女こむらさん",
+        "name": "足芸少女こむらさん",
+        "author": [
+            "灰刃ねむみ"
+        ],
+        "date": "2019-06-07",
+        "summary": "月长同学过过既和平又平凡的校园生活。某一天他在鞋柜前面遇到了一位美少女，她的名字叫小丛井小村，是一名转学生。 在班上进行自我介绍的时候，她施展出了非常不得了的特长……?! 疯狂刺激读者未知癖好的赤脚喜剧开始！",
+        "tags": [
+            "恋爱",
+            "漫画",
+            "足控",
+            "灰刃ねむみ",
+            "搞笑",
+            "日常",
+            "校园",
+            "绅士",
+            "2018",
+            "2019"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "足芸少女こむらさん",
+                "coverImagePath": "title/[灰刃ねむみ] 足芸少女こむらさん/[灰刃ねむみ] 足芸少女こむらさん 第01巻/0000.jpeg",
+                "pageCount": 160
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "足芸少女こむらさん",
+                "coverImagePath": "title/[灰刃ねむみ] 足芸少女こむらさん/[灰刃ねむみ] 足芸少女こむらさん 第02巻/0000.jpeg",
+                "pageCount": 170
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "足芸少女こむらさん",
+                "coverImagePath": "title/[灰刃ねむみ] 足芸少女こむらさん/[灰刃ねむみ] 足芸少女こむらさん 第03巻/0000.jpeg",
+                "pageCount": 170
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "足芸少女こむらさん",
+                "coverImagePath": "title/[灰刃ねむみ] 足芸少女こむらさん/[灰刃ねむみ] 足芸少女こむらさん 第04巻/0000.jpeg",
+                "pageCount": 170
             }
         ]
     },
@@ -13314,6 +15585,46 @@
                 "volumeName": "人妻とJK",
                 "coverImagePath": "title/[焼肉定食] 人妻とJK/[焼肉定食] 人妻とJK 第03巻/001.jpg",
                 "pageCount": 185
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/21681",
+        "folderName": "[玄鉄絢] 星川銀座四丁目",
+        "name": "星川銀座四丁目",
+        "author": [
+            "玄鉄絢"
+        ],
+        "date": "2010-08-11",
+        "summary": "とある事情で教え子の乙女と共同生活をすることになった小学校教師の湊。家庭の事情で親の愛情を受けられなかった乙女に家族の優しさを伝えようとする湊だったが、実は乙女に家族以上の愛情を抱いていた。乙女のためだったらなんでもしようとする湊。湊の負担にならないように尽くそうとする乙女。お互いが無理に気遣い合ってしまう不器用な歳の離れた二人の生活はゆっくりだけど気持ちの距離は近づいていきます…… \r\n\r\n\r\n『少女派别』作者，玄铁绚的新作，讲述新人老师与收留并同居的学生之间的百合之情。",
+        "tags": [
+            "百合",
+            "漫画",
+            "玄鉄絢",
+            "师生",
+            "芳文社",
+            "恋爱",
+            "年上",
+            "2009",
+            "星川银座四丁目",
+            "校园"
+        ],
+        "type": [
+            "yuri"
+        ],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "星川銀座四丁目",
+                "coverImagePath": "title/[玄鉄絢] 星川銀座四丁目/[玄鉄絢] 星川銀座四丁目 第01巻/0000.jpg",
+                "pageCount": 269
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "星川銀座四丁目",
+                "coverImagePath": "title/[玄鉄絢] 星川銀座四丁目/[玄鉄絢] 星川銀座四丁目 第02巻/0000.jpg",
+                "pageCount": 269
             }
         ]
     },
@@ -13901,7 +16212,7 @@
                 "volumeNumber": 10,
                 "volumeName": "恋は雨上がりのように",
                 "coverImagePath": "title/[眉月じゅん] 恋は雨上がりのように/[眉月じゅん] 恋は雨上がりのように 第10巻/0000.jpg",
-                "pageCount": 179
+                "pageCount": 207
             }
         ]
     },
@@ -15070,6 +17381,232 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/1902",
+        "folderName": "[羽海野チカ] 3月のライオン",
+        "name": "3月のライオン",
+        "author": [
+            "羽海野チカ"
+        ],
+        "date": "2008-02-22",
+        "summary": "　　独自居住在东京旧市街的17岁职业将棋棋士·桐山零。\r\n　　他是个幼时就因为意外失去家人，怀抱着深沉孤独的少年。\r\n　　出现在这样的他面前的，是明、日向、桃三姐妹。\r\n　　与她们相处后，零开始…",
+        "tags": [
+            "羽海野千花",
+            "漫画",
+            "治愈",
+            "三月的狮子",
+            "将棋",
+            "青春",
+            "白泉社",
+            "羽海野チカ",
+            "生活",
+            "2007"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第01巻/0000.jpg",
+                "pageCount": 188
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第02巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第03巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第04巻/0000.jpg",
+                "pageCount": 182
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第05巻/0000.jpg",
+                "pageCount": 182
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第06巻/0000.jpg",
+                "pageCount": 186
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第07巻/0000.jpg",
+                "pageCount": 180
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第08巻/0000.jpg",
+                "pageCount": 178
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第09巻/0000.jpg",
+                "pageCount": 178
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第10巻/0000.jpg",
+                "pageCount": 178
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第11巻/0000.jpg",
+                "pageCount": 180
+            },
+            {
+                "volumeNumber": 12,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第12巻/0000.jpg",
+                "pageCount": 180
+            },
+            {
+                "volumeNumber": 13,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第13巻/0000.jpg",
+                "pageCount": 168
+            },
+            {
+                "volumeNumber": 14,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第14巻/0000.jpg",
+                "pageCount": 184
+            },
+            {
+                "volumeNumber": 15,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第15巻/0000.jpg",
+                "pageCount": 184
+            },
+            {
+                "volumeNumber": 16,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第16巻/0000.jpg",
+                "pageCount": 202
+            },
+            {
+                "volumeNumber": 17,
+                "volumeName": "3月のライオン",
+                "coverImagePath": "title/[羽海野チカ] 3月のライオン/[羽海野チカ] 3月のライオン 第17巻/0000.jpg",
+                "pageCount": 202
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/5424",
+        "folderName": "[羽海野チカ] ハチミツとクローバー",
+        "name": "ハチミツとクローバー",
+        "author": [
+            "羽海野チカ"
+        ],
+        "date": "2002-08-19",
+        "summary": "蜂蜜与四叶草讲述美大生─竹本裕太在贫穷与森田忍学长所带来的烦恼之中度过的大学生活。\r\n有一天，竹本他们的大学老师花本修司向他们介绍了他的亲戚花本育。竹本裕太对她一见钟情、而古怪的学长森田忍似乎也对她相当在意。然而，森田的爱情表现(特别是最重要的小育)让人无法感受，周遭的人除了森田被小育所讨厌以外什么都不知道。可是，与森田熟识的竹本却注意到了森田真正的心意，才华洋溢的的天才森田学长居然是自己的情敌，这令竹本的心中抹上一股不安。然后，竹本的担忧成了事实。小育和森田互相被对方所吸引，而双方也对此有了自觉。\r\n然而，两人的恋爱却不是一般人所能理解的，是一种天才之间灵魂的结合。小育与森田之间有着似乎名为恋爱的微妙关系，但森田却若有似无的对小育表现出客气的态度。虽然相互受到对方的作品刺激而醉心于创作活动之中，可是某天森田却在没有任何告知的情况下突然开始到美国为期一年的旅行，两人的关系就这样在远近之间不断的来回著。\r\n看着小育与森田这样的关系，竹本却认为不可以介入两人之间而感受到了一种疏离感。而身为小育保护者存在的修司，看中了小育的才华，认为她总有一天一定可以开花结果的，可是又对自己产生疑问：是不是在利用小育去达到自己过去没有达到的理想，这样的想法令他带来罪恶感。并且，是不是就这样让小育度过身为艺术家的一生而舍弃身为一个女性的幸福。这样的不安催促著修司令他不得不做下决定.....\r\n山田亚弓喜欢同届的真山巧，但真山喜欢的却是原田建筑设计公司经营者·原田理花。理花虽然察觉到了，但故意和真山保持距离，因为她心中仍深爱着已过世的丈夫。这一段单方面的三角苦恋，不断折磨著山田。在某个合作的机缘下，山田认识了在真山所工作的建筑事务所中的同事—野宫匠，野宫开始注意山田与真山之间的关系，并且有意无意地扮演起安慰山田的角色，实际上野宫渐渐已对山田倾心，希望山田在尝尽苦痛之后，放弃真山并与自己在一起......",
+        "tags": [
+            "羽海野千花",
+            "漫画",
+            "青春",
+            "蜂蜜与四叶草",
+            "治愈系",
+            "治愈",
+            "校园",
+            "羽海野チカ",
+            "友情",
+            "2000"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "ハチミツとクローバー",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー 第01巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "ハチミツとクローバー",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー 第02巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "ハチミツとクローバー",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー 第03巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "ハチミツとクローバー",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー 第04巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "ハチミツとクローバー",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー 第05巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "ハチミツとクローバー",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー 第06巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "ハチミツとクローバー",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー 第07巻/0000.jpg",
+                "pageCount": 186
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "ハチミツとクローバー",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー 第08巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "ハチミツとクローバー",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー 第09巻/0000.jpg",
+                "pageCount": 178
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "ハチミツとクローバー",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー 第10巻/0000.jpg",
+                "pageCount": 186
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "ハチミツとクローバー「やさしい風」",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー「やさしい風」/0000.jpg",
+                "pageCount": 17
+            },
+            {
+                "volumeNumber": 12,
+                "volumeName": "ハチミツとクローバー「君は僕のたからもの」",
+                "coverImagePath": "title/[羽海野チカ] ハチミツとクローバー/[羽海野チカ] ハチミツとクローバー「君は僕のたからもの」/0000.jpg",
+                "pageCount": 20
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/131502",
         "folderName": "[芦奈野ひとし] コトノバドライブ",
         "name": "コトノバドライブ",
@@ -15298,6 +17835,176 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/44996",
+        "folderName": "[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+        "name": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+        "author": [
+            "荒木飛呂彦"
+        ],
+        "date": "2004-05-20",
+        "summary": "1890年，一場世紀大賽「SBR」於美國舉開。全長共6000公里，是人類史上第一場騎乘馬匹橫越北美大陸的比賽！為了拿下高達5千萬美元（60億日元）的冠軍獎金，一群強悍的冒險家們正式展開了他們的爭戰！",
+        "tags": [
+            "荒木飛呂彦",
+            "jojo",
+            "漫画",
+            "ジョジョの奇妙な冒険",
+            "战斗",
+            "神作",
+            "热血",
+            "荒木飞吕彦",
+            "集英社",
+            "2004"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第01巻/0000.jpg",
+                "pageCount": 186
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第02巻/0000.jpg",
+                "pageCount": 208
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第03巻/0000.jpg",
+                "pageCount": 204
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第04巻/0000.jpg",
+                "pageCount": 210
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第05巻/0000.jpg",
+                "pageCount": 220
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第06巻/0000.jpg",
+                "pageCount": 180
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第07巻/0000.jpg",
+                "pageCount": 190
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第08巻/0000.jpg",
+                "pageCount": 196
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第09巻/0000.jpg",
+                "pageCount": 198
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第10巻/0000.jpg",
+                "pageCount": 182
+            },
+            {
+                "volumeNumber": 11,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第11巻/0000.jpg",
+                "pageCount": 196
+            },
+            {
+                "volumeNumber": 12,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第12巻/0000.jpg",
+                "pageCount": 186
+            },
+            {
+                "volumeNumber": 13,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第13巻/0000.jpg",
+                "pageCount": 194
+            },
+            {
+                "volumeNumber": 14,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第14巻/0000.jpg",
+                "pageCount": 200
+            },
+            {
+                "volumeNumber": 15,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第15巻/0000.jpg",
+                "pageCount": 216
+            },
+            {
+                "volumeNumber": 16,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第16巻/0000.jpg",
+                "pageCount": 190
+            },
+            {
+                "volumeNumber": 17,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第17巻/0000.jpg",
+                "pageCount": 214
+            },
+            {
+                "volumeNumber": 18,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第18巻/0000.jpg",
+                "pageCount": 180
+            },
+            {
+                "volumeNumber": 19,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第19巻/0000.jpg",
+                "pageCount": 192
+            },
+            {
+                "volumeNumber": 20,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第20巻/0000.jpg",
+                "pageCount": 192
+            },
+            {
+                "volumeNumber": 21,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第21巻/0000.jpg",
+                "pageCount": 186
+            },
+            {
+                "volumeNumber": 22,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第22巻/0000.jpg",
+                "pageCount": 186
+            },
+            {
+                "volumeNumber": 23,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第23巻/0000.jpg",
+                "pageCount": 154
+            },
+            {
+                "volumeNumber": 24,
+                "volumeName": "ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー",
+                "coverImagePath": "title/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー/[荒木飛呂彦] ジョジョの奇妙な冒険 Part7 スティール・ボール・ラン カラー 第24巻/0000.jpg",
+                "pageCount": 176
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/283966",
         "folderName": "[萩原あさ美] 娘の友達",
         "name": "娘の友達",
@@ -15362,6 +18069,169 @@
                 "volumeName": "娘の友達",
                 "coverImagePath": "title/[萩原あさ美] 娘の友達/[萩原あさ美] 娘の友達 第07巻/00001.avif",
                 "pageCount": 196
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/108006",
+        "folderName": "[蒼樹うめ] 微熱空間",
+        "name": "微熱空間",
+        "author": [
+            "蒼樹うめ"
+        ],
+        "date": null,
+        "summary": "妈妈再婚了，来了个“奇怪”（？）的姐姐...\r\n啊咧！ 是这样的展开么...\r\n\r\n親の再婚によって同い年の姉弟となった2人の高校生・亜麻音と直耶の物語。最初はよそよそしかった2人が、少しずつ距離を縮めていく姿を描く。登下校をずらしたり、互いの呼び方を気にしたりといった2人の甘酸っぱいやり取りが見どころだ。",
+        "tags": [
+            "漫画",
+            "恋爱",
+            "苍树梅",
+            "白泉社",
+            "少女漫画",
+            "蒼樹うめ",
+            "百合",
+            "治愈",
+            "姐弟",
+            "2014"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "微熱空間",
+                "coverImagePath": "title/[蒼樹うめ] 微熱空間/[蒼樹うめ] 微熱空間 第01巻/0000.jpg",
+                "pageCount": 142
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "微熱空間",
+                "coverImagePath": "title/[蒼樹うめ] 微熱空間/[蒼樹うめ] 微熱空間 第02巻/0000.jpg",
+                "pageCount": 144
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "微熱空間",
+                "coverImagePath": "title/[蒼樹うめ] 微熱空間/[蒼樹うめ] 微熱空間 第03巻/0000.jpg",
+                "pageCount": 144
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "微熱空間",
+                "coverImagePath": "title/[蒼樹うめ] 微熱空間/[蒼樹うめ] 微熱空間 第04巻/0000.jpg",
+                "pageCount": 144
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "微熱空間",
+                "coverImagePath": "title/[蒼樹うめ] 微熱空間/[蒼樹うめ] 微熱空間 第05巻/0000.jpg",
+                "pageCount": 144
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/38897",
+        "folderName": "[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス",
+        "name": "藤子・F・不二雄SF短編コンプリート・ワークス",
+        "author": [
+            "藤子・F・不二雄"
+        ],
+        "date": "2000-07-25",
+        "summary": "     2000年から2001年にかけて発売。SF短編を年代順に完全収録。再収録となる102話に、これまで未収録となっていた10話（単行本収録時に大幅に改定されていた「絶滅の島」をオリジナルのサイレント版を含む）を加えた計112話を収録。\r\n\r\n   《SF短篇完全版》，是小学馆对藤子.F.不二雄先生所有独立科幻短篇出版的一个总集篇，全8册，共112个故事。内容包含之前出版过的《少年SF短篇集》、《异色短篇集》中的所有内容。与作者其他常见的作品比较起来（例如哆啦A梦、奇天列大百科等），SF短篇集中的作品多半含有更黑暗的情节和隐喻性，较适合年龄稍长的读者阅览。\r\n\r\n《SF短篇完全版》中的SF两字，根据作者的意思，并不只是我们一般理解的Science Fiction（科幻）而是“すごしふしぎ”（Sugoshi Fushigi，一点点的不可思议）。对于这个观念的理解，刊载于旧选集《少年SF短篇集》卷尾、由大林宣彦导演执笔的解说很美：\r\n\r\n“——我认为「一点点」是世界中最优美的一个词语……\r\n\r\n因为，的确是这样吧。\r\n\r\n如果「寂寞」的感觉没有「一点点」这个词语加上去的话，那就会变成绝望的「孤独」。\r\n\r\n又或者，「悲伤」的心没有附加上「一点点」，那就会变成无可补救的「不幸」。\r\n\r\n对于「过失」的自觉，如果没有了「一点点」，就即是变了无可挽救的「悔恨」。\r\n\r\n就算是「快乐」的心情，如果忘记了「一点点」，就会变得过分枯燥，那种喜悦的真正意思就会丧失了吧。\r\n\r\n就是如果这样，我们便可以在「一点点」的余荫下，相信自己拥有「幸福」，不悲伤、不高傲地生活下去。\r\n\r\n「一点点」这个词语，是否就是一个贵重的人生智慧果实呢？\r\n\r\n原来如此，如果这里的「不可思议」故事，没有附上「一点点」的话，就会变成「无可补救」、「无可挽回」、充满着「孤独」、「不幸」、「悔恨」的故事了吧。”\r\n\r\n当人生挚爱成了摆盘上桌的美食，你会有何感受？\r\n\r\n如果你拥有一台可以拍摄过去的相机，你想记录什么呢？\r\n\r\n有时候，一个男人必须选择他的人生之路。但是，当他能够遇见正处于人生转捩点、犹豫不决的那些从前的自己时，他会……？\r\n\r\n男孩将他的未来卖给一位富裕的老翁后，才恍然大悟什么是真正的快乐。\r\n\r\n某天我一如往常回到家里，开门迎接的人竟然是另一个自己！\r\n\r\n「一千零一夜」科幻版——藤子·Ｆ·不二雄的不可思议短篇杰作！",
+        "tags": [
+            "漫画",
+            "藤子・F・不二雄",
+            "科幻",
+            "短篇集",
+            "藤子·F·不二雄",
+            "短篇",
+            "2001",
+            "实体",
+            "脑洞",
+            "7"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "ミノタウロスの皿",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス 第01巻 ミノタウロスの皿/0000.jpg",
+                "pageCount": 304
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "ノスタル爺",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス 第02巻 ノスタル爺/0000.jpg",
+                "pageCount": 310
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "カンビュセスの籤",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス 第03巻 カンビュセスの籤/0000.jpg",
+                "pageCount": 312
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "パラレル同窓会",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス 第04巻 パラレル同窓会/0000.jpg",
+                "pageCount": 328
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "夢カメラ",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス 第05巻 夢カメラ/0000.jpg",
+                "pageCount": 302
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "異人アンドロ氏",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス 第06巻 異人アンドロ氏/0000.jpg",
+                "pageCount": 304
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "ポストの中の明日",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス 第07巻 ポストの中の明日/0000.jpg",
+                "pageCount": 296
+            },
+            {
+                "volumeNumber": 8,
+                "volumeName": "流血鬼",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス 第08巻 流血鬼/0000.jpg",
+                "pageCount": 336
+            },
+            {
+                "volumeNumber": 9,
+                "volumeName": "宇宙船製造法",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス 第09巻 宇宙船製造法/0000.jpg",
+                "pageCount": 300
+            },
+            {
+                "volumeNumber": 10,
+                "volumeName": "征地球論",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス/[藤子・F・不二雄] 藤子・F・不二雄SF短編コンプリート・ワークス 第10巻 征地球論/0000.jpg",
+                "pageCount": 336
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/577881",
+        "folderName": "[藤子・F・不二雄] 藤子・F・不二雄ワールド まんが傑作選 F THE BEST",
+        "name": "藤子・F・不二雄ワールド まんが傑作選 F THE BEST",
+        "author": [
+            "藤子・F・不二雄"
+        ],
+        "date": "2023-12-18",
+        "summary": "藤子F作品が詰まったベスト版！！\r\n\r\n国民的まんが家、藤子・F・不二雄先生が生み出した数々の作品たちを\r\n一つにまとめた1冊!!\r\n\r\n『ドラえもん』『パーマン』『新オバケのQ太郎』『キテレツ大百科』といった代表作はもちろん、\r\n『21エモン』『モジャ公』『ウメ星デンカ』『エスパー魔美』『チンプイ』『ポコニャン』『バケルくん』『ジャングル黒べえ』『T・Pぼん』『SF短編』などの名作も合わせて、なんと全40本を収録!!\r\n\r\n子供も笑える「SF生活ギャグ」から大人もうなる「SF作品」までバランスよく収録した決定版!!\r\n\r\n各作品の第1話を収録した初心者にも優しいベスト版なので『ドラえもん』しか知らなかった若い方の入門編としてもおすすめです!!\r\n\r\n藤子・F・不二雄先生の歴史をカラーで振り返る「F THE HISTORY」つき!!",
+        "tags": [],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "藤子・F・不二雄ワールド まんが傑作選 F THE BEST",
+                "coverImagePath": "title/[藤子・F・不二雄] 藤子・F・不二雄ワールド まんが傑作選 F THE BEST/[藤子・F・不二雄] 藤子・F・不二雄ワールド まんが傑作選 F THE BEST/0000.jpg",
+                "pageCount": 690
             }
         ]
     },
@@ -15517,10 +18387,10 @@
             "藤近小梅",
             "校园",
             "电影迷",
+            "青春",
             "2021",
-            "漫画系列",
             "日常",
-            "胃疼"
+            "漫画系列"
         ],
         "type": [],
         "lock": false,
@@ -15847,6 +18717,74 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/6133",
+        "folderName": "[貞本義行] 新世紀エヴァンゲリオン 愛蔵版",
+        "name": "新世紀エヴァンゲリオン 愛蔵版",
+        "author": [
+            "貞本義行"
+        ],
+        "date": "1995-09-01",
+        "summary": "《新世纪福音战士》是贞本义行于1995年为了配合当时担任人物设计的动画《新世纪福音战士》而绘制的漫画版；虽然是根据原作而画的漫画，却因为时间比较早而被误认为原作。",
+        "tags": [
+            "漫画",
+            "贞本义行",
+            "EVA",
+            "科幻",
+            "貞本義行",
+            "新世纪福音战士",
+            "1994",
+            "角川书店",
+            "漫画系列",
+            "角川"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "新世紀エヴァンゲリオン 愛蔵版",
+                "coverImagePath": "title/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版 第01巻/0000.jpg",
+                "pageCount": 349
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "新世紀エヴァンゲリオン 愛蔵版",
+                "coverImagePath": "title/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版 第02巻/0000.jpg",
+                "pageCount": 357
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "新世紀エヴァンゲリオン 愛蔵版",
+                "coverImagePath": "title/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版 第03巻/0000.jpg",
+                "pageCount": 381
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "新世紀エヴァンゲリオン 愛蔵版",
+                "coverImagePath": "title/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版 第04巻/0000.jpg",
+                "pageCount": 377
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "新世紀エヴァンゲリオン 愛蔵版",
+                "coverImagePath": "title/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版 第05巻/0000.jpg",
+                "pageCount": 361
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "新世紀エヴァンゲリオン 愛蔵版",
+                "coverImagePath": "title/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版 第06巻/0000.jpg",
+                "pageCount": 361
+            },
+            {
+                "volumeNumber": 7,
+                "volumeName": "新世紀エヴァンゲリオン 愛蔵版",
+                "coverImagePath": "title/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版/[貞本義行] 新世紀エヴァンゲリオン 愛蔵版 第07巻/0000.jpg",
+                "pageCount": 389
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/38922",
         "folderName": "[赤松健] 新装版 ラブひな",
         "name": "新装版 ラブひな",
@@ -16113,6 +19051,58 @@
         ]
     },
     {
+        "url": "https://bgm.tv/subject/228643",
+        "folderName": "[雨がっぱ少女群] 麻衣の虫ぐらし",
+        "name": "麻衣の虫ぐらし",
+        "author": [
+            "雨がっぱ少女群"
+        ],
+        "date": null,
+        "summary": "　　断筆宣言から9年——。\r\n　　伝説の絵師・雨がっぱ少女群の中で新たな美少女たちが芽吹きだす。\r\n\r\n　　天真爛漫でいつものほほんな、職探し中の麻衣。孤独な生い立ちを抱えつつ、祖父とふたり暮らしをしながら、農業を営む菜々子。この土地に生息する虫の保護活動に力を注ぐ来夏。虫と戯れ、虫に翻弄される、彼女たちの軽やかな日々。",
+        "tags": [
+            "百合",
+            "漫画",
+            "雨がっぱ少女群",
+            "日常",
+            "2016",
+            "软科普",
+            "虫子",
+            "漫画系列",
+            "系列",
+            "轻百合"
+        ],
+        "type": [
+            "yuri"
+        ],
+        "lock": true,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "麻衣の虫ぐらし",
+                "coverImagePath": "title/[雨がっぱ少女群] 麻衣の虫ぐらし/[雨がっぱ少女群] 麻衣の虫ぐらし 第01巻/0000.jpg",
+                "pageCount": 164
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "麻衣の虫ぐらし",
+                "coverImagePath": "title/[雨がっぱ少女群] 麻衣の虫ぐらし/[雨がっぱ少女群] 麻衣の虫ぐらし 第02巻/0000.jpg",
+                "pageCount": 172
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "麻衣の虫ぐらし 未収録作品集",
+                "coverImagePath": "title/[雨がっぱ少女群] 麻衣の虫ぐらし/[雨がっぱ少女群] 麻衣の虫ぐらし 未収録作品集/0000.jpg",
+                "pageCount": 31
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "麻衣の虫ぐらし 来夏と美津羽の特別編",
+                "coverImagePath": "title/[雨がっぱ少女群] 麻衣の虫ぐらし/[雨がっぱ少女群] 麻衣の虫ぐらし 来夏と美津羽の特別編/0000.jpg",
+                "pageCount": 39
+            }
+        ]
+    },
+    {
         "url": "https://bgm.tv/subject/319792",
         "folderName": "[雨水汐] 女ともだちと結婚してみた。",
         "name": "女ともだちと結婚してみた。",
@@ -16201,6 +19191,68 @@
                 "volumeName": "夢の端々",
                 "coverImagePath": "title/[須藤佑実] 夢の端々/[須藤佑実] 夢の端々 第02巻/0000.jpg",
                 "pageCount": 147
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/182193",
+        "folderName": "[飯田ぽち。] 姉なるもの",
+        "name": "姉なるもの",
+        "author": [
+            "飯田ぽち。"
+        ],
+        "date": "2016-12-17",
+        "summary": "在意外中失去父母，辗转流离于亲戚家的孤独少年──夕。\r\n 有一天，突然有位异形美女出现在他的面前。\r\n 「只要拿重要之物作为交换，\r\n 我就让你如愿以偿。 」\r\n 她这么说道，夕则许下希望她成为姊姊的心愿──",
+        "tags": [
+            "漫画",
+            "姐控",
+            "飯田ぽち。",
+            "人外",
+            "日常",
+            "卖肉",
+            "两栖漫画家",
+            "連載中",
+            "电击GsComic",
+            "姉なるもの"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "姉なるもの",
+                "coverImagePath": "title/[飯田ぽち。] 姉なるもの/[飯田ぽち。] 姉なるもの 第01巻/0000.jpg",
+                "pageCount": 138
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "姉なるもの",
+                "coverImagePath": "title/[飯田ぽち。] 姉なるもの/[飯田ぽち。] 姉なるもの 第02巻/0000.jpg",
+                "pageCount": 138
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "姉なるもの",
+                "coverImagePath": "title/[飯田ぽち。] 姉なるもの/[飯田ぽち。] 姉なるもの 第03巻/0000.jpg",
+                "pageCount": 138
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "姉なるもの",
+                "coverImagePath": "title/[飯田ぽち。] 姉なるもの/[飯田ぽち。] 姉なるもの 第04巻/0000.jpg",
+                "pageCount": 138
+            },
+            {
+                "volumeNumber": 5,
+                "volumeName": "姉なるもの",
+                "coverImagePath": "title/[飯田ぽち。] 姉なるもの/[飯田ぽち。] 姉なるもの 第05巻/0000.jpg",
+                "pageCount": 138
+            },
+            {
+                "volumeNumber": 6,
+                "volumeName": "姉なるもの",
+                "coverImagePath": "title/[飯田ぽち。] 姉なるもの/[飯田ぽち。] 姉なるもの 第06巻/0000.jpg",
+                "pageCount": 138
             }
         ]
     },
@@ -16421,6 +19473,12 @@
                 "volumeName": "香原さんのふぇちのーと",
                 "coverImagePath": "title/[鬼無サケル] 香原さんのふぇちのーと/[鬼無サケル] 香原さんのふぇちのーと 第01巻/00001.avif",
                 "pageCount": 170
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "香原さんのふぇちのーと",
+                "coverImagePath": "title/[鬼無サケル] 香原さんのふぇちのーと/[鬼無サケル] 香原さんのふぇちのーと 第02巻/0000.jpeg",
+                "pageCount": 153
             }
         ]
     },
@@ -16626,6 +19684,57 @@
                 "volumeName": "まんが アベノ橋魔法☆商店街 -アベノの街に祈りを込めて-",
                 "coverImagePath": "title/[鶴田謙二×GAINAX] まんが アベノ橋魔法☆商店街 -アベノの街に祈りを込めて-/[鶴田謙二×GAINAX] まんが アベノ橋魔法☆商店街 -アベノの街に祈りを込めて-/0000.jpg",
                 "pageCount": 205
+            }
+        ]
+    },
+    {
+        "url": "https://bgm.tv/subject/105850",
+        "folderName": "[鶴田謙二×梶尾真治] エマノンシリーズ",
+        "name": "エマノンシリーズ",
+        "author": [
+            "鶴田謙二",
+            "梶尾真治"
+        ],
+        "date": "2008-05-20",
+        "summary": "　　波澜万丈的一九六○年代，喜欢科幻小说的男主角在旅途中的船上，邂逅了一位神秘的美丽少女。机缘巧合之下，男主角与自称「爱玛侬」的少女被迫装成一对年轻的夫妇，在假扮的过程中一拍即合的两人，随即在餐厅里天南地北地聊了起来。然而随着话题进展到记忆与人格，男主角意外发现爱玛侬身上背负的记忆，竟隐藏了与地球上三十亿年的进化过程有关的惊人秘密。",
+        "tags": [
+            "漫画",
+            "鶴田謙二",
+            "梶尾真治",
+            "科幻",
+            "小说改",
+            "2008",
+            "SF",
+            "漫画系列",
+            "鹤田谦二",
+            "软科幻"
+        ],
+        "type": [],
+        "lock": false,
+        "volumes": [
+            {
+                "volumeNumber": 1,
+                "volumeName": "おもいでエマノン",
+                "coverImagePath": "title/[鶴田謙二×梶尾真治] エマノンシリーズ/[鶴田謙二×梶尾真治] おもいでエマノン/0000.jpeg",
+                "pageCount": 185
+            },
+            {
+                "volumeNumber": 2,
+                "volumeName": "さすらいエマノン",
+                "coverImagePath": "title/[鶴田謙二×梶尾真治] エマノンシリーズ/[鶴田謙二×梶尾真治] さすらいエマノン/0000.jpeg",
+                "pageCount": 209
+            },
+            {
+                "volumeNumber": 3,
+                "volumeName": "續 さすらいエマノン",
+                "coverImagePath": "title/[鶴田謙二×梶尾真治] エマノンシリーズ/[鶴田謙二×梶尾真治] 續 さすらいエマノン/0000.jpeg",
+                "pageCount": 231
+            },
+            {
+                "volumeNumber": 4,
+                "volumeName": "續々さすらいエマノン",
+                "coverImagePath": "title/[鶴田謙二×梶尾真治] エマノンシリーズ/[鶴田謙二×梶尾真治] 續々さすらいエマノン/0000.jpeg",
+                "pageCount": 228
             }
         ]
     },

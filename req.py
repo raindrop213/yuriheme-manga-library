@@ -31,7 +31,8 @@ def create_thumbnail(source_path, target_path, width=270, overwrite=False):
 
 def fetch_and_update_metadata(metadata, subject_id):
     # 检查是否已存在非空的 date、summary 和 tags 字段
-    if (metadata.get('date') and metadata.get('summary') and metadata.get('tags')):
+    # if (metadata.get('date') and metadata.get('summary') and metadata.get('tags')):
+    if (metadata.get('date')):
         return
 
     api_url = f"https://api.bgm.tv/v0/subjects/{subject_id}"

@@ -23,6 +23,7 @@
   <link href="./theme/style.css?3" rel="stylesheet">
   
   <script src="./analytics.js"></script>
+  <script src="./lazy-bg.js"></script>
 </head>
 
 <body class="l-body-fit" data-menu-active="home">
@@ -170,7 +171,7 @@
             return `
               <a href="${path.replace(/\/[^\/?#]*([?#].*)?$/, '/')}"
                 class="home-magazine__link p-link_fade" rel="noopener noreferrer">
-                <img src="${path.replace('.html', '.jpg')}" alt="" class="u-sz_w_100">
+                <img loading="lazy" decoding="async" src="${path.replace('.html', '.jpg')}" alt="" class="u-sz_w_100">
               </a>
 
               <div class="home-magazine__text">
@@ -183,6 +184,11 @@
                   class="p-btn p-btn--primary p-btn--minw_200 u-sz_w_100-sp" target="_blank"
                   rel="noopener noreferrer">Continue</a>
               </div>`;
+          }
+
+          // 使用全局懒加载（见 theme/js/lazy-bg.js）
+          function setupLazyBackgrounds() {
+            if (window.setupLazyBackgrounds) window.setupLazyBackgrounds();
           }
 
           // 最新刊更新区域
@@ -198,9 +204,9 @@
             monthlyContainer.innerHTML = createMonthlyContent(lastReadPath, lastReadTitle, lastReadTime);
           } else {
             // 如果没有阅读记录，显示默认的最新刊
-            const date = "2025年04月17日(木)発売";
-            const monthlyPath = "./title/[一迅社] コミック百合姫 2025年/[一迅社] コミック百合姫 2025年06月号";
-            const monthlyhName = "コミック百合姫2025年06月号";
+            const date = "2025年07月17日(木)発売";
+            const monthlyPath = "./title/[一迅社] コミック百合姫 2025年/[一迅社] コミック百合姫 2025年09月号";
+            const monthlyhName = "コミック百合姫2025年09月号";
 
             monthlyContainer.innerHTML = createMonthlyContent(monthlyPath + '.html', monthlyhName, date);
           }
@@ -232,7 +238,7 @@
               <div class="home-titles__item">
                 <div class="c-cardbox">
                   <a href="./title/${path}/" class="c-cardbox__thumb c-cardbox__thumb--shadow p-link_fade p-bgimg p-bgimg--b6 p-bgimg--cover u-mg_b_n"
-                    style="background-image:url('./title/${path}/cover.jpg')"></a>
+                    data-bg="./title/${path}/cover.jpg"></a>
                   <span class="c-cardbox__text">
                     <span class="c-cardbox__title">${item.name}</span>
                     <span class="c-cardbox__meta">${item.author.join('×')}</span>
@@ -272,6 +278,9 @@
           artbookItems.forEach(item => {
             artbookContainer.innerHTML += item.htmlContent;
           });
+
+          // 渲染完成后，启动封面懒加载
+          setupLazyBackgrounds();
         });
         
     </script>

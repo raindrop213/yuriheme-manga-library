@@ -3166,6 +3166,12 @@ body:not([data-is-mobile="true"]) [class*="p-share-btn_"][data-share-service="li
 .c-cardbox .c-cardbox__thumb {
     display: block;
 }
+/* Lazy background fade-in */
+.c-cardbox__thumb.is-loading{
+	opacity: 0;
+	transition: opacity 280ms ease-in;
+}
+
 .c-cardbox .c-cardbox__thumb--shadow {
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
